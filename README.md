@@ -22,6 +22,7 @@ Articles and links I'm reading in 2026.
 - [Brain-Grounded Axes for Reading and Steering LLM States](https://arxiv.org/abs/2512.19399)
 - [Artificial Hivemind: The Open-Ended Homogeneity of Language Models](https://arxiv.org/abs/2510.22954)
 - [Friction Maxxing](https://www.thecut.com/article/brooding-friction-maxxing-new-years-2026-resolution.html)
+- [It's One of America's Most Successful Experiments, and It's Coming to an End](https://www.nytimes.com/2025/12/29/opinion/indian-americans-trump.html)
 
 ## February
 
