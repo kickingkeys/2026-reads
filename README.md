@@ -23,6 +23,7 @@ Articles and links I'm reading in 2026.
 - [Artificial Hivemind: The Open-Ended Homogeneity of Language Models](https://arxiv.org/abs/2510.22954)
 - [Friction Maxxing](https://www.thecut.com/article/brooding-friction-maxxing-new-years-2026-resolution.html)
 - [It's One of America's Most Successful Experiments, and It's Coming to an End](https://www.nytimes.com/2025/12/29/opinion/indian-americans-trump.html)
+- [The End of Software](https://docs.google.com/document/d/103cGe8qixC7ZzFsRu5Ww2VEW5YgH9zQaiaqbBsZ1lcc/edit?tab=t.0)
 
 ## February
 
