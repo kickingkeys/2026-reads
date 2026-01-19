@@ -29,6 +29,7 @@ Articles and links I'm reading in 2026.
 - [The Rise of the Model Designer](https://www.aidesignfieldguide.com/articles/barron-webster)
 - [Matt Damon Says Some Actors Would Prefer 'to Go to Jail' Than Be Canceled](https://www.hollywoodreporter.com/lifestyle/lifestyle-news/matt-damon-some-actors-prefer-jail-cancel-culture-1236477423/)
 - [Painter](https://ampcode.com/news/painter)
+- [Machines of Loving Grace](https://www.darioamodei.com/essay/machines-of-loving-grace)
 
 ## February
 
