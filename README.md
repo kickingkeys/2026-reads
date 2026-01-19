@@ -28,6 +28,7 @@ Articles and links I'm reading in 2026.
 - [Notes on Managing ADHD](https://borretti.me/article/notes-on-managing-adhd)
 - [The Rise of the Model Designer](https://www.aidesignfieldguide.com/articles/barron-webster)
 - [Matt Damon Says Some Actors Would Prefer 'to Go to Jail' Than Be Canceled](https://www.hollywoodreporter.com/lifestyle/lifestyle-news/matt-damon-some-actors-prefer-jail-cancel-culture-1236477423/)
+- [Painter](https://ampcode.com/news/painter)
 
 ## February
 
