@@ -31,6 +31,7 @@ Articles and links I'm reading in 2026.
 - [Painter](https://ampcode.com/news/painter)
 - [Machines of Loving Grace](https://www.darioamodei.com/essay/machines-of-loving-grace)
 - [Claude Is Taking the AI World by Storm, and Even Non-Nerds Are Blown Away](https://www.wsj.com/tech/ai/anthropic-claude-code-ai-7a46460e)
+- [Research at Scale](https://www.media.mit.edu/posts/research-at-scale/)
 
 ## February
 
