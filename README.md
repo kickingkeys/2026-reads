@@ -33,6 +33,7 @@ Articles and links I'm reading in 2026.
 - [Claude Is Taking the AI World by Storm, and Even Non-Nerds Are Blown Away](https://www.wsj.com/tech/ai/anthropic-claude-code-ai-7a46460e)
 - [Research at Scale](https://www.media.mit.edu/posts/research-at-scale/)
 - [Code Is Cheap Now. Software Isn't.](https://www.chrisgregori.dev/opinion/code-is-cheap-now-software-isnt)
+- [Claude's Constitution](https://www.anthropic.com/constitution)
 
 ## February
 
