@@ -34,6 +34,8 @@ Articles and links I'm reading in 2026.
 - [Research at Scale](https://www.media.mit.edu/posts/research-at-scale/)
 - [Code Is Cheap Now. Software Isn't.](https://www.chrisgregori.dev/opinion/code-is-cheap-now-software-isnt)
 - [Claude's Constitution](https://www.anthropic.com/constitution)
+- [Here's What's Next in Agentic Coding](https://seconds0.substack.com/p/heres-whats-next-in-agentic-coding)
+- [Gas Town's Agent Patterns, Design Bottlenecks, and Vibecoding at Scale](https://maggieappleton.com/gastown)
 
 ## February
 
