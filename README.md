@@ -37,6 +37,7 @@ Articles and links I'm reading in 2026.
 - [Here's What's Next in Agentic Coding](https://seconds0.substack.com/p/heres-whats-next-in-agentic-coding)
 - [Gas Town's Agent Patterns, Design Bottlenecks, and Vibecoding at Scale](https://maggieappleton.com/gastown)
 - [Shipyard: Creator Contest](https://www.shipyard.fyi/)
+- [The Possessed Machines: Dostoevsky's Demons and the Coming AGI Catastrophe](https://possessedmachines.com/)
 
 ## February
 
