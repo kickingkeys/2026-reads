@@ -38,6 +38,7 @@ Articles and links I'm reading in 2026.
 - [Gas Town's Agent Patterns, Design Bottlenecks, and Vibecoding at Scale](https://maggieappleton.com/gastown)
 - [Shipyard: Creator Contest](https://www.shipyard.fyi/)
 - [The Possessed Machines: Dostoevsky's Demons and the Coming AGI Catastrophe](https://possessedmachines.com/)
+- [Coordination Headwind - How Organizations Are Like Slime Molds](https://komoroske.com/slime-mold/)
 
 ## February
 
