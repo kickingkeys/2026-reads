@@ -42,6 +42,7 @@ Articles and links I'm reading in 2026.
 - [Breaking the Spell of Vibe Coding](https://www.fast.ai/posts/2026-01-28-dark-flow/)
 - [Designing Co-Creative Systems: Five Paradoxes in Human–AI Collaboration](https://www.mdpi.com/2078-2489/16/10/909)
 - [Making Playgrounds using Claude Code](https://x.com/trq212/status/2017024445244924382)
+- [Digital Deception: Architectural Photography After Photoshop](https://placesjournal.org/article/digital-deception/)
 
 ## February
 
