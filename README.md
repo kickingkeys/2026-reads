@@ -46,6 +46,7 @@ Articles and links I'm reading in 2026.
 - [What is the impact of AI on productivity?](https://aleximas.substack.com/p/what-is-the-impact-of-ai-on-productivity)
 - [TITAA #75: Universe Models](https://arnicas.substack.com/p/titaa-75-universe-models)
 - [A Software Library with No Code](https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html)
+- [Does AI already have human-level intelligence? The evidence is clear](https://www.nature.com/articles/d41586-026-00285-6)
 
 ## February
 
