@@ -47,6 +47,7 @@ Articles and links I'm reading in 2026.
 - [TITAA #75: Universe Models](https://arnicas.substack.com/p/titaa-75-universe-models)
 - [A Software Library with No Code](https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html)
 - [Does AI already have human-level intelligence? The evidence is clear](https://www.nature.com/articles/d41586-026-00285-6)
+- [Elizabeth Goodspeed on imperfection as design strategy](https://www.itsnicethat.com/articles/elizabeth-goodspeed-on-analogue-creative-industry-290126)
 
 ## February
 
