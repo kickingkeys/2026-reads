@@ -50,6 +50,7 @@ Articles and links I'm reading in 2026.
 - [Elizabeth Goodspeed on imperfection as design strategy](https://www.itsnicethat.com/articles/elizabeth-goodspeed-on-analogue-creative-industry-290126)
 - [As Rocks May Think](https://evjang.com/2026/02/04/rocks.html)
 - [What if labor becomes unnecessary](https://www.nytimes.com/2026/02/04/opinion/ai-jobs-employment-industry.html)
+- [The Globalization of Canadian Rage](https://www.nytimes.com/2026/02/06/opinion/canada-america-anger-carney.html)
 
 ## February
 
