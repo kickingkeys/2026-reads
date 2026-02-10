@@ -44,16 +44,16 @@ Articles and links I'm reading in 2026.
 - [Making Playgrounds using Claude Code](https://x.com/trq212/status/2017024445244924382)
 - [Digital Deception: Architectural Photography After Photoshop](https://placesjournal.org/article/digital-deception/)
 - [What is the impact of AI on productivity?](https://aleximas.substack.com/p/what-is-the-impact-of-ai-on-productivity)
-- [TITAA #75: Universe Models](https://arnicas.substack.com/p/titaa-75-universe-models)
 - [A Software Library with No Code](https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html)
 - [Does AI already have human-level intelligence? The evidence is clear](https://www.nature.com/articles/d41586-026-00285-6)
 - [Elizabeth Goodspeed on imperfection as design strategy](https://www.itsnicethat.com/articles/elizabeth-goodspeed-on-analogue-creative-industry-290126)
-- [As Rocks May Think](https://evjang.com/2026/02/04/rocks.html)
-- [What if labor becomes unnecessary](https://www.nytimes.com/2026/02/04/opinion/ai-jobs-employment-industry.html)
-- [The Globalization of Canadian Rage](https://www.nytimes.com/2026/02/06/opinion/canada-america-anger-carney.html)
 - [The Case for Early Prototyping](https://designsystems.international/ideas/the-case-for-early-prototyping/)
 
 ## February
+- [TITAA #75: Universe Models](https://arnicas.substack.com/p/titaa-75-universe-models)
+- [As Rocks May Think](https://evjang.com/2026/02/04/rocks.html)
+- [What if labor becomes unnecessary](https://www.nytimes.com/2026/02/04/opinion/ai-jobs-employment-industry.html)
+- [The Globalization of Canadian Rage](https://www.nytimes.com/2026/02/06/opinion/canada-america-anger-carney.html)
 
 ## March
 
