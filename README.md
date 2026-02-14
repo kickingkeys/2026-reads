@@ -57,6 +57,7 @@ Articles and links I'm reading in 2026.
 - [Top Performers are Pathologically Ambitious](https://thatvastvariety.substack.com/p/top-performers-are-pathologically)
 - [AI, Automation, and Expertise](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6134506)
 - [The Gears of My Childhood](https://worrydream.com/refs/Papert_1980_-_Mindstorms,_1st_ed.pdf)
+- [Optimal Timing for Superintelligence](https://nickbostrom.com/optimal.pdf)
 
 ## March
 
