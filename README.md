@@ -48,6 +48,7 @@ Articles and links I'm reading in 2026.
 - [Does AI already have human-level intelligence? The evidence is clear](https://www.nature.com/articles/d41586-026-00285-6)
 - [Elizabeth Goodspeed on imperfection as design strategy](https://www.itsnicethat.com/articles/elizabeth-goodspeed-on-analogue-creative-industry-290126)
 - [The Case for Early Prototyping](https://designsystems.international/ideas/the-case-for-early-prototyping/)
+- [Building AIs That Do Human-Like Philosophy](https://joecarlsmith.com/2026/01/29/building-ais-that-do-human-like-philosophy)
 
 ## February
 - [TITAA #75: Universe Models](https://arnicas.substack.com/p/titaa-75-universe-models)
