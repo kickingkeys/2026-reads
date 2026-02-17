@@ -49,6 +49,7 @@ Articles and links I'm reading in 2026.
 - [Elizabeth Goodspeed on imperfection as design strategy](https://www.itsnicethat.com/articles/elizabeth-goodspeed-on-analogue-creative-industry-290126)
 - [The Case for Early Prototyping](https://designsystems.international/ideas/the-case-for-early-prototyping/)
 - [Building AIs That Do Human-Like Philosophy](https://joecarlsmith.com/2026/01/29/building-ais-that-do-human-like-philosophy)
+- [Actually Possible: Thoughts on Utopia](https://joecarlsmith.com/2021/01/18/actually-possible-thoughts-on-utopia)
 
 ## February
 - [TITAA #75: Universe Models](https://arnicas.substack.com/p/titaa-75-universe-models)
