@@ -60,6 +60,7 @@ Articles and links I'm reading in 2026.
 - [AI, Automation, and Expertise](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6134506)
 - [The Gears of My Childhood](https://worrydream.com/refs/Papert_1980_-_Mindstorms,_1st_ed.pdf)
 - [Optimal Timing for Superintelligence](https://nickbostrom.com/optimal.pdf)
+- [Self-Distillation Enables Continual Learning](https://arxiv.org/abs/2601.19897)
 
 ## March
 
