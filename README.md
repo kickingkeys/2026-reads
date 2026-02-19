@@ -61,6 +61,7 @@ Articles and links I'm reading in 2026.
 - [The Gears of My Childhood](https://worrydream.com/refs/Papert_1980_-_Mindstorms,_1st_ed.pdf)
 - [Optimal Timing for Superintelligence](https://nickbostrom.com/optimal.pdf)
 - [Self-Distillation Enables Continual Learning](https://arxiv.org/abs/2601.19897)
+- [Feedback Loopable](https://ampcode.com/notes/feedback-loopable)
 
 ## March
 
