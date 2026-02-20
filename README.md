@@ -62,6 +62,7 @@ Articles and links I'm reading in 2026.
 - [Optimal Timing for Superintelligence](https://nickbostrom.com/optimal.pdf)
 - [Self-Distillation Enables Continual Learning](https://arxiv.org/abs/2601.19897)
 - [Feedback Loopable](https://ampcode.com/notes/feedback-loopable)
+- [Reinforcement Learning from Human Feedback](https://rlhfbook.com/)
 
 ## March
 
