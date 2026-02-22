@@ -65,6 +65,7 @@ Articles and links I'm reading in 2026.
 - [Reinforcement Learning from Human Feedback](https://rlhfbook.com/)
 - [When Kepler Meets Turing](https://jonny-dyer.com/blog/kepler-turing/)
 - [Child's Play](https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/)
+- [The 2028 Global Intelligence Crisis](https://www.citriniresearch.com/p/2028gic)
 
 ## March
 
