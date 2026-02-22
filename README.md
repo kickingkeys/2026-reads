@@ -63,8 +63,10 @@ Articles and links I'm reading in 2026.
 - [Self-Distillation Enables Continual Learning](https://arxiv.org/abs/2601.19897)
 - [Feedback Loopable](https://ampcode.com/notes/feedback-loopable)
 - [Reinforcement Learning from Human Feedback](https://rlhfbook.com/)
+- [When Kepler Meets Turing](https://jonny-dyer.com/blog/kepler-turing/)
 
 ## March
+- [Child's Play](https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/)
 
 ## April
 
