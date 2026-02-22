@@ -64,9 +64,9 @@ Articles and links I'm reading in 2026.
 - [Feedback Loopable](https://ampcode.com/notes/feedback-loopable)
 - [Reinforcement Learning from Human Feedback](https://rlhfbook.com/)
 - [When Kepler Meets Turing](https://jonny-dyer.com/blog/kepler-turing/)
+- [Child's Play](https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/)
 
 ## March
-- [Child's Play](https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/)
 
 ## April
 
