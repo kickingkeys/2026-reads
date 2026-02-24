@@ -67,6 +67,7 @@ Articles and links I'm reading in 2026.
 - [Child's Play](https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/)
 - [The 2028 Global Intelligence Crisis](https://www.citriniresearch.com/p/2028gic)
 - [The A.I. Disruption We've Been Waiting for Has Arrived](https://www.nytimes.com/2026/02/18/opinion/ai-software.html)
+- [Computation in Motion: From the Personal to the Planetary](https://thereader.mitpress.mit.edu/computation-in-motion-from-the-personal-to-the-planetary/)
 - [Is AI Really 'Intelligent'? This Philosopher Says Yes](https://theconversation.com/is-ai-really-intelligent-this-philosopher-says-yes-271721)
 
 ## March
