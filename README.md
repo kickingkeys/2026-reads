@@ -70,6 +70,7 @@ Articles and links I'm reading in 2026.
 - [Computation in Motion: From the Personal to the Planetary](https://thereader.mitpress.mit.edu/computation-in-motion-from-the-personal-to-the-planetary/)
 - [Is AI Really 'Intelligent'? This Philosopher Says Yes](https://theconversation.com/is-ai-really-intelligent-this-philosopher-says-yes-271721)
 - [Does Socialization Emerge in AI Agent Society?](https://arxiv.org/abs/2602.14299)
+- [3 Etymologies + The Word "Attention"](https://savingdanger.substack.com/p/3-etymologies-the-word-attention)
 
 ## March
 
