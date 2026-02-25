@@ -73,6 +73,7 @@ Articles and links I'm reading in 2026.
 - [3 Etymologies + The Word "Attention"](https://savingdanger.substack.com/p/3-etymologies-the-word-attention)
 - [The Attention Trove](https://friendsofattention.net/attention_trove/)
 - [Introducing Printing Machines: Benchmarking Model Masterpieces](https://www.printingmachines.ai/blog/printing-machines)
+- [Computerangel Blog](https://www.computerangel.blog/)
 
 ## March
 
