@@ -69,6 +69,7 @@ Articles and links I'm reading in 2026.
 - [The A.I. Disruption We've Been Waiting for Has Arrived](https://www.nytimes.com/2026/02/18/opinion/ai-software.html)
 - [Computation in Motion: From the Personal to the Planetary](https://thereader.mitpress.mit.edu/computation-in-motion-from-the-personal-to-the-planetary/)
 - [Is AI Really 'Intelligent'? This Philosopher Says Yes](https://theconversation.com/is-ai-really-intelligent-this-philosopher-says-yes-271721)
+- [Does Socialization Emerge in AI Agent Society?](https://arxiv.org/abs/2602.14299)
 
 ## March
 
