@@ -75,6 +75,7 @@ Articles and links I'm reading in 2026.
 - [Introducing Printing Machines: Benchmarking Model Masterpieces](https://www.printingmachines.ai/blog/printing-machines)
 - [Computerangel Blog](https://www.computerangel.blog/)
 - [Am I Slop? Am I Agentic? Am I Earth?](https://longnow.org/ideas/identity-neural-media-ai/)
+- [Six Types of AI Startups, Explained](https://sloanreview.mit.edu/article/six-types-of-ai-startups-explained/)
 
 ## March
 
