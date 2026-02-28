@@ -74,6 +74,7 @@ Articles and links I'm reading in 2026.
 - [The Attention Trove](https://friendsofattention.net/attention_trove/)
 - [Introducing Printing Machines: Benchmarking Model Masterpieces](https://www.printingmachines.ai/blog/printing-machines)
 - [Computerangel Blog](https://www.computerangel.blog/)
+- [Am I Slop? Am I Agentic? Am I Earth?](https://longnow.org/ideas/identity-neural-media-ai/)
 
 ## March
 
