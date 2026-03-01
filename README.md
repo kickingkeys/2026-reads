@@ -76,6 +76,7 @@ Articles and links I'm reading in 2026.
 - [Computerangel Blog](https://www.computerangel.blog/)
 - [Am I Slop? Am I Agentic? Am I Earth?](https://longnow.org/ideas/identity-neural-media-ai/)
 - [Six Types of AI Startups, Explained](https://sloanreview.mit.edu/article/six-types-of-ai-startups-explained/)
+- [Gen Z Lives in the Archive](https://default.blog/p/gen-z-lives-in-the-archive)
 
 ## March
 
