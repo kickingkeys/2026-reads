@@ -79,6 +79,7 @@ Articles and links I'm reading in 2026.
 - [Gen Z Lives in the Archive](https://default.blog/p/gen-z-lives-in-the-archive)
 
 ## March
+- [What Happens When You Type google.com and Press Enter?](https://github.com/alex/what-happens-when)
 
 ## April
 
