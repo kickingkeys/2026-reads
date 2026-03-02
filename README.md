@@ -80,6 +80,7 @@ Articles and links I'm reading in 2026.
 
 ## March
 - [What Happens When You Type google.com and Press Enter?](https://github.com/alex/what-happens-when)
+- [You Can Just Do Things](https://www.nplusonemag.com/online-only/online-only/you-can-just-do-things/)
 
 ## April
 
