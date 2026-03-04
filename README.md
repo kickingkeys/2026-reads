@@ -82,6 +82,7 @@ Articles and links I'm reading in 2026.
 - [What Happens When You Type google.com and Press Enter?](https://github.com/alex/what-happens-when)
 - [You Can Just Do Things](https://www.nplusonemag.com/online-only/online-only/you-can-just-do-things/)
 - [Texterial: A Text-as-Material Interaction Paradigm for LLM-Mediated Writing](https://arxiv.org/abs/2603.00452)
+- [Machine Love](https://arxiv.org/abs/2302.09248)
 
 ## April
 
