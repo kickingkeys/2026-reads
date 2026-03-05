@@ -84,6 +84,8 @@ Articles and links I'm reading in 2026.
 - [Texterial: A Text-as-Material Interaction Paradigm for LLM-Mediated Writing](https://arxiv.org/abs/2603.00452)
 - [Machine Love](https://arxiv.org/abs/2302.09248)
 - [Why No AI Games?](https://franklantz.substack.com/p/why-no-ai-games)
+- [The Enchantments of Pure Consciousness](https://musingmind.substack.com/p/the-enchantments-of-pure-consciousness)
+- [Labor Market Impacts of AI](https://www.anthropic.com/research/labor-market-impacts)
 
 ## April
 
