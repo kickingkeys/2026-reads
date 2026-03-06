@@ -87,6 +87,7 @@ Articles and links I'm reading in 2026.
 - [The Enchantments of Pure Consciousness](https://musingmind.substack.com/p/the-enchantments-of-pure-consciousness)
 - [Labor Market Impacts of AI](https://www.anthropic.com/research/labor-market-impacts)
 - [Agentic AI's OODA Loop Problem](https://www.schneier.com/blog/archives/2025/10/agentic-ais-ooda-loop-problem.html)
+- [The Tyranny of the Marginal User](https://nothinghuman.substack.com/p/the-tyranny-of-the-marginal-user)
 
 ## April
 
