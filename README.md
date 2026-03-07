@@ -88,6 +88,9 @@ Articles and links I'm reading in 2026.
 - [Labor Market Impacts of AI](https://www.anthropic.com/research/labor-market-impacts)
 - [Agentic AI's OODA Loop Problem](https://www.schneier.com/blog/archives/2025/10/agentic-ais-ooda-loop-problem.html)
 - [The Tyranny of the Marginal User](https://nothinghuman.substack.com/p/the-tyranny-of-the-marginal-user)
+- [Darwinian Gastronomy: Why We Use Spices](https://academic.oup.com/bioscience/article/49/6/453/229475)
+- [Keepers of the Seeds](https://ruralindiaonline.org/articles/keepers-of-the-seeds/)
+- [The Evolution of the Creative Professional](https://www.e-flux.com/announcements/6785212/the-evolution-of-the-creative-professional)
 
 ## April
 
