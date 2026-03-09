@@ -92,6 +92,7 @@ Articles and links I'm reading in 2026.
 - [Keepers of the Seeds](https://ruralindiaonline.org/articles/keepers-of-the-seeds/)
 - [The Evolution of the Creative Professional](https://www.e-flux.com/announcements/6785212/the-evolution-of-the-creative-professional)
 - [Code Review Bench: Towards Billion Dollar Benchmarks](https://withmartian.com/post/code-review-bench-v0)
+- [Teens on Growing Up With AI](https://www.nytimes.com/2026/02/26/learning/teens-on-growing-up-with-ai.html)
 
 ## April
 
