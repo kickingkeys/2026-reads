@@ -93,6 +93,7 @@ Articles and links I'm reading in 2026.
 - [The Evolution of the Creative Professional](https://www.e-flux.com/announcements/6785212/the-evolution-of-the-creative-professional)
 - [Code Review Bench: Towards Billion Dollar Benchmarks](https://withmartian.com/post/code-review-bench-v0)
 - [Teens on Growing Up With AI](https://www.nytimes.com/2026/02/26/learning/teens-on-growing-up-with-ai.html)
+- [SoMe: A Realistic Benchmark for LLM-based Social Media Agents](https://arxiv.org/abs/2512.14720)
 
 ## April
 
