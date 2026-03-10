@@ -95,6 +95,7 @@ Articles and links I'm reading in 2026.
 - [Teens on Growing Up With AI](https://www.nytimes.com/2026/02/26/learning/teens-on-growing-up-with-ai.html)
 - [SoMe: A Realistic Benchmark for LLM-based Social Media Agents](https://arxiv.org/abs/2512.14720)
 - [Simulation: The Next Frontier for AI](https://www.simile.ai/blog/simulation-next-frontier)
+- [Screens Within Screens](https://burning.farm/essays/screens-within-screens)
 
 ## April
 
