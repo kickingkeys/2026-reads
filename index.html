@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026 Reads</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<meta property="og:title" content="2026 Reads">
+<meta property="og:description" content="A curated reading list.">
+<meta property="og:image" content="og-banner.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2026 Reads">
+<meta name="twitter:image" content="og-banner.png">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Mono:wght@400&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: #f4f1eb;
+    color: #2a2a2a;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* --- NAV --- */
+  .navbar {
+    position: fixed; top: 0; left: 0; right: 0; height: 56px;
+    background: transparent;
+    z-index: 1000; display: flex; align-items: center; padding: 0 40px;
+  }
+  .nav-logo {
+    font-family: 'Instrument Serif', serif; font-size: 1.2rem;
+    color: #2a2a2a; text-decoration: none; cursor: pointer;
+  }
+  .nav-logo em { font-style: italic; }
+  .nav-icons { margin-left: auto; display: flex; align-items: center; gap: 16px; }
+  .nav-icons a { display: flex; align-items: center; color: #999; transition: color 0.2s; }
+  .nav-icons a:hover { color: #2a2a2a; }
+  .nav-icons a svg { width: 18px; height: 18px; }
+
+  /* --- TIMELINE GRID --- */
+  .timeline {
+    max-width: 900px; margin: 0 auto;
+    padding: 76px 48px 160px;
+    display: grid; grid-template-columns: 60px 1fr; gap: 0 40px;
+  }
+
+  /* --- SIDEBAR --- */
+  .tl-sidebar {
+    position: sticky; top: 76px; align-self: start;
+    display: flex; flex-direction: column; padding-top: 6px;
+  }
+  .tl-sidebar::before {
+    content: ''; position: absolute; top: 0; right: -20px; bottom: 0;
+    width: 1px; background: #ddd8ce;
+  }
+  .tl-month {
+    font-family: 'DM Sans', sans-serif; font-size: 0.68rem;
+    letter-spacing: 0.03em; color: #aaa; text-align: right;
+    padding: 5px 0; cursor: pointer; transition: all 0.25s;
+    position: relative; border: none; background: none;
+  }
+  .tl-month:hover { color: #666; }
+  .tl-month.active { color: #2a2a2a; font-weight: 500; }
+  .tl-month.active::after {
+    content: ''; position: absolute; right: -24px; top: 50%;
+    transform: translateY(-50%); width: 7px; height: 7px;
+    border-radius: 50%; background: #2a2a2a;
+  }
+
+  /* --- MONTH SECTIONS --- */
+  .month-section { margin-bottom: 72px; scroll-margin-top: 76px; }
+  .month-header {
+    font-family: 'Instrument Serif', serif; font-size: 6rem;
+    font-style: italic; color: #2a2a2a; margin-bottom: 24px;
+    line-height: 1;
+  }
+  .month-links { list-style: none; padding: 0; }
+  .month-links li {
+    opacity: 0; transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  .month-links li.visible { opacity: 1; transform: translateY(0); }
+
+  /* --- LINK ROWS --- */
+  .link-row {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 4px 0; position: relative;
+  }
+  .link-favicon {
+    width: 14px; height: 14px; border-radius: 3px;
+    flex-shrink: 0; transition: opacity 0.15s;
+  }
+  .month-links a {
+    color: #555; text-decoration: none;
+    font-size: 0.98rem; font-weight: 400; line-height: 1.75;
+    transition: all 0.15s; border-bottom: 1px solid transparent;
+  }
+  .month-links a:hover { color: #2a2a2a; border-bottom-color: #2a2a2a; }
+
+  /* --- HOVER PREVIEW --- */
+  .preview-card {
+    position: fixed; pointer-events: none; z-index: 2000;
+    opacity: 0; transform: translateY(8px) scale(0.95);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+  .preview-card.show { opacity: 1; transform: translateY(0) scale(1); }
+
+  .pc-object {
+    position: relative; display: flex; align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 16px 36px rgba(0,0,0,0.15));
+  }
+  .pc-object img.template-img { width: 100%; height: 100%; display: block; }
+
+  .pc-object[data-type="newspaper"] { width: 420px; height: 322px; }
+  .pc-object[data-type="magazine"]  { width: 260px; height: 364px; }
+  .pc-object[data-type="paper"]     { width: 380px; height: 303px; }
+  .pc-object[data-type="book"]      { width: 300px; height: 433px; }
+  .pc-object[data-type="social"]    { width: 400px; height: 307px; }
+  .pc-object[data-type="website"]   { width: 440px; height: 300px; }
+
+  .pc-overlay {
+    position: absolute; z-index: 2; display: flex;
+    flex-direction: column; gap: 8px; padding: 20px; overflow: hidden;
+  }
+  .pc-overlay .pc-masthead {
+    font-family: 'DM Mono', monospace; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 0.12em; color: rgba(0,0,0,0.35);
+  }
+  .pc-overlay .pc-title {
+    font-family: 'Instrument Serif', serif; font-size: 1.3rem;
+    line-height: 1.25; color: #1a1a1a;
+    display: -webkit-box; -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .pc-overlay .pc-source {
+    font-family: 'DM Sans', sans-serif; font-size: 0.72rem;
+    color: rgba(0,0,0,0.3); display: flex; align-items: center; gap: 6px;
+  }
+  .pc-overlay .pc-source img { width: 14px; height: 14px; border-radius: 2px; opacity: 0.5; }
+
+  /* Newspaper */
+  .pc-object[data-type="newspaper"] .pc-overlay {
+    top: 10%; left: 8%; right: 8%; bottom: 14%;
+    text-align: center; align-items: center; justify-content: center;
+  }
+  .pc-object[data-type="newspaper"] .pc-overlay .pc-masthead {
+    font-size: 0.95rem; letter-spacing: 0.22em; color: rgba(40,30,15,0.75); font-weight: 700;
+  }
+  .pc-object[data-type="newspaper"] .pc-overlay .pc-title { font-size: 1.5rem; max-width: 340px; color: rgba(30,20,10,0.82); }
+  .pc-object[data-type="newspaper"] .pc-overlay .pc-source { color: rgba(50,40,25,0.5); }
+
+  /* Magazine */
+  .pc-object[data-type="magazine"] .pc-overlay {
+    top: 10%; left: 12%; right: 12%; bottom: 10%;
+    text-align: center; align-items: center; justify-content: center;
+  }
+  .pc-object[data-type="magazine"] .pc-overlay .pc-masthead { font-size: 0.75rem; letter-spacing: 0.18em; color: rgba(0,0,0,0.3); }
+  .pc-object[data-type="magazine"] .pc-overlay .pc-title { font-size: 1.4rem; max-width: 220px; }
+
+  /* Paper */
+  .pc-object[data-type="paper"] .pc-overlay { top: 10%; left: 10%; right: 10%; bottom: 14%; }
+  .pc-object[data-type="paper"] .pc-overlay .pc-title {
+    font-family: 'DM Sans', sans-serif; font-size: 1.15rem;
+    font-weight: 500; line-height: 1.35; max-width: 280px;
+  }
+  .pc-object[data-type="paper"] .pc-overlay .pc-masthead { font-size: 0.65rem; color: rgba(0,0,0,0.25); }
+
+  /* Book */
+  .pc-object[data-type="book"] .pc-overlay {
+    top: 14%; left: 12%; right: 16%; bottom: 14%;
+    align-items: center; justify-content: center; text-align: center;
+  }
+  .pc-object[data-type="book"] .pc-overlay .pc-title { color: rgba(255,255,255,0.88); text-shadow: 0 1px 4px rgba(0,0,0,0.4); font-size: 1.3rem; max-width: 210px; }
+  .pc-object[data-type="book"] .pc-overlay .pc-source { color: rgba(255,255,255,0.4); }
+  .pc-object[data-type="book"] .pc-overlay .pc-source img { opacity: 0.4; }
+  .pc-object[data-type="book"] .pc-overlay .pc-masthead { color: rgba(255,255,255,0.35); }
+
+  /* Social */
+  .pc-object[data-type="social"] .pc-overlay {
+    top: 8%; left: 8%; right: 8%; bottom: 8%;
+    align-items: center; justify-content: center; text-align: center;
+  }
+  .pc-object[data-type="social"] .pc-overlay .pc-title { font-family: 'DM Sans', sans-serif; font-size: 1.1rem; font-weight: 400; max-width: 280px; }
+  .pc-object[data-type="social"] .pc-overlay .pc-masthead { color: rgba(0,0,0,0.3); }
+
+  /* Website */
+  .pc-object[data-type="website"] {
+    background: #fff; border-radius: 10px; overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 12px 32px rgba(0,0,0,0.12);
+    filter: none; flex-direction: column; align-items: stretch; justify-content: flex-start;
+  }
+  .pc-object[data-type="website"] .template-img { display: none; }
+  .browser-chrome {
+    height: 36px; background: #e8e8e8; display: none;
+    align-items: center; padding: 0 14px; gap: 7px;
+    flex-shrink: 0; border-bottom: 1px solid #ddd;
+  }
+  .pc-object[data-type="website"] .browser-chrome { display: flex; }
+  .browser-chrome .dot { width: 11px; height: 11px; border-radius: 50%; }
+  .browser-chrome .dot.red { background: #ff5f57; }
+  .browser-chrome .dot.yellow { background: #febc2e; }
+  .browser-chrome .dot.green { background: #28c840; }
+  .pc-object[data-type="website"] .pc-overlay {
+    position: relative; flex: 1; align-items: center; justify-content: center; text-align: center;
+  }
+  .pc-object[data-type="website"] .pc-overlay .pc-title { font-family: 'DM Sans', sans-serif; font-size: 1.15rem; font-weight: 500; color: #333; max-width: 320px; }
+  .pc-object[data-type="website"] .pc-overlay .pc-masthead { color: #aaa; }
+  .pc-object[data-type="website"] .pc-overlay .pc-source { color: #bbb; }
+
+  /* Video */
+  .pc-object[data-type="video"] {
+    width: 500px; height: 320px; border-radius: 12px; overflow: hidden;
+    background-size: cover; background-position: center;
+  }
+  .pc-object[data-type="video"] .template-img { display: none; }
+  .pc-object[data-type="video"] .pc-overlay {
+    top: 0; left: 0; right: 0; bottom: 0;
+    align-items: center; justify-content: center; text-align: center;
+    background: rgba(0,0,0,0.55);
+  }
+  .pc-object[data-type="video"] .pc-overlay .pc-title { color: #fff; font-size: 1.2rem; max-width: 340px; }
+  .pc-object[data-type="video"] .pc-overlay .pc-masthead { color: rgba(255,255,255,0.4); }
+  .play-btn {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: rgba(255,255,255,0.9); display: none;
+    align-items: center; justify-content: center; margin-bottom: 12px;
+  }
+  .play-btn::after {
+    content: ''; display: block; width: 0; height: 0;
+    border-style: solid; border-width: 11px 0 11px 20px;
+    border-color: transparent transparent transparent #333; margin-left: 4px;
+  }
+
+  /* --- DIM EFFECT --- */
+  body.dim-active .month-links li { opacity: 0.08; transition: opacity 0.3s ease; }
+  body.dim-active .month-links li.is-hovered { opacity: 1; }
+  body.dim-active .month-header,
+  body.dim-active .tl-sidebar { opacity: 0.12; transition: opacity 0.3s ease; }
+  body.dim-active .month-section.has-hover .month-header { opacity: 0.5; }
+
+  /* --- MOBILE --- */
+  .mobile-view { display: none; }
+
+  @media (max-width: 700px) {
+    .timeline { display: none; }
+    .navbar {
+      padding: 0 16px; border-bottom: none;
+      background: rgba(244,241,235,0.92);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    }
+    .preview-card { display: none !important; }
+
+    .mobile-view {
+      display: flex; flex-direction: column; position: fixed;
+      top: 56px; left: 0; right: 0; bottom: 0; background: #f4f1eb;
+    }
+
+    .mv-carousel {
+      flex: 1; display: flex; overflow-x: auto;
+      scroll-snap-type: x mandatory; align-items: center;
+      scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    }
+    .mv-carousel::-webkit-scrollbar { display: none; }
+
+    .mv-slide {
+      flex: 0 0 78vw; scroll-snap-align: center;
+      display: flex; flex-direction: column; align-items: center;
+      justify-content: center; padding: 0 8px; padding-bottom: 8vh;
+      text-decoration: none; color: inherit;
+      opacity: 0.2; transform: scale(0.88);
+      transition: opacity 0.35s ease, transform 0.35s ease;
+    }
+    .mv-slide:first-child { margin-left: 11vw; }
+    .mv-slide:last-child { margin-right: 11vw; }
+    .mv-slide.in-focus { opacity: 1; transform: scale(1); }
+
+    /* Artifact objects */
+    .mc-object {
+      position: relative; display: flex; align-items: center;
+      justify-content: center; filter: drop-shadow(0 10px 24px rgba(0,0,0,0.14));
+      max-width: 78vw;
+    }
+    .mc-object img.mc-tpl { width: 100%; height: 100%; display: block; }
+    .mc-overlay {
+      position: absolute; z-index: 2; display: flex;
+      flex-direction: column; gap: 6px; padding: 14px; overflow: hidden;
+    }
+    .mc-overlay .mc-masthead {
+      font-family: 'DM Mono', monospace; font-size: 0.55rem;
+      text-transform: uppercase; letter-spacing: 0.12em; color: rgba(0,0,0,0.35);
+    }
+    .mc-overlay .mc-title {
+      font-family: 'Instrument Serif', serif; font-size: 1rem;
+      line-height: 1.25; color: #1a1a1a;
+      display: -webkit-box; -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .mc-overlay .mc-source {
+      font-size: 0.6rem; color: rgba(0,0,0,0.3);
+      display: flex; align-items: center; gap: 4px;
+    }
+    .mc-overlay .mc-source img { width: 12px; height: 12px; border-radius: 2px; opacity: 0.5; }
+
+    /* Per-type sizes */
+    .mc-object[data-type="newspaper"] { width: min(72vw, 320px); aspect-ratio: 420/322; }
+    .mc-object[data-type="magazine"]  { width: min(50vw, 210px); aspect-ratio: 260/364; }
+    .mc-object[data-type="paper"]     { width: min(68vw, 300px); aspect-ratio: 380/303; }
+    .mc-object[data-type="book"]      { width: min(48vw, 230px); aspect-ratio: 300/433; }
+    .mc-object[data-type="social"]    { width: min(72vw, 310px); aspect-ratio: 400/307; }
+
+    /* Newspaper */
+    .mc-object[data-type="newspaper"] .mc-overlay {
+      top: 10%; left: 8%; right: 8%; bottom: 14%;
+      text-align: center; align-items: center; justify-content: center;
+    }
+    .mc-object[data-type="newspaper"] .mc-masthead { font-size: 0.7rem; letter-spacing: 0.22em; color: rgba(40,30,15,0.75); font-weight: 700; }
+    .mc-object[data-type="newspaper"] .mc-title { font-size: 1.1rem; color: rgba(30,20,10,0.82); max-width: 260px; }
+    .mc-object[data-type="newspaper"] .mc-source { color: rgba(50,40,25,0.5); }
+
+    /* Magazine */
+    .mc-object[data-type="magazine"] .mc-overlay {
+      top: 10%; left: 12%; right: 12%; bottom: 10%;
+      text-align: center; align-items: center; justify-content: center;
+    }
+    .mc-object[data-type="magazine"] .mc-masthead { font-size: 0.6rem; letter-spacing: 0.18em; color: rgba(0,0,0,0.3); }
+    .mc-object[data-type="magazine"] .mc-title { font-size: 1.05rem; max-width: 180px; }
+
+    /* Paper */
+    .mc-object[data-type="paper"] .mc-overlay { top: 10%; left: 10%; right: 10%; bottom: 14%; }
+    .mc-object[data-type="paper"] .mc-title { font-family: 'DM Sans', sans-serif; font-size: 0.95rem; font-weight: 500; line-height: 1.35; max-width: 220px; }
+    .mc-object[data-type="paper"] .mc-masthead { font-size: 0.5rem; color: rgba(0,0,0,0.25); }
+
+    /* Book */
+    .mc-object[data-type="book"] .mc-overlay {
+      top: 14%; left: 12%; right: 16%; bottom: 14%;
+      align-items: center; justify-content: center; text-align: center;
+    }
+    .mc-object[data-type="book"] .mc-title { color: rgba(255,255,255,0.88); text-shadow: 0 1px 4px rgba(0,0,0,0.4); font-size: 1.05rem; max-width: 170px; }
+    .mc-object[data-type="book"] .mc-source { color: rgba(255,255,255,0.4); }
+    .mc-object[data-type="book"] .mc-source img { opacity: 0.4; }
+    .mc-object[data-type="book"] .mc-masthead { color: rgba(255,255,255,0.35); }
+
+    /* Social */
+    .mc-object[data-type="social"] .mc-overlay {
+      top: 8%; left: 8%; right: 8%; bottom: 8%;
+      align-items: center; justify-content: center; text-align: center;
+    }
+    .mc-object[data-type="social"] .mc-title { font-family: 'DM Sans', sans-serif; font-size: 0.9rem; font-weight: 400; max-width: 230px; }
+    .mc-object[data-type="social"] .mc-masthead { color: rgba(0,0,0,0.3); }
+
+    /* Website */
+    .mc-object[data-type="website"] {
+      width: min(78vw, 340px); aspect-ratio: 440/300;
+      background: #fff; border-radius: 10px; overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.1);
+      filter: none; flex-direction: column; align-items: stretch;
+    }
+    .mc-object[data-type="website"] .mc-tpl { display: none; }
+    .mc-chrome {
+      height: 28px; background: #e8e8e8; display: flex;
+      align-items: center; padding: 0 10px; gap: 6px;
+      flex-shrink: 0; border-bottom: 1px solid #ddd;
+    }
+    .mc-chrome .dot { width: 8px; height: 8px; border-radius: 50%; }
+    .mc-chrome .dot.red { background: #ff5f57; }
+    .mc-chrome .dot.yellow { background: #febc2e; }
+    .mc-chrome .dot.green { background: #28c840; }
+    .mc-object[data-type="website"] .mc-overlay {
+      position: relative; flex: 1;
+      align-items: center; justify-content: center; text-align: center;
+    }
+    .mc-object[data-type="website"] .mc-title { font-family: 'DM Sans', sans-serif; font-size: 0.95rem; font-weight: 500; color: #333; max-width: 260px; }
+    .mc-object[data-type="website"] .mc-masthead { color: #aaa; }
+    .mc-object[data-type="website"] .mc-source { color: #bbb; }
+
+    /* Video */
+    .mc-object[data-type="video"] {
+      width: min(78vw, 380px); aspect-ratio: 16/9;
+      border-radius: 10px; overflow: hidden;
+      background-size: cover; background-position: center;
+      filter: drop-shadow(0 10px 24px rgba(0,0,0,0.2));
+    }
+    .mc-object[data-type="video"] .mc-tpl { display: none; }
+    .mc-object[data-type="video"] .mc-overlay {
+      top: 0; left: 0; right: 0; bottom: 0;
+      align-items: center; justify-content: center; text-align: center;
+      background: rgba(0,0,0,0.55);
+    }
+    .mc-object[data-type="video"] .mc-title { color: #fff; text-shadow: 0 1px 6px rgba(0,0,0,0.5); font-size: 1rem; max-width: 260px; }
+    .mc-object[data-type="video"] .mc-source { color: rgba(255,255,255,0.5); }
+    .mc-object[data-type="video"] .mc-source img { opacity: 0.5; }
+
+    /* Bottom panel */
+    .mv-bottom {
+      flex-shrink: 0; background: rgba(244,241,235,0.96);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    .mv-info {
+      display: flex; align-items: baseline; gap: 8px;
+      padding: 10px 20px 4px; min-height: 28px;
+    }
+    .mv-current-month {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 0.9rem; color: #2a2a2a; flex-shrink: 0;
+      transition: opacity 0.15s;
+    }
+
+    .mv-timeline { padding: 4px 20px 10px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+    .mv-timeline::-webkit-scrollbar { display: none; }
+    .mv-tl-track {
+      display: flex; align-items: center; position: relative; min-width: max-content;
+    }
+    .mv-tl-track::before {
+      content: ''; position: absolute; top: 50%; left: 8px; right: 8px;
+      height: 1px; background: rgba(0,0,0,0.08);
+    }
+    .mv-dot {
+      width: 26px; height: 26px; display: flex; align-items: center;
+      justify-content: center; cursor: pointer; flex-shrink: 0;
+      position: relative; z-index: 1;
+    }
+    .mv-dot::after {
+      content: ''; width: 6px; height: 6px; border-radius: 50%;
+      background: rgba(0,0,0,0.12); transition: all 0.25s ease;
+    }
+    .mv-dot.active::after {
+      width: 11px; height: 11px; background: #2a2a2a;
+      box-shadow: 0 0 0 3px rgba(42,42,42,0.08);
+    }
+    .mv-tl-gap {
+      width: 20px; flex-shrink: 0; display: flex;
+      align-items: center; justify-content: center;
+      position: relative; z-index: 1;
+    }
+    .mv-tl-gap::after {
+      content: ''; width: 1.5px; height: 16px;
+      background: rgba(0,0,0,0.12); border-radius: 1px;
+    }
+
+    /* Month picker */
+    .mv-current-month {
+      cursor: pointer; display: flex; align-items: center; gap: 3px;
+    }
+    .mv-month-chevron {
+      width: 10px; height: 10px; opacity: 0.4; transition: transform 0.2s ease;
+      flex-shrink: 0; margin-top: 1px;
+    }
+    .mv-current-month.picker-open .mv-month-chevron { transform: rotate(180deg); }
+    .mv-month-picker {
+      position: absolute; bottom: 100%; left: 16px;
+      background: rgba(244,241,235,0.97); backdrop-filter: blur(20px);
+      border-radius: 12px; padding: 8px 4px;
+      box-shadow: 0 -4px 24px rgba(0,0,0,0.08);
+      display: none; flex-direction: column; gap: 2px; min-width: 120px;
+      z-index: 10;
+    }
+    .mv-month-picker.show { display: flex; }
+    .mv-month-picker button {
+      border: none; background: none; font-family: 'Instrument Serif', serif;
+      font-style: italic; font-size: 1rem; color: #999; padding: 6px 16px;
+      text-align: left; cursor: pointer; border-radius: 8px;
+      transition: all 0.15s;
+    }
+    .mv-month-picker button:hover,
+    .mv-month-picker button.active { color: #2a2a2a; background: rgba(0,0,0,0.04); }
+
+    /* View toggle */
+    .mv-view-toggle {
+      margin-left: auto; flex-shrink: 0; border: none; background: none;
+      cursor: pointer; padding: 4px; display: flex; align-items: center;
+      color: #999; transition: color 0.15s;
+    }
+    .mv-view-toggle:hover { color: #2a2a2a; }
+    .mv-view-toggle svg { width: 16px; height: 16px; }
+
+    /* List view */
+    .mv-list {
+      flex: 1; overflow-y: auto; padding: 16px 20px;
+      display: none; -webkit-overflow-scrolling: touch;
+    }
+    .mv-list.show { display: block; }
+    .mv-carousel.hidden { display: none; }
+    .mv-list-month {
+      font-family: 'Instrument Serif', serif; font-style: italic;
+      font-size: 1.6rem; color: #2a2a2a; margin-bottom: 8px;
+      margin-top: 20px;
+    }
+    .mv-list-month:first-child { margin-top: 0; }
+    .mv-list a {
+      display: flex; align-items: center; gap: 8px;
+      text-decoration: none; color: #555;
+      font-size: 0.9rem; line-height: 1.6; padding: 3px 0;
+      transition: color 0.15s;
+    }
+    .mv-list a:active { color: #2a2a2a; }
+    .mv-list a img {
+      width: 14px; height: 14px; border-radius: 3px; flex-shrink: 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="nav-logo" id="nav-logo">2026 <em>Reads</em></a>
+  <div class="nav-icons">
+    <a href="#" target="_blank" rel="noopener" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+    </a>
+    <a href="https://x.com/kickingkeys" target="_blank" rel="noopener" aria-label="X">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="timeline" id="timeline">
+  <div class="tl-sidebar" id="tl-sidebar"></div>
+  <div class="tl-content" id="tl-content"></div>
+</div>
+
+<div class="preview-card" id="preview-card">
+  <div class="pc-object" id="pc-object" data-type="newspaper">
+    <div class="browser-chrome"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
+    <img class="template-img" id="pc-template" src="" alt="">
+    <div class="pc-overlay" id="pc-overlay">
+      <div class="pc-masthead" id="pc-masthead"></div>
+      <div class="play-btn" id="pc-playbtn"></div>
+      <div class="pc-title" id="pc-title"></div>
+      <div class="pc-source" id="pc-source-row"><img id="pc-favicon" src="" alt=""><span id="pc-domain"></span></div>
+    </div>
+  </div>
+</div>
+
+<div class="mobile-view" id="mobile-view">
+  <div class="mv-carousel" id="mv-carousel"></div>
+  <div class="mv-list" id="mv-list"></div>
+  <div class="mv-bottom" style="position:relative;">
+    <div class="mv-month-picker" id="mv-month-picker"></div>
+    <div class="mv-info">
+      <div class="mv-current-month" id="mv-current-month"><span id="mv-month-text"></span><svg class="mv-month-chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4.5L6 7.5L9 4.5"/></svg></div>
+      <button class="mv-view-toggle" id="mv-view-toggle" aria-label="Toggle view">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mv-timeline" id="mv-timeline-wrap"><div class="mv-tl-track" id="mv-tl-track"></div></div>
+  </div>
+</div>
+
+<script>
+const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const monthAbbr = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+const data = {
+  0: [
+    {t:"The Resonant Computing Manifesto", u:"https://resonantcomputing.org/"},
+    {t:"You can't design software you don't work on", u:"https://www.seangoedecke.com/you-cant-design-software-you-dont-work-on/"},
+    {t:"Shipping at Inference-Speed", u:"https://steipete.me/posts/2025/shipping-at-inference-speed"},
+    {t:"The Running Novelist", u:"https://www.newyorker.com/magazine/2008/06/09/haruki-murakami-the-running-novelist"},
+    {t:"How to be more agentic", u:"https://usefulfictions.substack.com/p/how-to-be-more-agentic"},
+    {t:"The Prompt Engineer Is the Artist of Our Age", u:"https://thereader.mitpress.mit.edu/the-prompt-engineer-is-the-artist-of-our-age/"},
+    {t:"Large Language Muddle", u:"https://www.nplusonemag.com/issue-51/the-intellectual-situation/large-language-muddle/"},
+    {t:"Machine Decision Is Not Final", u:"https://www.strandbooks.com/machine-decision-is-not-final-china-and-the-history-and-future-of-artificial-intelligence-9781913029999.html"},
+    {t:"Digital Red Queen: Adversarial Program Evolution in Core War with LLMs", u:"https://sakana.ai/drq/"},
+    {t:"ZIRPslop Report", u:"https://www.youtube.com/watch?v=mv02I2Z2GQY"},
+    {t:"Where good ideas come from (for coding agents)", u:"https://sunilpai.dev/posts/seven-ways/"},
+    {t:"Fake thinking and real thinking", u:"https://joecarlsmith.com/2025/01/28/fake-thinking-and-real-thinking"},
+    {t:"Rational Inhumanism Vs Landian Anti-Philosophy", u:"https://tripleampersand.org/rational-inhumanism-vs-landian-anti-philosophy/"},
+    {t:"The performance and psychological effects of goal setting in sport", u:"https://www.researchgate.net/publication/363251445"},
+    {t:"A Codebase by an Agent for an Agent", u:"https://ampcode.com/by-an-agent-for-an-agent"},
+    {t:"Publishing your work increases your luck", u:"https://github.com/readme/guides/publishing-your-work"},
+    {t:"Brain-Grounded Axes for Reading and Steering LLM States", u:"https://arxiv.org/abs/2512.19399"},
+    {t:"Artificial Hivemind: The Open-Ended Homogeneity of Language Models", u:"https://arxiv.org/abs/2510.22954"},
+    {t:"Friction Maxxing", u:"https://www.thecut.com/article/brooding-friction-maxxing-new-years-2026-resolution.html"},
+    {t:"It's One of America's Most Successful Experiments, and It's Coming to an End", u:"https://www.nytimes.com/2025/12/29/opinion/indian-americans-trump.html"},
+    {t:"The End of Software", u:"https://docs.google.com/document/d/103cGe8qixC7ZzFsRu5Ww2VEW5YgH9zQaiaqbBsZ1lcc/edit"},
+    {t:"Software's YouTube Moment is Happening Now", u:"https://www.a16z.news/p/softwares-youtube-moment-is-happening"},
+    {t:"Notes on Managing ADHD", u:"https://borretti.me/article/notes-on-managing-adhd"},
+    {t:"The Rise of the Model Designer", u:"https://www.aidesignfieldguide.com/articles/barron-webster"},
+    {t:"Matt Damon Says Some Actors Would Prefer 'to Go to Jail' Than Be Canceled", u:"https://www.hollywoodreporter.com/lifestyle/lifestyle-news/matt-damon-some-actors-prefer-jail-cancel-culture-1236477423/"},
+    {t:"Painter", u:"https://ampcode.com/news/painter"},
+    {t:"Machines of Loving Grace", u:"https://www.darioamodei.com/essay/machines-of-loving-grace"},
+    {t:"Claude Is Taking the AI World by Storm", u:"https://www.wsj.com/tech/ai/anthropic-claude-code-ai-7a46460e"},
+    {t:"Research at Scale", u:"https://www.media.mit.edu/posts/research-at-scale/"},
+    {t:"Code Is Cheap Now. Software Isn't.", u:"https://www.chrisgregori.dev/opinion/code-is-cheap-now-software-isnt"},
+    {t:"Claude's Constitution", u:"https://www.anthropic.com/constitution"},
+    {t:"Here's What's Next in Agentic Coding", u:"https://seconds0.substack.com/p/heres-whats-next-in-agentic-coding"},
+    {t:"Gas Town's Agent Patterns, Design Bottlenecks, and Vibecoding at Scale", u:"https://maggieappleton.com/gastown"},
+    {t:"Shipyard: Creator Contest", u:"https://www.shipyard.fyi/"},
+    {t:"The Possessed Machines: Dostoevsky's Demons and the Coming AGI Catastrophe", u:"https://possessedmachines.com/"},
+    {t:"Coordination Headwind — How Organizations Are Like Slime Molds", u:"https://komoroske.com/slime-mold/"},
+    {t:"Breaking the Spell of Vibe Coding", u:"https://www.fast.ai/posts/2026-01-28-dark-flow/"},
+    {t:"Designing Co-Creative Systems: Five Paradoxes in Human–AI Collaboration", u:"https://www.mdpi.com/2078-2489/16/10/909"},
+    {t:"Making Playgrounds using Claude Code", u:"https://x.com/trq212/status/2017024445244924382"},
+    {t:"Digital Deception: Architectural Photography After Photoshop", u:"https://placesjournal.org/article/digital-deception/"},
+    {t:"What is the impact of AI on productivity?", u:"https://aleximas.substack.com/p/what-is-the-impact-of-ai-on-productivity"},
+    {t:"A Software Library with No Code", u:"https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html"},
+    {t:"Does AI already have human-level intelligence? The evidence is clear", u:"https://www.nature.com/articles/d41586-026-00285-6"},
+    {t:"Elizabeth Goodspeed on imperfection as design strategy", u:"https://www.itsnicethat.com/articles/elizabeth-goodspeed-on-analogue-creative-industry-290126"},
+    {t:"The Case for Early Prototyping", u:"https://designsystems.international/ideas/the-case-for-early-prototyping/"},
+    {t:"Building AIs That Do Human-Like Philosophy", u:"https://joecarlsmith.com/2026/01/29/building-ais-that-do-human-like-philosophy"},
+    {t:"Actually Possible: Thoughts on Utopia", u:"https://joecarlsmith.com/2021/01/18/actually-possible-thoughts-on-utopia"},
+  ],
+  1: [
+    {t:"TITAA #75: Universe Models", u:"https://arnicas.substack.com/p/titaa-75-universe-models"},
+    {t:"As Rocks May Think", u:"https://evjang.com/2026/02/04/rocks.html"},
+    {t:"What if labor becomes unnecessary", u:"https://www.nytimes.com/2026/02/04/opinion/ai-jobs-employment-industry.html"},
+    {t:"The Globalization of Canadian Rage", u:"https://www.nytimes.com/2026/02/06/opinion/canada-america-anger-carney.html"},
+    {t:"Top Performers are Pathologically Ambitious", u:"https://thatvastvariety.substack.com/p/top-performers-are-pathologically"},
+    {t:"AI, Automation, and Expertise", u:"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6134506"},
+    {t:"The Gears of My Childhood", u:"https://worrydream.com/refs/Papert_1980_-_Mindstorms,_1st_ed.pdf"},
+    {t:"Optimal Timing for Superintelligence", u:"https://nickbostrom.com/optimal.pdf"},
+    {t:"Self-Distillation Enables Continual Learning", u:"https://arxiv.org/abs/2601.19897"},
+    {t:"Feedback Loopable", u:"https://ampcode.com/notes/feedback-loopable"},
+    {t:"Reinforcement Learning from Human Feedback", u:"https://rlhfbook.com/"},
+    {t:"When Kepler Meets Turing", u:"https://jonny-dyer.com/blog/kepler-turing/"},
+    {t:"Child's Play", u:"https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/"},
+    {t:"The 2028 Global Intelligence Crisis", u:"https://www.citriniresearch.com/p/2028gic"},
+    {t:"The A.I. Disruption We've Been Waiting for Has Arrived", u:"https://www.nytimes.com/2026/02/18/opinion/ai-software.html"},
+    {t:"Computation in Motion: From the Personal to the Planetary", u:"https://thereader.mitpress.mit.edu/computation-in-motion-from-the-personal-to-the-planetary/"},
+    {t:"Is AI Really 'Intelligent'? This Philosopher Says Yes", u:"https://theconversation.com/is-ai-really-intelligent-this-philosopher-says-yes-271721"},
+    {t:"Does Socialization Emerge in AI Agent Society?", u:"https://arxiv.org/abs/2602.14299"},
+    {t:"3 Etymologies + The Word 'Attention'", u:"https://savingdanger.substack.com/p/3-etymologies-the-word-attention"},
+    {t:"The Attention Trove", u:"https://friendsofattention.net/attention_trove/"},
+    {t:"Introducing Printing Machines: Benchmarking Model Masterpieces", u:"https://www.printingmachines.ai/blog/printing-machines"},
+    {t:"Computerangel Blog", u:"https://www.computerangel.blog/"},
+    {t:"Am I Slop? Am I Agentic? Am I Earth?", u:"https://longnow.org/ideas/identity-neural-media-ai/"},
+    {t:"Six Types of AI Startups, Explained", u:"https://sloanreview.mit.edu/article/six-types-of-ai-startups-explained/"},
+    {t:"Gen Z Lives in the Archive", u:"https://default.blog/p/gen-z-lives-in-the-archive"},
+  ],
+  2: [
+    {t:"What Happens When You Type google.com and Press Enter?", u:"https://github.com/alex/what-happens-when"},
+    {t:"You Can Just Do Things", u:"https://www.nplusonemag.com/online-only/online-only/you-can-just-do-things/"},
+    {t:"Texterial: A Text-as-Material Interaction Paradigm for LLM-Mediated Writing", u:"https://arxiv.org/abs/2603.00452"},
+    {t:"Machine Love", u:"https://arxiv.org/abs/2302.09248"},
+    {t:"Why No AI Games?", u:"https://franklantz.substack.com/p/why-no-ai-games"},
+    {t:"The Enchantments of Pure Consciousness", u:"https://musingmind.substack.com/p/the-enchantments-of-pure-consciousness"},
+    {t:"Labor Market Impacts of AI", u:"https://www.anthropic.com/research/labor-market-impacts"},
+    {t:"Agentic AI's OODA Loop Problem", u:"https://www.schneier.com/blog/archives/2025/10/agentic-ais-ooda-loop-problem.html"},
+    {t:"The Tyranny of the Marginal User", u:"https://nothinghuman.substack.com/p/the-tyranny-of-the-marginal-user"},
+    {t:"Darwinian Gastronomy: Why We Use Spices", u:"https://academic.oup.com/bioscience/article/49/6/453/229475"},
+    {t:"Keepers of the Seeds", u:"https://ruralindiaonline.org/articles/keepers-of-the-seeds/"},
+    {t:"The Evolution of the Creative Professional", u:"https://www.e-flux.com/announcements/6785212/the-evolution-of-the-creative-professional"},
+    {t:"Code Review Bench: Towards Billion Dollar Benchmarks", u:"https://withmartian.com/post/code-review-bench-v0"},
+    {t:"Teens on Growing Up With AI", u:"https://www.nytimes.com/2026/02/26/learning/teens-on-growing-up-with-ai.html"},
+    {t:"SoMe: A Realistic Benchmark for LLM-based Social Media Agents", u:"https://arxiv.org/abs/2512.14720"},
+    {t:"Simulation: The Next Frontier for AI", u:"https://www.simile.ai/blog/simulation-next-frontier"},
+    {t:"Screens Within Screens", u:"https://burning.farm/essays/screens-within-screens"},
+  ]
+};
+
+// --- TYPOLOGY ---
+const TYPE_RULES = {
+  paper: ['arxiv.org','papers.ssrn.com','researchgate.net','mdpi.com','academic.oup.com','ssrn.com'],
+  newspaper: ['nytimes.com','wsj.com'],
+  magazine: ['newyorker.com','harpers.org','hollywoodreporter.com','thecut.com','nature.com','e-flux.com','placesjournal.org','thereader.mitpress.mit.edu','theconversation.com','sloanreview.mit.edu','nplusonemag.com','itsnicethat.com'],
+  book: ['strandbooks.com','rlhfbook.com'],
+  video: ['youtube.com','youtu.be','vimeo.com'],
+  social: ['x.com','twitter.com']
+};
+const MASTHEAD_MAP = {
+  'nytimes.com':'The New York Times','newyorker.com':'The New Yorker','wsj.com':'The Wall Street Journal',
+  'harpers.org':"Harper's Magazine",'nature.com':'Nature','hollywoodreporter.com':'The Hollywood Reporter',
+  'thecut.com':'The Cut','arxiv.org':'arXiv','ssrn.com':'SSRN','researchgate.net':'ResearchGate',
+  'sloanreview.mit.edu':'MIT Sloan Review','nplusonemag.com':'n+1',
+  'thereader.mitpress.mit.edu':'MIT Press Reader','e-flux.com':'e-flux',
+  'placesjournal.org':'Places Journal','academic.oup.com':'Oxford Academic',
+};
+const TEMPLATE_MAP = { newspaper:'templates/newspaper.png', paper:'templates/paper.png', book:'templates/book.png', magazine:'templates/magazine.png', social:'templates/ipad.png', video:null, website:null };
+const SIZE_MAP = { newspaper:[420,322], magazine:[260,364], paper:[380,303], book:[300,433], social:[400,307], website:[440,300], video:[500,320] };
+
+function getDomain(url) { try { return new URL(url).hostname.replace('www.',''); } catch { return ''; } }
+function getFavicon(url) { try { return `https://www.google.com/s2/favicons?domain=${new URL(url).hostname}&sz=32`; } catch { return ''; } }
+function getYouTubeId(url) { const m = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&]+)/); return m ? m[1] : null; }
+function classifyUrl(url) {
+  const h = getDomain(url); const p = new URL(url).pathname;
+  if (p.endsWith('.pdf')) return 'paper';
+  for (const [type, domains] of Object.entries(TYPE_RULES)) { for (const d of domains) { if (h === d || h.endsWith('.'+d)) return type; } }
+  return 'website';
+}
+function getMasthead(url) {
+  const h = getDomain(url);
+  for (const [d, name] of Object.entries(MASTHEAD_MAP)) { if (h === d || h.endsWith('.'+d)) return name; }
+  return h;
+}
+
+// --- DATA ---
+const filledMonths = Object.keys(data).map(Number).sort((a,b) => a-b);
+const latestMonth = filledMonths[filledMonths.length - 1];
+
+// --- SIDEBAR ---
+const sidebar = document.getElementById('tl-sidebar');
+const content = document.getElementById('tl-content');
+
+[...filledMonths].reverse().forEach(i => {
+  const btn = document.createElement('button');
+  btn.className = 'tl-month has-data' + (i === latestMonth ? ' active' : '');
+  btn.textContent = monthAbbr[i];
+  btn.dataset.month = i;
+  btn.addEventListener('click', () => {
+    const el = document.getElementById('month-' + i);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  sidebar.appendChild(btn);
+});
+
+// --- MONTH SECTIONS ---
+[...filledMonths].reverse().forEach(idx => {
+  const links = data[idx];
+  const section = document.createElement('div');
+  section.className = 'month-section';
+  section.id = 'month-' + idx;
+
+  const reversed = [...links].reverse();
+  section.innerHTML = `
+    <div class="month-header">${monthNames[idx]}</div>
+    <ul class="month-links">
+      ${reversed.map((l, i) => {
+        const type = classifyUrl(l.u);
+        const favicon = getFavicon(l.u);
+        return `<li style="transition-delay:${Math.min(i*30,400)}ms">
+          <div class="link-row" data-url="${l.u}" data-title="${l.t.replace(/"/g,'&quot;')}" data-type="${type}">
+            <img class="link-favicon" src="${favicon}" alt="" loading="lazy" width="14" height="14">
+            <a href="${l.u}" target="_blank" rel="noopener">${l.t}</a>
+          </div>
+        </li>`;
+      }).join('')}
+    </ul>`;
+  content.appendChild(section);
+});
+
+// --- SCROLL ANIMATIONS ---
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+document.querySelectorAll('.month-links li').forEach(li => obs.observe(li));
+
+// --- SIDEBAR TRACKING ---
+const sidebarBtns = [...sidebar.querySelectorAll('.tl-month')];
+window.addEventListener('scroll', () => {
+  const y = window.scrollY;
+  let activeIdx = filledMonths[filledMonths.length - 1];
+  [...filledMonths].reverse().forEach(idx => {
+    const el = document.getElementById('month-' + idx);
+    if (el && y >= el.offsetTop - 140) activeIdx = idx;
+  });
+  sidebarBtns.forEach(btn => btn.classList.toggle('active', parseInt(btn.dataset.month) === activeIdx));
+}, { passive: true });
+
+document.getElementById('nav-logo').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+// --- HOVER PREVIEW ---
+const card = document.getElementById('preview-card');
+const pcObject = document.getElementById('pc-object');
+const pcTemplate = document.getElementById('pc-template');
+const pcTitle = document.getElementById('pc-title');
+const pcMasthead = document.getElementById('pc-masthead');
+const pcDomain = document.getElementById('pc-domain');
+const pcFavicon = document.getElementById('pc-favicon');
+const pcPlaybtn = document.getElementById('pc-playbtn');
+let cardVisible = false;
+
+function showCard(row, e) {
+  const url = row.dataset.url, title = row.dataset.title, type = row.dataset.type;
+  pcObject.dataset.type = type;
+  const tpl = TEMPLATE_MAP[type];
+  pcTemplate.src = tpl || ''; pcTemplate.style.display = tpl ? 'block' : 'none';
+  if (type === 'video') {
+    const ytId = getYouTubeId(url);
+    pcObject.style.backgroundImage = ytId ? `url(https://img.youtube.com/vi/${ytId}/mqdefault.jpg)` : '';
+    pcPlaybtn.style.display = 'flex';
+  } else { pcObject.style.backgroundImage = ''; pcPlaybtn.style.display = 'none'; }
+  pcMasthead.textContent = getMasthead(url);
+  pcTitle.textContent = title;
+  pcFavicon.src = getFavicon(url);
+  pcDomain.textContent = getDomain(url);
+  positionCard(e); card.classList.add('show'); cardVisible = true;
+  document.body.classList.add('dim-active');
+  const prev = document.querySelector('.is-hovered'); if (prev) prev.classList.remove('is-hovered');
+  const prevBlock = document.querySelector('.month-section.has-hover'); if (prevBlock) prevBlock.classList.remove('has-hover');
+  const li = row.closest('li'); if (li) li.classList.add('is-hovered');
+  const block = row.closest('.month-section'); if (block) block.classList.add('has-hover');
+}
+
+function hideCard() {
+  card.classList.remove('show'); cardVisible = false;
+  document.body.classList.remove('dim-active');
+  const prev = document.querySelector('.is-hovered'); if (prev) prev.classList.remove('is-hovered');
+  const prevBlock = document.querySelector('.month-section.has-hover'); if (prevBlock) prevBlock.classList.remove('has-hover');
+}
+
+function positionCard(e) {
+  const pad = 24, [w, h] = SIZE_MAP[pcObject.dataset.type] || [400,300];
+  let x = e.clientX + pad, y = e.clientY - h/2;
+  if (x + w + pad > window.innerWidth) x = e.clientX - w - pad;
+  if (y + h > window.innerHeight - 10) y = window.innerHeight - h - 10;
+  if (y < 10) y = 10;
+  card.style.left = x + 'px'; card.style.top = y + 'px';
+}
+
+document.addEventListener('mouseover', e => { const row = e.target.closest('.link-row'); if (row) showCard(row, e); });
+document.addEventListener('mousemove', e => { if (cardVisible) positionCard(e); });
+document.addEventListener('mouseout', e => { const row = e.target.closest('.link-row'); if (row && !row.contains(e.relatedTarget)) hideCard(); });
+
+// --- MOBILE ---
+let mobileBuilt = false;
+function buildMobileView() {
+  if (mobileBuilt || window.innerWidth > 700) return;
+  mobileBuilt = true;
+
+  const carousel = document.getElementById('mv-carousel');
+  const currentMonthEl = document.getElementById('mv-current-month');
+  const monthTextEl = document.getElementById('mv-month-text');
+  const track = document.getElementById('mv-tl-track');
+
+  const flat = [];
+  const monthRanges = {};
+  const orderedMonths = [];
+  [...filledMonths].reverse().forEach(idx => {
+    const start = flat.length;
+    orderedMonths.push(monthNames[idx]);
+    [...data[idx]].reverse().forEach(l => flat.push({ t: l.t, u: l.u, month: monthNames[idx] }));
+    monthRanges[monthNames[idx]] = { start, end: flat.length - 1 };
+  });
+
+  // Carousel
+  let lastMonth = '';
+  carousel.innerHTML = flat.map((item, i) => {
+    const type = classifyUrl(item.u), domain = getDomain(item.u), favicon = getFavicon(item.u);
+    const tpl = TEMPLATE_MAP[type], ytId = type==='video' ? getYouTubeId(item.u) : null;
+    const masthead = getMasthead(item.u);
+    lastMonth = item.month;
+
+    const overlay = `<div class="mc-overlay"><div class="mc-masthead">${masthead}</div>${type==='video'?'<div class="play-btn" style="display:flex"></div>':''}<div class="mc-title">${item.t}</div><div class="mc-source"><img src="${favicon}" alt="" width="12" height="12">${domain}</div></div>`;
+
+    let obj = '';
+    if (type==='video' && ytId) obj = `<div class="mc-object" data-type="video" style="background-image:url(https://img.youtube.com/vi/${ytId}/mqdefault.jpg)">${overlay}</div>`;
+    else if (type==='website') obj = `<div class="mc-object" data-type="website"><div class="mc-chrome"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>${overlay}</div>`;
+    else if (tpl) obj = `<div class="mc-object" data-type="${type}"><img class="mc-tpl" src="${tpl}" alt="">${overlay}</div>`;
+
+    return `<a class="mv-slide${i===0?' in-focus':''}" data-idx="${i}" href="${item.u}" target="_blank" rel="noopener">${obj}</a>`;
+  }).join('');
+
+  // Dot timeline
+  let dotLM = '';
+  track.innerHTML = flat.map((item, i) => {
+    const gap = item.month !== dotLM && dotLM ? '<div class="mv-tl-gap"></div>' : '';
+    dotLM = item.month;
+    return gap + `<div class="mv-dot${i===0?' active':''}" data-idx="${i}"></div>`;
+  }).join('');
+
+  monthTextEl.textContent = flat[0]?.month || '';
+
+  const slides = [...carousel.querySelectorAll('.mv-slide')];
+  const dots = [...track.querySelectorAll('.mv-dot')];
+  let currentIdx = 0, syncing = false;
+
+  function setActive(idx) {
+    if (idx === currentIdx && dots[idx]?.classList.contains('active')) return;
+    currentIdx = idx;
+    slides.forEach((s, i) => s.classList.toggle('in-focus', i === idx));
+    dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+    // Update month
+    const month = flat[idx].month;
+    if (monthTextEl.textContent !== month) {
+      currentMonthEl.style.opacity = '0';
+      setTimeout(() => { monthTextEl.textContent = month; currentMonthEl.style.opacity = '1'; }, 100);
+    }
+    dots[idx]?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+  }
+
+  function scrollTo(idx) {
+    const s = slides[idx]; if (!s) return;
+    syncing = true; setActive(idx);
+    carousel.scrollTo({ left: s.offsetLeft - (carousel.offsetWidth - s.offsetWidth)/2, behavior: 'smooth' });
+    setTimeout(() => syncing = false, 500);
+  }
+
+  carousel.addEventListener('scroll', () => {
+    if (syncing) return;
+    const center = carousel.scrollLeft + carousel.offsetWidth/2;
+    let best = 0, bestD = Infinity;
+    slides.forEach((s, i) => { const d = Math.abs(s.offsetLeft + s.offsetWidth/2 - center); if (d < bestD) { bestD = d; best = i; } });
+    setActive(best);
+  }, { passive: true });
+
+  track.addEventListener('click', e => { const d = e.target.closest('.mv-dot'); if (d) scrollTo(parseInt(d.dataset.idx)); });
+
+  // Touch drag
+  let dragging = false;
+  function dotAtX(x) {
+    let closest = null, cd = Infinity;
+    for (const d of dots) { const r = d.getBoundingClientRect(), dist = Math.abs(x - (r.left+r.width/2)); if (dist < cd) { cd = dist; closest = d; } }
+    return cd < 30 ? closest : null;
+  }
+  track.addEventListener('touchstart', e => { dragging = true; const d = dotAtX(e.touches[0].clientX); if (d) scrollTo(parseInt(d.dataset.idx)); }, { passive: true });
+  track.addEventListener('touchmove', e => { if (!dragging) return; e.preventDefault(); const d = dotAtX(e.touches[0].clientX); if (d) { const i = parseInt(d.dataset.idx); if (i !== currentIdx) scrollTo(i); } }, { passive: false });
+  track.addEventListener('touchend', () => dragging = false);
+  track.addEventListener('touchcancel', () => dragging = false);
+
+  // --- LIST VIEW ---
+  const listEl = document.getElementById('mv-list');
+  let listHTML = '';
+  [...filledMonths].reverse().forEach(idx => {
+    listHTML += `<div class="mv-list-month">${monthNames[idx]}</div>`;
+    [...data[idx]].reverse().forEach(l => {
+      const fav = getFavicon(l.u);
+      listHTML += `<a href="${l.u}" target="_blank" rel="noopener"><img src="${fav}" alt="" width="14" height="14" loading="lazy">${l.t}</a>`;
+    });
+  });
+  listEl.innerHTML = listHTML;
+
+  // --- VIEW TOGGLE ---
+  const toggleBtn = document.getElementById('mv-view-toggle');
+  const timelineWrap = document.getElementById('mv-timeline-wrap');
+  let isListView = false;
+  const listIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+  const cardIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>';
+
+  toggleBtn.addEventListener('click', () => {
+    isListView = !isListView;
+    if (isListView) {
+      carousel.classList.add('hidden');
+      listEl.classList.add('show');
+      timelineWrap.style.display = 'none';
+      toggleBtn.innerHTML = cardIcon;
+    } else {
+      carousel.classList.remove('hidden');
+      listEl.classList.remove('show');
+      timelineWrap.style.display = '';
+      toggleBtn.innerHTML = listIcon;
+    }
+  });
+
+  // --- MONTH PICKER ---
+  const pickerEl = document.getElementById('mv-month-picker');
+  pickerEl.innerHTML = orderedMonths.map(m =>
+    `<button data-month="${m}"${m === flat[0]?.month ? ' class="active"' : ''}>${m}</button>`
+  ).join('');
+
+  currentMonthEl.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = pickerEl.classList.toggle('show');
+    currentMonthEl.classList.toggle('picker-open', isOpen);
+  });
+
+  function updateMonthLabel(month) {
+    if (monthTextEl.textContent !== month) {
+      currentMonthEl.style.opacity = '0';
+      setTimeout(() => { monthTextEl.textContent = month; currentMonthEl.style.opacity = '1'; }, 100);
+    }
+    pickerEl.querySelectorAll('button').forEach(b => b.classList.toggle('active', b.dataset.month === month));
+  }
+
+  pickerEl.addEventListener('click', (e) => {
+    const btn = e.target.closest('button');
+    if (!btn) return;
+    const month = btn.dataset.month;
+    pickerEl.classList.remove('show');
+    currentMonthEl.classList.remove('picker-open');
+    updateMonthLabel(month);
+
+    if (isListView) {
+      const headers = listEl.querySelectorAll('.mv-list-month');
+      for (const h of headers) {
+        if (h.textContent === month) { h.scrollIntoView({ behavior: 'smooth', block: 'start' }); break; }
+      }
+    } else {
+      const range = monthRanges[month];
+      if (range) scrollTo(range.start);
+    }
+  });
+
+  // Track scroll in list view to update month label
+  listEl.addEventListener('scroll', () => {
+    if (!isListView) return;
+    const headers = listEl.querySelectorAll('.mv-list-month');
+    let activeMonth = '';
+    for (const h of headers) {
+      if (h.getBoundingClientRect().top <= 80) activeMonth = h.textContent;
+    }
+    if (activeMonth) updateMonthLabel(activeMonth);
+  }, { passive: true });
+
+  document.addEventListener('click', () => {
+    pickerEl.classList.remove('show');
+    currentMonthEl.classList.remove('picker-open');
+  });
+
+}
+
+buildMobileView();
+window.addEventListener('resize', buildMobileView);
+
+// --- WEB HAPTICS ---
+const haptic = (() => {
+  const supported = typeof navigator !== 'undefined' && typeof navigator.vibrate === 'function';
+  const PWM = 20;
+
+  function modulate(dur, intensity) {
+    if (intensity >= 1) return [dur];
+    if (intensity <= 0) return [];
+    const on = Math.max(1, Math.round(PWM * intensity)), off = PWM - on;
+    const r = []; let rem = dur;
+    while (rem >= PWM) { r.push(on, off); rem -= PWM; }
+    if (rem > 0) { const ro = Math.max(1, Math.round(rem * intensity)); r.push(ro); if (rem - ro > 0) r.push(rem - ro); }
+    return r;
+  }
+
+  function toPattern(vibrations) {
+    const r = [];
+    for (const v of vibrations) {
+      const intensity = Math.max(0, Math.min(1, v.intensity ?? 0.5));
+      if (v.delay && v.delay > 0) {
+        if (r.length > 0 && r.length % 2 === 0) r[r.length - 1] += v.delay;
+        else { if (r.length === 0) r.push(0); r.push(v.delay); }
+      }
+      const m = modulate(v.duration, intensity);
+      if (m.length === 0) {
+        if (r.length > 0 && r.length % 2 === 0) r[r.length - 1] += v.duration;
+        else if (v.duration > 0) { r.push(0); r.push(v.duration); }
+        continue;
+      }
+      for (const s of m) r.push(s);
+    }
+    return r;
+  }
+
+  const patterns = {
+    selection: [{ duration: 8, intensity: 0.3 }],
+    light:     [{ duration: 15, intensity: 0.4 }],
+    medium:    [{ duration: 25, intensity: 0.7 }],
+    success:   [{ duration: 30, intensity: 0.5 }, { delay: 60, duration: 40, intensity: 1 }],
+    nudge:     [{ duration: 80, intensity: 0.8 }, { delay: 80, duration: 50, intensity: 0.3 }],
+    rigid:     [{ duration: 10, intensity: 1 }],
+  };
+
+  return {
+    trigger(name) {
+      if (!supported) return;
+      const p = patterns[name];
+      if (p) navigator.vibrate(toPattern(p));
+    }
+  };
+})();
+
+// Attach haptics to mobile interactions
+if (window.innerWidth <= 700) {
+  // Carousel snap → selection tick
+  const car = document.getElementById('mv-carousel');
+  if (car) {
+    let lastSnap = 0;
+    car.addEventListener('scroll', () => {
+      const center = car.scrollLeft + car.offsetWidth / 2;
+      const slides = car.querySelectorAll('.mv-slide');
+      let best = 0, bestD = Infinity;
+      slides.forEach((s, i) => { const d = Math.abs(s.offsetLeft + s.offsetWidth / 2 - center); if (d < bestD) { bestD = d; best = i; } });
+      if (best !== lastSnap) { lastSnap = best; haptic.trigger('selection'); }
+    }, { passive: true });
+  }
+
+  // Dot timeline drag → selection tick per dot
+  const track = document.getElementById('mv-tl-track');
+  if (track) {
+    track.addEventListener('touchstart', () => haptic.trigger('light'), { passive: true });
+  }
+
+  // Month picker open/close
+  const monthEl = document.getElementById('mv-current-month');
+  if (monthEl) {
+    monthEl.addEventListener('click', () => haptic.trigger('rigid'));
+  }
+
+  // Month picker selection
+  const picker = document.getElementById('mv-month-picker');
+  if (picker) {
+    picker.addEventListener('click', e => { if (e.target.closest('button')) haptic.trigger('medium'); });
+  }
+
+  // View toggle
+  const toggle = document.getElementById('mv-view-toggle');
+  if (toggle) {
+    toggle.addEventListener('click', () => haptic.trigger('success'));
+  }
+
+  // List view link taps
+  const listEl = document.getElementById('mv-list');
+  if (listEl) {
+    listEl.addEventListener('click', e => { if (e.target.closest('a')) haptic.trigger('light'); });
+  }
+}
+</script>
+</body>
+</html>
