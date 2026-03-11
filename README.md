@@ -97,6 +97,10 @@ Articles and links I'm reading in 2026.
 - [Simulation: The Next Frontier for AI](https://www.simile.ai/blog/simulation-next-frontier)
 - [Screens Within Screens](https://burning.farm/essays/screens-within-screens)
 - [Chasing the Mirage of Ethical AI](https://thereader.mitpress.mit.edu/chasing-the-mirage-of-ethical-ai/)
+- [Bruner's Search for Meaning: A Conversation between Psychology and Anthropology](https://pmc.ncbi.nlm.nih.gov/articles/PMC2919784/)
+- [The Psychology of What Makes a Great Story](https://www.themarginalian.org/2016/01/20/jerome-bruner-actual-minds-possible-worlds-storytelling/)
+- [Sensemaking in Organizational Storytelling: From Linear Storytelling to Antenarrative](https://journals.sagepub.com/doi/10.1177/2046147X241301438)
+- [When Using AI Leads to "Brain Fry"](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry)
 
 ## April
 
