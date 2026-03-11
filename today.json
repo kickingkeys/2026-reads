@@ -1,0 +1,9 @@
+{
+  "month": "March",
+  "total": 17,
+  "items": [
+    {"t": "Screens Within Screens", "u": "https://burning.farm/essays/screens-within-screens"},
+    {"t": "Simulation: The Next Frontier for AI", "u": "https://www.simile.ai/blog/simulation-next-frontier"},
+    {"t": "SoMe: A Realistic Benchmark for LLM-based Social Media Agents", "u": "https://arxiv.org/abs/2512.14720"}
+  ]
+}
