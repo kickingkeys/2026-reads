@@ -649,6 +649,10 @@ const data = {
     {t:"SoMe: A Realistic Benchmark for LLM-based Social Media Agents", u:"https://arxiv.org/abs/2512.14720"},
     {t:"Simulation: The Next Frontier for AI", u:"https://www.simile.ai/blog/simulation-next-frontier"},
     {t:"Screens Within Screens", u:"https://burning.farm/essays/screens-within-screens"},
+    {t:"Chasing the Mirage of Ethical AI", u:"https://thereader.mitpress.mit.edu/chasing-the-mirage-of-ethical-ai/"},
+    {t:"Bruner's Search for Meaning: A Conversation between Psychology and Anthropology", u:"https://pmc.ncbi.nlm.nih.gov/articles/PMC2919784/"},
+    {t:"The Psychology of What Makes a Great Story", u:"https://www.themarginalian.org/2016/01/20/jerome-bruner-actual-minds-possible-worlds-storytelling/"},
+    {t:"Sensemaking in Organizational Storytelling: From Linear Storytelling to Antenarrative", u:"https://journals.sagepub.com/doi/10.1177/2046147X241301438"},
   ]
 };
 
@@ -995,111 +999,14 @@ function buildMobileView() {
 buildMobileView();
 window.addEventListener('resize', buildMobileView);
 
-// --- WEB HAPTICS ---
-const haptic = (() => {
-  const vibrateOK = typeof navigator !== 'undefined' && typeof navigator.vibrate === 'function';
-  const PWM = 20, TOGGLE_MIN = 16, TOGGLE_MAX = 184;
 
-  // iOS fallback: hidden switch checkbox triggers native Safari haptics (17.4+)
-  let hapticLabel = null, hapticCheckbox = null;
-  function ensureDOM() {
-    if (hapticLabel) return;
-    hapticLabel = document.createElement('label');
-    hapticLabel.style.cssText = 'position:fixed;top:-9999px;left:-9999px;opacity:0;pointer-events:none;';
-    hapticCheckbox = document.createElement('input');
-    hapticCheckbox.type = 'checkbox';
-    hapticCheckbox.setAttribute('switch', '');
-    hapticLabel.appendChild(hapticCheckbox);
-    document.body.appendChild(hapticLabel);
-  }
+</script>
+<script type="module">
+import { WebHaptics } from 'https://cdn.jsdelivr.net/npm/web-haptics@0.0.6/dist/index.mjs';
 
-  // Vibrate API PWM helpers
-  function modulate(dur, intensity) {
-    if (intensity >= 1) return [dur];
-    if (intensity <= 0) return [];
-    const on = Math.max(1, Math.round(PWM * intensity)), off = PWM - on;
-    const r = []; let rem = dur;
-    while (rem >= PWM) { r.push(on, off); rem -= PWM; }
-    if (rem > 0) { const ro = Math.max(1, Math.round(rem * intensity)); r.push(ro); if (rem - ro > 0) r.push(rem - ro); }
-    return r;
-  }
-
-  function toVibratePattern(vibrations) {
-    const r = [];
-    for (const v of vibrations) {
-      const intensity = Math.max(0, Math.min(1, v.intensity ?? 0.5));
-      if (v.delay && v.delay > 0) {
-        if (r.length > 0 && r.length % 2 === 0) r[r.length - 1] += v.delay;
-        else { if (r.length === 0) r.push(0); r.push(v.delay); }
-      }
-      const m = modulate(v.duration, intensity);
-      if (m.length === 0) {
-        if (r.length > 0 && r.length % 2 === 0) r[r.length - 1] += v.duration;
-        else if (v.duration > 0) { r.push(0); r.push(v.duration); }
-        continue;
-      }
-      for (const s of m) r.push(s);
-    }
-    return r;
-  }
-
-  // iOS: run haptic pattern via checkbox switch clicks in rAF loop
-  function runIOSPattern(vibrations) {
-    ensureDOM();
-    const phases = [];
-    let t = 0;
-    for (const v of vibrations) {
-      if (v.delay) t += v.delay;
-      phases.push({ start: t, duration: v.duration, intensity: Math.max(0, Math.min(1, v.intensity ?? 0.5)) });
-      t += v.duration;
-    }
-    const totalDur = t;
-    const startTime = performance.now();
-    let lastClick = 0;
-
-    function tick(now) {
-      const elapsed = now - startTime;
-      if (elapsed >= totalDur) return;
-      let currentPhase = null;
-      for (const p of phases) {
-        if (elapsed >= p.start && elapsed < p.start + p.duration) { currentPhase = p; break; }
-      }
-      if (currentPhase && currentPhase.intensity > 0) {
-        const interval = TOGGLE_MIN + (1 - currentPhase.intensity) * TOGGLE_MAX;
-        if (now - lastClick >= interval) {
-          hapticLabel.click();
-          lastClick = now;
-        }
-      }
-      requestAnimationFrame(tick);
-    }
-    requestAnimationFrame(tick);
-  }
-
-  const patterns = {
-    selection: [{ duration: 8, intensity: 0.3 }],
-    light:     [{ duration: 15, intensity: 0.4 }],
-    medium:    [{ duration: 25, intensity: 0.7 }],
-    success:   [{ duration: 30, intensity: 0.5 }, { delay: 60, duration: 40, intensity: 1 }],
-    nudge:     [{ duration: 80, intensity: 0.8 }, { delay: 80, duration: 50, intensity: 0.3 }],
-    rigid:     [{ duration: 10, intensity: 1 }],
-  };
-
-  return {
-    trigger(name) {
-      const p = patterns[name];
-      if (!p) return;
-      if (vibrateOK) {
-        navigator.vibrate(toVibratePattern(p));
-      } else {
-        runIOSPattern(p);
-      }
-    }
-  };
-})();
-
-// Attach haptics to mobile interactions
 if (window.innerWidth <= 700) {
+  const h = new WebHaptics();
+
   // Carousel snap → selection tick
   const car = document.getElementById('mv-carousel');
   if (car) {
@@ -1109,38 +1016,38 @@ if (window.innerWidth <= 700) {
       const slides = car.querySelectorAll('.mv-slide');
       let best = 0, bestD = Infinity;
       slides.forEach((s, i) => { const d = Math.abs(s.offsetLeft + s.offsetWidth / 2 - center); if (d < bestD) { bestD = d; best = i; } });
-      if (best !== lastSnap) { lastSnap = best; haptic.trigger('selection'); }
+      if (best !== lastSnap) { lastSnap = best; h.trigger('selection'); }
     }, { passive: true });
   }
 
-  // Dot timeline drag → selection tick per dot
+  // Dot timeline drag
   const track = document.getElementById('mv-tl-track');
   if (track) {
-    track.addEventListener('touchstart', () => haptic.trigger('light'), { passive: true });
+    track.addEventListener('touchstart', () => h.trigger('light'), { passive: true });
   }
 
   // Month picker open/close
   const monthEl = document.getElementById('mv-current-month');
   if (monthEl) {
-    monthEl.addEventListener('click', () => haptic.trigger('rigid'));
+    monthEl.addEventListener('click', () => h.trigger('rigid'));
   }
 
   // Month picker selection
   const picker = document.getElementById('mv-month-picker');
   if (picker) {
-    picker.addEventListener('click', e => { if (e.target.closest('button')) haptic.trigger('medium'); });
+    picker.addEventListener('click', e => { if (e.target.closest('button')) h.trigger('medium'); });
   }
 
   // View toggle
   const toggle = document.getElementById('mv-view-toggle');
   if (toggle) {
-    toggle.addEventListener('click', () => haptic.trigger('success'));
+    toggle.addEventListener('click', () => h.trigger('success'));
   }
 
   // List view link taps
   const listEl = document.getElementById('mv-list');
   if (listEl) {
-    listEl.addEventListener('click', e => { if (e.target.closest('a')) haptic.trigger('light'); });
+    listEl.addEventListener('click', e => { if (e.target.closest('a')) h.trigger('light'); });
   }
 }
 </script>
