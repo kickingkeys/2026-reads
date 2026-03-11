@@ -1007,7 +1007,7 @@ import { WebHaptics } from 'https://cdn.jsdelivr.net/npm/web-haptics@0.0.6/dist/
 if (window.innerWidth <= 700) {
   const h = new WebHaptics();
 
-  // Carousel snap → rigid click per card
+  // Carousel snap → selection tick
   const car = document.getElementById('mv-carousel');
   if (car) {
     let lastSnap = 0;
@@ -1016,25 +1016,14 @@ if (window.innerWidth <= 700) {
       const slides = car.querySelectorAll('.mv-slide');
       let best = 0, bestD = Infinity;
       slides.forEach((s, i) => { const d = Math.abs(s.offsetLeft + s.offsetWidth / 2 - center); if (d < bestD) { bestD = d; best = i; } });
-      if (best !== lastSnap) { lastSnap = best; h.trigger('rigid'); }
+      if (best !== lastSnap) { lastSnap = best; h.trigger('selection'); }
     }, { passive: true });
   }
 
-  // Dot timeline drag → tick per dot
+  // Dot timeline drag
   const track = document.getElementById('mv-tl-track');
   if (track) {
-    let lastDot = -1;
-    track.addEventListener('touchstart', (e) => {
-      const dots = track.querySelectorAll('.mv-dot');
-      const x = e.touches[0].clientX;
-      dots.forEach((d, i) => { const r = d.getBoundingClientRect(); if (Math.abs(x - (r.left + r.width/2)) < 30 && i !== lastDot) { lastDot = i; h.trigger('light'); } });
-    }, { passive: true });
-    track.addEventListener('touchmove', (e) => {
-      const dots = track.querySelectorAll('.mv-dot');
-      const x = e.touches[0].clientX;
-      dots.forEach((d, i) => { const r = d.getBoundingClientRect(); if (Math.abs(x - (r.left + r.width/2)) < 15 && i !== lastDot) { lastDot = i; h.trigger('selection'); } });
-    }, { passive: true });
-    track.addEventListener('touchend', () => { lastDot = -1; }, { passive: true });
+    track.addEventListener('touchstart', () => h.trigger('light'), { passive: true });
   }
 
   // Month picker open/close
