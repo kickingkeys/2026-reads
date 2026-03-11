@@ -96,6 +96,7 @@ Articles and links I'm reading in 2026.
 - [SoMe: A Realistic Benchmark for LLM-based Social Media Agents](https://arxiv.org/abs/2512.14720)
 - [Simulation: The Next Frontier for AI](https://www.simile.ai/blog/simulation-next-frontier)
 - [Screens Within Screens](https://burning.farm/essays/screens-within-screens)
+- [Chasing the Mirage of Ethical AI](https://thereader.mitpress.mit.edu/chasing-the-mirage-of-ethical-ai/)
 
 ## April
 
