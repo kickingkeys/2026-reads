@@ -65,7 +65,7 @@ export default function ReadingToday(props: Props) {
             })
     }, [])
 
-    const visibleCount = isInView ? items.length : Math.min(2, items.length)
+    const visibleCount = isInView ? Math.min(3, items.length) : Math.min(2, items.length)
 
     const fontFamily = `'${font}', 'Caveat', cursive`
 
@@ -80,7 +80,7 @@ export default function ReadingToday(props: Props) {
                 display: "flex",
                 flexDirection: "column",
                 width,
-                minHeight: height,
+                height: "auto",
                 padding: "22px 20px 18px",
                 background: noteColor,
                 borderRadius: 1,
@@ -136,7 +136,6 @@ export default function ReadingToday(props: Props) {
                     display: "flex",
                     flexDirection: "column",
                     gap: 10,
-                    flex: 1,
                 }}
             >
                 {items.slice(0, visibleCount).map((item, i) => (
