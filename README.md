@@ -101,6 +101,7 @@ Articles and links I'm reading in 2026.
 - [The Psychology of What Makes a Great Story](https://www.themarginalian.org/2016/01/20/jerome-bruner-actual-minds-possible-worlds-storytelling/)
 - [Sensemaking in Organizational Storytelling: From Linear Storytelling to Antenarrative](https://journals.sagepub.com/doi/10.1177/2046147X241301438)
 - [When Using AI Leads to "Brain Fry"](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry)
+- [For Young New York Job Hunters, Entry-Level Roles Are Vanishing](https://www.bloomberg.com/news/articles/2026-03-13/new-york-entry-level-jobs-are-vanishing-for-young-graduates)
 
 ## April
 
