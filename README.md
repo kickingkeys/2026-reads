@@ -102,6 +102,8 @@ Articles and links I'm reading in 2026.
 - [Sensemaking in Organizational Storytelling: From Linear Storytelling to Antenarrative](https://journals.sagepub.com/doi/10.1177/2046147X241301438)
 - [When Using AI Leads to "Brain Fry"](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry)
 - [For Young New York Job Hunters, Entry-Level Roles Are Vanishing](https://www.bloomberg.com/news/articles/2026-03-13/new-york-entry-level-jobs-are-vanishing-for-young-graduates)
+- [Claude, You Are a Cutie-Pie!](https://margaretatwood.substack.com/p/claude-you-are-a-cutie-pie)
+- [Tech Boss Uses AI and ChatGPT to Create Cancer Vaccine for His Dying Dog](https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7)
 
 ## April
 
