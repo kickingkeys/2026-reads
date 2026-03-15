@@ -1,6 +1,6 @@
 {
   "month": "March",
-  "total": 25,
+  "total": 26,
   "items": [
     {"t": "Screens Within Screens", "u": "https://burning.farm/essays/screens-within-screens"},
     {"t": "Simulation: The Next Frontier for AI", "u": "https://www.simile.ai/blog/simulation-next-frontier"},
@@ -12,6 +12,7 @@
     {"t": "When Using AI Leads to \"Brain Fry\"", "u": "https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry"},
     {"t": "For Young New York Job Hunters, Entry-Level Roles Are Vanishing", "u": "https://www.bloomberg.com/news/articles/2026-03-13/new-york-entry-level-jobs-are-vanishing-for-young-graduates"},
     {"t": "Claude, You Are a Cutie-Pie!", "u": "https://margaretatwood.substack.com/p/claude-you-are-a-cutie-pie"},
-    {"t": "Tech Boss Uses AI and ChatGPT to Create Cancer Vaccine for His Dying Dog", "u": "https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7"}
+    {"t": "Tech Boss Uses AI and ChatGPT to Create Cancer Vaccine for His Dying Dog", "u": "https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7"},
+    {"t": "Beyond the Machine", "u": "https://frankchimero.com/blog/2025/beyond-the-machine/"}
   ]
 }
