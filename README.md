@@ -107,6 +107,7 @@ Articles and links I'm reading in 2026.
 - [Beyond the Machine](https://frankchimero.com/blog/2025/beyond-the-machine/)
 - [Spacetime Bounds on Consciousness](https://www.preprints.org/manuscript/202602.1708)
 - [Durable Patterns in AI Product Design](https://lukew.com/ff/entry.asp?2145)
+- [In Defense of the Poor Image](https://artistsspace.org/pdf-viewer/web/viewer.html?file=https://artistsspace.org/media/pages/exhibitions/hito-steyerl/1014146098-1623172960/defense_of_poor_image.pdf)
 
 ## April
 

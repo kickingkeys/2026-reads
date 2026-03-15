@@ -1,6 +1,6 @@
 {
   "month": "March",
-  "total": 28,
+  "total": 29,
   "items": [
     {"t": "Screens Within Screens", "u": "https://burning.farm/essays/screens-within-screens"},
     {"t": "Simulation: The Next Frontier for AI", "u": "https://www.simile.ai/blog/simulation-next-frontier"},
@@ -15,6 +15,7 @@
     {"t": "Tech Boss Uses AI and ChatGPT to Create Cancer Vaccine for His Dying Dog", "u": "https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7"},
     {"t": "Beyond the Machine", "u": "https://frankchimero.com/blog/2025/beyond-the-machine/"},
     {"t": "Spacetime Bounds on Consciousness", "u": "https://www.preprints.org/manuscript/202602.1708"},
-    {"t": "Durable Patterns in AI Product Design", "u": "https://lukew.com/ff/entry.asp?2145"}
+    {"t": "Durable Patterns in AI Product Design", "u": "https://lukew.com/ff/entry.asp?2145"},
+    {"t": "In Defense of the Poor Image", "u": "https://artistsspace.org/pdf-viewer/web/viewer.html?file=https://artistsspace.org/media/pages/exhibitions/hito-steyerl/1014146098-1623172960/defense_of_poor_image.pdf"}
   ]
 }
