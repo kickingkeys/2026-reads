@@ -1,6 +1,6 @@
 {
   "month": "March",
-  "total": 26,
+  "total": 28,
   "items": [
     {"t": "Screens Within Screens", "u": "https://burning.farm/essays/screens-within-screens"},
     {"t": "Simulation: The Next Frontier for AI", "u": "https://www.simile.ai/blog/simulation-next-frontier"},
@@ -13,6 +13,8 @@
     {"t": "For Young New York Job Hunters, Entry-Level Roles Are Vanishing", "u": "https://www.bloomberg.com/news/articles/2026-03-13/new-york-entry-level-jobs-are-vanishing-for-young-graduates"},
     {"t": "Claude, You Are a Cutie-Pie!", "u": "https://margaretatwood.substack.com/p/claude-you-are-a-cutie-pie"},
     {"t": "Tech Boss Uses AI and ChatGPT to Create Cancer Vaccine for His Dying Dog", "u": "https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7"},
-    {"t": "Beyond the Machine", "u": "https://frankchimero.com/blog/2025/beyond-the-machine/"}
+    {"t": "Beyond the Machine", "u": "https://frankchimero.com/blog/2025/beyond-the-machine/"},
+    {"t": "Spacetime Bounds on Consciousness", "u": "https://www.preprints.org/manuscript/202602.1708"},
+    {"t": "Durable Patterns in AI Product Design", "u": "https://lukew.com/ff/entry.asp?2145"}
   ]
 }

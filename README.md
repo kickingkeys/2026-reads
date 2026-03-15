@@ -105,6 +105,8 @@ Articles and links I'm reading in 2026.
 - [Claude, You Are a Cutie-Pie!](https://margaretatwood.substack.com/p/claude-you-are-a-cutie-pie)
 - [Tech Boss Uses AI and ChatGPT to Create Cancer Vaccine for His Dying Dog](https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7)
 - [Beyond the Machine](https://frankchimero.com/blog/2025/beyond-the-machine/)
+- [Spacetime Bounds on Consciousness](https://www.preprints.org/manuscript/202602.1708)
+- [Durable Patterns in AI Product Design](https://lukew.com/ff/entry.asp?2145)
 
 ## April
 
