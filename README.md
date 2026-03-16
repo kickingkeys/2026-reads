@@ -110,6 +110,7 @@ Articles and links I'm reading in 2026.
 - [In Defense of the Poor Image](https://artistsspace.org/pdf-viewer/web/viewer.html?file=https://artistsspace.org/media/pages/exhibitions/hito-steyerl/1014146098-1623172960/defense_of_poor_image.pdf)
 - [Vibecoding Is Self-Expression](https://www.ryanhoover.me/post/vibecoding-is-self-expression)
 - [How Well Does Agent Development Reflect Real-World Work?](https://arxiv.org/abs/2603.01203)
+- [Why I May Hire AI Instead of a Graduate Student](https://www.science.org/content/article/why-i-may-hire-ai-instead-graduate-student)
 
 ## April
 
