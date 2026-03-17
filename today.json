@@ -1,6 +1,6 @@
 {
   "month": "March",
-  "total": 34,
+  "total": 36,
   "items": [
     {"t": "Screens Within Screens", "u": "https://burning.farm/essays/screens-within-screens"},
     {"t": "Simulation: The Next Frontier for AI", "u": "https://www.simile.ai/blog/simulation-next-frontier"},
@@ -21,6 +21,8 @@
     {"t": "How Well Does Agent Development Reflect Real-World Work?", "u": "https://arxiv.org/abs/2603.01203"},
     {"t": "Why I May Hire AI Instead of a Graduate Student", "u": "https://www.science.org/content/article/why-i-may-hire-ai-instead-graduate-student"},
     {"t": "Coding After Coders", "u": "https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html"},
-    {"t": "Intelligent AI Delegation", "u": "https://arxiv.org/abs/2602.11865"}
+    {"t": "Intelligent AI Delegation", "u": "https://arxiv.org/abs/2602.11865"},
+    {"t": "Alfred Adler", "u": "https://faedriel.substack.com/p/alfred-adler"},
+    {"t": "The AI Revolution Is Here. Will the Economy Survive the Transition?", "u": "https://post.substack.com/p/the-ai-revolution-is-here-will-the"}
   ]
 }

@@ -113,6 +113,8 @@ Articles and links I'm reading in 2026.
 - [Why I May Hire AI Instead of a Graduate Student](https://www.science.org/content/article/why-i-may-hire-ai-instead-graduate-student)
 - [Coding After Coders](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html)
 - [Intelligent AI Delegation](https://arxiv.org/abs/2602.11865)
+- [Alfred Adler](https://faedriel.substack.com/p/alfred-adler)
+- [The AI Revolution Is Here. Will the Economy Survive the Transition?](https://post.substack.com/p/the-ai-revolution-is-here-will-the)
 
 ## April
 
