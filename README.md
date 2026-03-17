@@ -111,6 +111,8 @@ Articles and links I'm reading in 2026.
 - [Vibecoding Is Self-Expression](https://www.ryanhoover.me/post/vibecoding-is-self-expression)
 - [How Well Does Agent Development Reflect Real-World Work?](https://arxiv.org/abs/2603.01203)
 - [Why I May Hire AI Instead of a Graduate Student](https://www.science.org/content/article/why-i-may-hire-ai-instead-graduate-student)
+- [Coding After Coders](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html)
+- [Intelligent AI Delegation](https://arxiv.org/abs/2602.11865)
 
 ## April
 
