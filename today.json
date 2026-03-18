@@ -1,6 +1,6 @@
 {
   "month": "March",
-  "total": 37,
+  "total": 38,
   "items": [
     {"t": "Screens Within Screens", "u": "https://burning.farm/essays/screens-within-screens"},
     {"t": "Simulation: The Next Frontier for AI", "u": "https://www.simile.ai/blog/simulation-next-frontier"},
@@ -24,6 +24,7 @@
     {"t": "Intelligent AI Delegation", "u": "https://arxiv.org/abs/2602.11865"},
     {"t": "Alfred Adler", "u": "https://faedriel.substack.com/p/alfred-adler"},
     {"t": "The AI Revolution Is Here. Will the Economy Survive the Transition?", "u": "https://post.substack.com/p/the-ai-revolution-is-here-will-the"},
-    {"t": "How Much a Dollar Cost?", "u": "https://www.thetechbubble.info/p/how-much-a-dollar-cost"}
+    {"t": "How Much a Dollar Cost?", "u": "https://www.thetechbubble.info/p/how-much-a-dollar-cost"},
+    {"t": "What 81,000 People Want from AI", "u": "https://www.anthropic.com/features/81k-interviews"}
   ]
 }

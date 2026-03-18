@@ -116,6 +116,7 @@ Articles and links I'm reading in 2026.
 - [Alfred Adler](https://faedriel.substack.com/p/alfred-adler)
 - [The AI Revolution Is Here. Will the Economy Survive the Transition?](https://post.substack.com/p/the-ai-revolution-is-here-will-the)
 - [How Much a Dollar Cost?](https://www.thetechbubble.info/p/how-much-a-dollar-cost)
+- [What 81,000 People Want from AI](https://www.anthropic.com/features/81k-interviews)
 
 ## April
 
