@@ -118,6 +118,8 @@ Articles and links I'm reading in 2026.
 - [How Much a Dollar Cost?](https://www.thetechbubble.info/p/how-much-a-dollar-cost)
 - [What 81,000 People Want from AI](https://www.anthropic.com/features/81k-interviews)
 - [Why Tech Bros Are Now Obsessed with Taste](https://www.newyorker.com/culture/infinite-scroll/why-tech-bros-are-now-obsessed-with-taste)
+- [My First Vibe RL Experience](https://www.sriraam.me/blog/vibe-rl)
+- [Build vs Run](https://dust.tt/blog/build-vs-run)
 
 ## April
 
