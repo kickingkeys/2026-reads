@@ -120,6 +120,8 @@ Articles and links I'm reading in 2026.
 - [Why Tech Bros Are Now Obsessed with Taste](https://www.newyorker.com/culture/infinite-scroll/why-tech-bros-are-now-obsessed-with-taste)
 - [My First Vibe RL Experience](https://www.sriraam.me/blog/vibe-rl)
 - [Build vs Run](https://dust.tt/blog/build-vs-run)
+- [DanceGRPO: Unleashing GRPO on Visual Generation](https://arxiv.org/abs/2505.07818)
+- [Profiling Hacker News Users Based on Their Comments](https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/)
 
 ## April
 
