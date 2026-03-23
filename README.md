@@ -123,6 +123,8 @@ Articles and links I'm reading in 2026.
 - [DanceGRPO: Unleashing GRPO on Visual Generation](https://arxiv.org/abs/2505.07818)
 - [Profiling Hacker News Users Based on Their Comments](https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/)
 - [Evaluating Theory of Mind and Internal Beliefs in LLM-Based Multi-Agent Systems](https://arxiv.org/abs/2603.00142)
+- [AI Can Learn Scientific Taste](https://arxiv.org/abs/2603.14473)
+- [Agentic AI and the Next Intelligence Explosion](https://www.science.org/doi/10.1126/science.aeg1895)
 
 ## April
 

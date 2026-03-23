@@ -1,6 +1,6 @@
 {
   "month": "March",
-  "total": 44,
+  "total": 46,
   "items": [
     {"t": "Screens Within Screens", "u": "https://burning.farm/essays/screens-within-screens"},
     {"t": "Simulation: The Next Frontier for AI", "u": "https://www.simile.ai/blog/simulation-next-frontier"},
@@ -31,6 +31,8 @@
     {"t": "Build vs Run", "u": "https://dust.tt/blog/build-vs-run"},
     {"t": "DanceGRPO: Unleashing GRPO on Visual Generation", "u": "https://arxiv.org/abs/2505.07818"},
     {"t": "Profiling Hacker News Users Based on Their Comments", "u": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/"},
-    {"t": "Evaluating Theory of Mind and Internal Beliefs in LLM-Based Multi-Agent Systems", "u": "https://arxiv.org/abs/2603.00142"}
+    {"t": "Evaluating Theory of Mind and Internal Beliefs in LLM-Based Multi-Agent Systems", "u": "https://arxiv.org/abs/2603.00142"},
+    {"t": "AI Can Learn Scientific Taste", "u": "https://arxiv.org/abs/2603.14473"},
+    {"t": "Agentic AI and the Next Intelligence Explosion", "u": "https://www.science.org/doi/10.1126/science.aeg1895"}
   ]
 }
