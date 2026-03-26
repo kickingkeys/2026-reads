@@ -127,6 +127,7 @@ Articles and links I'm reading in 2026.
 - [Agentic AI and the Next Intelligence Explosion](https://www.science.org/doi/10.1126/science.aeg1895)
 - [The Hypocrisy at the Heart of the AI Industry](https://www.theatlantic.com/technology/2026/03/hypocrisy-ai-industry/686477/)
 - [Harness Design for Long-Running Application Development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
+- [Composer 2 Technical Report](https://cursor.com/resources/Composer2.pdf)
 
 ## April
 
