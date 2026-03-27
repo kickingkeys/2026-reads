@@ -128,6 +128,7 @@ Articles and links I'm reading in 2026.
 - [The Hypocrisy at the Heart of the AI Industry](https://www.theatlantic.com/technology/2026/03/hypocrisy-ai-industry/686477/)
 - [Harness Design for Long-Running Application Development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
 - [Composer 2 Technical Report](https://cursor.com/resources/Composer2.pdf)
+- [Reinforcement Learning with Random Rewards Actually Works with Qwen 2.5](https://www.interconnects.ai/p/reinforcement-learning-with-random)
 
 ## April
 
