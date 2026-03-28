@@ -1,6 +1,6 @@
 {
   "month": "March",
-  "total": 50,
+  "total": 51,
   "items": [
     {"t": "Screens Within Screens", "u": "https://burning.farm/essays/screens-within-screens"},
     {"t": "Simulation: The Next Frontier for AI", "u": "https://www.simile.ai/blog/simulation-next-frontier"},
@@ -37,6 +37,7 @@
     {"t": "The Hypocrisy at the Heart of the AI Industry", "u": "https://www.theatlantic.com/technology/2026/03/hypocrisy-ai-industry/686477/"},
     {"t": "Harness Design for Long-Running Application Development", "u": "https://www.anthropic.com/engineering/harness-design-long-running-apps"},
     {"t": "Composer 2 Technical Report", "u": "https://cursor.com/resources/Composer2.pdf"},
-    {"t": "Reinforcement Learning with Random Rewards Actually Works with Qwen 2.5", "u": "https://www.interconnects.ai/p/reinforcement-learning-with-random"}
+    {"t": "Reinforcement Learning with Random Rewards Actually Works with Qwen 2.5", "u": "https://www.interconnects.ai/p/reinforcement-learning-with-random"},
+    {"t": "There's a Good Reason You Can't Concentrate", "u": "https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html"}
   ]
 }
