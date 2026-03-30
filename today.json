@@ -1,6 +1,6 @@
 {
   "month": "March",
-  "total": 52,
+  "total": 53,
   "items": [
     {"t": "Screens Within Screens", "u": "https://burning.farm/essays/screens-within-screens"},
     {"t": "Simulation: The Next Frontier for AI", "u": "https://www.simile.ai/blog/simulation-next-frontier"},
@@ -39,6 +39,7 @@
     {"t": "Composer 2 Technical Report", "u": "https://cursor.com/resources/Composer2.pdf"},
     {"t": "Reinforcement Learning with Random Rewards Actually Works with Qwen 2.5", "u": "https://www.interconnects.ai/p/reinforcement-learning-with-random"},
     {"t": "There's a Good Reason You Can't Concentrate", "u": "https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html"},
-    {"t": "Evolution Strategies at the Hyperscale", "u": "https://eshyperscale.github.io/"}
+    {"t": "Evolution Strategies at the Hyperscale", "u": "https://eshyperscale.github.io/"},
+    {"t": "Natural-Language Agent Harnesses", "u": "https://arxiv.org/abs/2603.25723"}
   ]
 }

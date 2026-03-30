@@ -131,6 +131,7 @@ Articles and links I'm reading in 2026.
 - [Reinforcement Learning with Random Rewards Actually Works with Qwen 2.5](https://www.interconnects.ai/p/reinforcement-learning-with-random)
 - [There's a Good Reason You Can't Concentrate](https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html)
 - [Evolution Strategies at the Hyperscale](https://eshyperscale.github.io/)
+- [Natural-Language Agent Harnesses](https://arxiv.org/abs/2603.25723)
 
 ## April
 
