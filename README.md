@@ -132,6 +132,7 @@ Articles and links I'm reading in 2026.
 - [There's a Good Reason You Can't Concentrate](https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html)
 - [Evolution Strategies at the Hyperscale](https://eshyperscale.github.io/)
 - [Natural-Language Agent Harnesses](https://arxiv.org/abs/2603.25723)
+- [TITAA Media Recs #77: Paradises](https://arnicas.substack.com/p/titaa-media-recs-77-paradises)
 
 ## April
 
