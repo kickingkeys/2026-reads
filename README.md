@@ -133,6 +133,7 @@ Articles and links I'm reading in 2026.
 - [Evolution Strategies at the Hyperscale](https://eshyperscale.github.io/)
 - [Natural-Language Agent Harnesses](https://arxiv.org/abs/2603.25723)
 - [TITAA Media Recs #77: Paradises](https://arnicas.substack.com/p/titaa-media-recs-77-paradises)
+- [AI Agent Traps](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438)
 
 ## April
 

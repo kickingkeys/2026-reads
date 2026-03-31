@@ -1,6 +1,6 @@
 {
   "month": "March",
-  "total": 54,
+  "total": 55,
   "items": [
     {"t": "Screens Within Screens", "u": "https://burning.farm/essays/screens-within-screens"},
     {"t": "Simulation: The Next Frontier for AI", "u": "https://www.simile.ai/blog/simulation-next-frontier"},
@@ -41,6 +41,7 @@
     {"t": "There's a Good Reason You Can't Concentrate", "u": "https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html"},
     {"t": "Evolution Strategies at the Hyperscale", "u": "https://eshyperscale.github.io/"},
     {"t": "Natural-Language Agent Harnesses", "u": "https://arxiv.org/abs/2603.25723"},
-    {"t": "TITAA Media Recs #77: Paradises", "u": "https://arnicas.substack.com/p/titaa-media-recs-77-paradises"}
+    {"t": "TITAA Media Recs #77: Paradises", "u": "https://arnicas.substack.com/p/titaa-media-recs-77-paradises"},
+    {"t": "AI Agent Traps", "u": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438"}
   ]
 }
