@@ -134,9 +134,9 @@ Articles and links I'm reading in 2026.
 - [Natural-Language Agent Harnesses](https://arxiv.org/abs/2603.25723)
 - [TITAA Media Recs #77: Paradises](https://arnicas.substack.com/p/titaa-media-recs-77-paradises)
 - [AI Agent Traps](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438)
-- [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
 ## April
+- [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
 ## May
 
