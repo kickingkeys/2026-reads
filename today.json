@@ -1,8 +1,9 @@
 {
   "month": "April",
-  "total": 2,
+  "total": 3,
   "items": [
     {"t": "The Law of Leaky Abstractions", "u": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"},
-    {"t": "How Autoresearch Will Change Small Language Models Adoption", "u": "https://www.philschmid.de/autoresearch"}
+    {"t": "How Autoresearch Will Change Small Language Models Adoption", "u": "https://www.philschmid.de/autoresearch"},
+    {"t": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning", "u": "https://arxiv.org/abs/2507.19457"}
   ]
 }

@@ -138,6 +138,7 @@ Articles and links I'm reading in 2026.
 ## April
 - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 - [How Autoresearch Will Change Small Language Models Adoption](https://www.philschmid.de/autoresearch)
+- [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457)
 
 ## May
 
