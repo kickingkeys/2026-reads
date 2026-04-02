@@ -140,6 +140,7 @@ Articles and links I'm reading in 2026.
 - [How Autoresearch Will Change Small Language Models Adoption](https://www.philschmid.de/autoresearch)
 - [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457)
 - [Emotion Concepts and Their Function in a Large Language Model](https://transformer-circuits.pub/2026/emotions/index.html)
+- [Small Models Can Introspect, Too](https://vgel.me/posts/qwen-introspection/)
 
 ## May
 
