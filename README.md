@@ -141,6 +141,7 @@ Articles and links I'm reading in 2026.
 - [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457)
 - [Emotion Concepts and Their Function in a Large Language Model](https://transformer-circuits.pub/2026/emotions/index.html)
 - [Small Models Can Introspect, Too](https://vgel.me/posts/qwen-introspection/)
+- [Is There Life After Smartphones?](https://www.nytimes.com/interactive/2026/03/31/magazine/quit-smartphone-addiction-social-media.html)
 
 ## May
 

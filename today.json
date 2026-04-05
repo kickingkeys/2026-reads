@@ -1,11 +1,12 @@
 {
   "month": "April",
-  "total": 5,
+  "total": 6,
   "items": [
     {"t": "The Law of Leaky Abstractions", "u": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"},
     {"t": "How Autoresearch Will Change Small Language Models Adoption", "u": "https://www.philschmid.de/autoresearch"},
     {"t": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning", "u": "https://arxiv.org/abs/2507.19457"},
     {"t": "Emotion Concepts and Their Function in a Large Language Model", "u": "https://transformer-circuits.pub/2026/emotions/index.html"},
-    {"t": "Small Models Can Introspect, Too", "u": "https://vgel.me/posts/qwen-introspection/"}
+    {"t": "Small Models Can Introspect, Too", "u": "https://vgel.me/posts/qwen-introspection/"},
+    {"t": "Is There Life After Smartphones?", "u": "https://www.nytimes.com/interactive/2026/03/31/magazine/quit-smartphone-addiction-social-media.html"}
   ]
 }
