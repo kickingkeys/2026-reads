@@ -142,6 +142,7 @@ Articles and links I'm reading in 2026.
 - [Emotion Concepts and Their Function in a Large Language Model](https://transformer-circuits.pub/2026/emotions/index.html)
 - [Small Models Can Introspect, Too](https://vgel.me/posts/qwen-introspection/)
 - [Is There Life After Smartphones?](https://www.nytimes.com/interactive/2026/03/31/magazine/quit-smartphone-addiction-social-media.html)
+- [Do LLMs 'Feel'? Emotion Circuits Discovery and Control](https://arxiv.org/abs/2510.11328)
 
 ## May
 
