@@ -1,6 +1,6 @@
 {
   "month": "April",
-  "total": 8,
+  "total": 11,
   "items": [
     {"t": "The Law of Leaky Abstractions", "u": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"},
     {"t": "How Autoresearch Will Change Small Language Models Adoption", "u": "https://www.philschmid.de/autoresearch"},
@@ -9,6 +9,9 @@
     {"t": "Small Models Can Introspect, Too", "u": "https://vgel.me/posts/qwen-introspection/"},
     {"t": "Is There Life After Smartphones?", "u": "https://www.nytimes.com/interactive/2026/03/31/magazine/quit-smartphone-addiction-social-media.html"},
     {"t": "Do LLMs 'Feel'? Emotion Circuits Discovery and Control", "u": "https://arxiv.org/abs/2510.11328"},
-    {"t": "Evolution Strategies", "u": "https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/"}
+    {"t": "Evolution Strategies", "u": "https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/"},
+    {"t": "Lluminate: Creative Exploration with Reasoning LLMs", "u": "https://www.joelsimon.net/lluminate"},
+    {"t": "The Aesthetics and Fractal Dimension of Electric Sheep", "u": "https://sprott.physics.wisc.edu/pubs/paper303.pdf"},
+    {"t": "Picbreeder: A Case Study in Collaborative Evolutionary Exploration of Design Space", "u": "https://wiki.santafe.edu/images/1/1e/Secretan_ecj11.pdf"}
   ]
 }

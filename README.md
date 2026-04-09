@@ -144,6 +144,9 @@ Articles and links I'm reading in 2026.
 - [Is There Life After Smartphones?](https://www.nytimes.com/interactive/2026/03/31/magazine/quit-smartphone-addiction-social-media.html)
 - [Do LLMs 'Feel'? Emotion Circuits Discovery and Control](https://arxiv.org/abs/2510.11328)
 - [Evolution Strategies](https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/)
+- [Lluminate: Creative Exploration with Reasoning LLMs](https://www.joelsimon.net/lluminate)
+- [The Aesthetics and Fractal Dimension of Electric Sheep](https://sprott.physics.wisc.edu/pubs/paper303.pdf)
+- [Picbreeder: A Case Study in Collaborative Evolutionary Exploration of Design Space](https://wiki.santafe.edu/images/1/1e/Secretan_ecj11.pdf)
 
 ## May
 
