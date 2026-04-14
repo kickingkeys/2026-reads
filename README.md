@@ -147,6 +147,8 @@ Articles and links I'm reading in 2026.
 - [Lluminate: Creative Exploration with Reasoning LLMs](https://www.joelsimon.net/lluminate)
 - [The Aesthetics and Fractal Dimension of Electric Sheep](https://sprott.physics.wisc.edu/pubs/paper303.pdf)
 - [Picbreeder: A Case Study in Collaborative Evolutionary Exploration of Design Space](https://wiki.santafe.edu/images/1/1e/Secretan_ecj11.pdf)
+- [Essay Architecture](https://essayarchitecture.com/)
+- [A Dozen Young Job Hunters on What It Takes to Get Hired](https://www.bloomberg.com/features/2026-job-hunt-stories/)
 
 ## May
 
