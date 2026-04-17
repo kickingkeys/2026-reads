@@ -149,6 +149,8 @@ Articles and links I'm reading in 2026.
 - [Picbreeder: A Case Study in Collaborative Evolutionary Exploration of Design Space](https://wiki.santafe.edu/images/1/1e/Secretan_ecj11.pdf)
 - [Essay Architecture](https://essayarchitecture.com/)
 - [A Dozen Young Job Hunters on What It Takes to Get Hired](https://www.bloomberg.com/features/2026-job-hunt-stories/)
+- [The Bitter Lesson](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf)
+- [Beyond Slop](https://www.joelsimon.net/beyond-slop)
 
 ## May
 

@@ -1,6 +1,6 @@
 {
   "month": "April",
-  "total": 13,
+  "total": 15,
   "items": [
     {"t": "The Law of Leaky Abstractions", "u": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"},
     {"t": "How Autoresearch Will Change Small Language Models Adoption", "u": "https://www.philschmid.de/autoresearch"},
@@ -14,6 +14,8 @@
     {"t": "The Aesthetics and Fractal Dimension of Electric Sheep", "u": "https://sprott.physics.wisc.edu/pubs/paper303.pdf"},
     {"t": "Picbreeder: A Case Study in Collaborative Evolutionary Exploration of Design Space", "u": "https://wiki.santafe.edu/images/1/1e/Secretan_ecj11.pdf"},
     {"t": "Essay Architecture", "u": "https://essayarchitecture.com/"},
-    {"t": "A Dozen Young Job Hunters on What It Takes to Get Hired", "u": "https://www.bloomberg.com/features/2026-job-hunt-stories/"}
+    {"t": "A Dozen Young Job Hunters on What It Takes to Get Hired", "u": "https://www.bloomberg.com/features/2026-job-hunt-stories/"},
+    {"t": "The Bitter Lesson", "u": "https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf"},
+    {"t": "Beyond Slop", "u": "https://www.joelsimon.net/beyond-slop"}
   ]
 }
