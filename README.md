@@ -152,6 +152,7 @@ Articles and links I'm reading in 2026.
 - [The Bitter Lesson](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf)
 - [Beyond Slop](https://www.joelsimon.net/beyond-slop)
 - [Voyages to the End of the World](https://firstthings.com/voyages-to-the-end-of-the-world/)
+- [Apps and programming: two accidental tyrannies](https://andymatuschak.org/tat/)
 
 ## May
 
