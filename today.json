@@ -1,6 +1,6 @@
 {
   "month": "April",
-  "total": 15,
+  "total": 16,
   "items": [
     {"t": "The Law of Leaky Abstractions", "u": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"},
     {"t": "How Autoresearch Will Change Small Language Models Adoption", "u": "https://www.philschmid.de/autoresearch"},
@@ -16,6 +16,7 @@
     {"t": "Essay Architecture", "u": "https://essayarchitecture.com/"},
     {"t": "A Dozen Young Job Hunters on What It Takes to Get Hired", "u": "https://www.bloomberg.com/features/2026-job-hunt-stories/"},
     {"t": "The Bitter Lesson", "u": "https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf"},
-    {"t": "Beyond Slop", "u": "https://www.joelsimon.net/beyond-slop"}
+    {"t": "Beyond Slop", "u": "https://www.joelsimon.net/beyond-slop"},
+    {"t": "Voyages to the End of the World", "u": "https://firstthings.com/voyages-to-the-end-of-the-world/"}
   ]
 }

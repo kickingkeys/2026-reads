@@ -151,6 +151,7 @@ Articles and links I'm reading in 2026.
 - [A Dozen Young Job Hunters on What It Takes to Get Hired](https://www.bloomberg.com/features/2026-job-hunt-stories/)
 - [The Bitter Lesson](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf)
 - [Beyond Slop](https://www.joelsimon.net/beyond-slop)
+- [Voyages to the End of the World](https://firstthings.com/voyages-to-the-end-of-the-world/)
 
 ## May
 
