@@ -153,6 +153,7 @@ Articles and links I'm reading in 2026.
 - [Beyond Slop](https://www.joelsimon.net/beyond-slop)
 - [Voyages to the End of the World](https://firstthings.com/voyages-to-the-end-of-the-world/)
 - [Apps and programming: two accidental tyrannies](https://andymatuschak.org/tat/)
+- [Our Longing for Inconvenience](https://www.newyorker.com/culture/essay/our-longing-for-inconvenience)
 
 ## May
 
