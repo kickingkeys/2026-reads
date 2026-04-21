@@ -156,6 +156,7 @@ Articles and links I'm reading in 2026.
 - [Our Longing for Inconvenience](https://www.newyorker.com/culture/essay/our-longing-for-inconvenience)
 - [String Seed of Thought: Prompting LLMs for Distribution-Faithful and Diverse Generation](https://arxiv.org/abs/2510.21150)
 - [Language Models are Injective and Hence Invertible](https://arxiv.org/abs/2510.15511)
+- [What's really happening inside AI's black box? Berkeley researchers have answers](https://ls.berkeley.edu/news/what%E2%80%99s-really-happening-inside-ai%E2%80%99s-black-box-berkeley-researchers-have-answers)
 
 ## May
 

@@ -1,6 +1,6 @@
 {
   "month": "April",
-  "total": 20,
+  "total": 21,
   "items": [
     {"t": "The Law of Leaky Abstractions", "u": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"},
     {"t": "How Autoresearch Will Change Small Language Models Adoption", "u": "https://www.philschmid.de/autoresearch"},
@@ -21,6 +21,7 @@
     {"t": "Apps and programming: two accidental tyrannies", "u": "https://andymatuschak.org/tat/"},
     {"t": "Our Longing for Inconvenience", "u": "https://www.newyorker.com/culture/essay/our-longing-for-inconvenience"},
     {"t": "String Seed of Thought: Prompting LLMs for Distribution-Faithful and Diverse Generation", "u": "https://arxiv.org/abs/2510.21150"},
-    {"t": "Language Models are Injective and Hence Invertible", "u": "https://arxiv.org/abs/2510.15511"}
+    {"t": "Language Models are Injective and Hence Invertible", "u": "https://arxiv.org/abs/2510.15511"},
+    {"t": "What's really happening inside AI's black box? Berkeley researchers have answers", "u": "https://ls.berkeley.edu/news/what%E2%80%99s-really-happening-inside-ai%E2%80%99s-black-box-berkeley-researchers-have-answers"}
   ]
 }
