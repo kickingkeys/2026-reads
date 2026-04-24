@@ -159,6 +159,7 @@ Articles and links I'm reading in 2026.
 - [What's really happening inside AI's black box? Berkeley researchers have answers](https://ls.berkeley.edu/news/what%E2%80%99s-really-happening-inside-ai%E2%80%99s-black-box-berkeley-researchers-have-answers)
 - [LatentEvolve: Self-Evolving Test-Time Scaling in Latent Space](https://arxiv.org/abs/2509.24771)
 - [Precise Manipulation with Efficient Online RL](https://www.pi.website/research/rlt)
+- [From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](https://arxiv.org/abs/2601.03220)
 
 ## May
 
