@@ -160,6 +160,7 @@ Articles and links I'm reading in 2026.
 - [LatentEvolve: Self-Evolving Test-Time Scaling in Latent Space](https://arxiv.org/abs/2509.24771)
 - [Precise Manipulation with Efficient Online RL](https://www.pi.website/research/rlt)
 - [From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](https://arxiv.org/abs/2601.03220)
+- [How To ML Paper](https://www.jakobfoerster.com/how-to-ml-paper)
 
 ## May
 
