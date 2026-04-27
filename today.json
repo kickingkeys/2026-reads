@@ -1,6 +1,6 @@
 {
   "month": "April",
-  "total": 25,
+  "total": 27,
   "items": [
     {"t": "The Law of Leaky Abstractions", "u": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"},
     {"t": "How Autoresearch Will Change Small Language Models Adoption", "u": "https://www.philschmid.de/autoresearch"},
@@ -26,6 +26,8 @@
     {"t": "LatentEvolve: Self-Evolving Test-Time Scaling in Latent Space", "u": "https://arxiv.org/abs/2509.24771"},
     {"t": "Precise Manipulation with Efficient Online RL", "u": "https://www.pi.website/research/rlt"},
     {"t": "From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence", "u": "https://arxiv.org/abs/2601.03220"},
-    {"t": "How To ML Paper", "u": "https://www.jakobfoerster.com/how-to-ml-paper"}
+    {"t": "How To ML Paper", "u": "https://www.jakobfoerster.com/how-to-ml-paper"},
+    {"t": "What Happens If America Nationalizes AI?", "u": "https://www.theatlantic.com/technology/2026/04/ai-nationalization-trump-hegseth-anthropic-openai/686943/"},
+    {"t": "The Computer for the 21st Century", "u": "https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf"}
   ]
 }

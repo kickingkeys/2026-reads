@@ -161,6 +161,8 @@ Articles and links I'm reading in 2026.
 - [Precise Manipulation with Efficient Online RL](https://www.pi.website/research/rlt)
 - [From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](https://arxiv.org/abs/2601.03220)
 - [How To ML Paper](https://www.jakobfoerster.com/how-to-ml-paper)
+- [What Happens If America Nationalizes AI?](https://www.theatlantic.com/technology/2026/04/ai-nationalization-trump-hegseth-anthropic-openai/686943/)
+- [The Computer for the 21st Century](https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf)
 
 ## May
 
