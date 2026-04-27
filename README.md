@@ -163,6 +163,7 @@ Articles and links I'm reading in 2026.
 - [How To ML Paper](https://www.jakobfoerster.com/how-to-ml-paper)
 - [What Happens If America Nationalizes AI?](https://www.theatlantic.com/technology/2026/04/ai-nationalization-trump-hegseth-anthropic-openai/686943/)
 - [The Computer for the 21st Century](https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf)
+- [The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
 
 ## May
 
