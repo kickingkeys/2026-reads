@@ -165,8 +165,10 @@ Articles and links I'm reading in 2026.
 - [The Computer for the 21st Century](https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf)
 - [The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
 - [Woosh: A Sound Effects Foundation Model](https://sonyresearch.github.io/Woosh/)
+- [Illuminating the Three Dogmas of RL under Evolutionary Light](https://sensorimotorai.github.io/2026/03/12/rldogmasevolution/)
 
 ## May
+- [The Design of Browsing and Berrypicking Techniques for the Online Search Interface](https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html)
 
 ## June
 

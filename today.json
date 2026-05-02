@@ -1,35 +1,7 @@
 {
-  "month": "April",
-  "total": 29,
+  "month": "May",
+  "total": 1,
   "items": [
-    {"t": "The Law of Leaky Abstractions", "u": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"},
-    {"t": "How Autoresearch Will Change Small Language Models Adoption", "u": "https://www.philschmid.de/autoresearch"},
-    {"t": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning", "u": "https://arxiv.org/abs/2507.19457"},
-    {"t": "Emotion Concepts and Their Function in a Large Language Model", "u": "https://transformer-circuits.pub/2026/emotions/index.html"},
-    {"t": "Small Models Can Introspect, Too", "u": "https://vgel.me/posts/qwen-introspection/"},
-    {"t": "Is There Life After Smartphones?", "u": "https://www.nytimes.com/interactive/2026/03/31/magazine/quit-smartphone-addiction-social-media.html"},
-    {"t": "Do LLMs 'Feel'? Emotion Circuits Discovery and Control", "u": "https://arxiv.org/abs/2510.11328"},
-    {"t": "Evolution Strategies", "u": "https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/"},
-    {"t": "Lluminate: Creative Exploration with Reasoning LLMs", "u": "https://www.joelsimon.net/lluminate"},
-    {"t": "The Aesthetics and Fractal Dimension of Electric Sheep", "u": "https://sprott.physics.wisc.edu/pubs/paper303.pdf"},
-    {"t": "Picbreeder: A Case Study in Collaborative Evolutionary Exploration of Design Space", "u": "https://wiki.santafe.edu/images/1/1e/Secretan_ecj11.pdf"},
-    {"t": "Essay Architecture", "u": "https://essayarchitecture.com/"},
-    {"t": "A Dozen Young Job Hunters on What It Takes to Get Hired", "u": "https://www.bloomberg.com/features/2026-job-hunt-stories/"},
-    {"t": "The Bitter Lesson", "u": "https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf"},
-    {"t": "Beyond Slop", "u": "https://www.joelsimon.net/beyond-slop"},
-    {"t": "Voyages to the End of the World", "u": "https://firstthings.com/voyages-to-the-end-of-the-world/"},
-    {"t": "Apps and programming: two accidental tyrannies", "u": "https://andymatuschak.org/tat/"},
-    {"t": "Our Longing for Inconvenience", "u": "https://www.newyorker.com/culture/essay/our-longing-for-inconvenience"},
-    {"t": "String Seed of Thought: Prompting LLMs for Distribution-Faithful and Diverse Generation", "u": "https://arxiv.org/abs/2510.21150"},
-    {"t": "Language Models are Injective and Hence Invertible", "u": "https://arxiv.org/abs/2510.15511"},
-    {"t": "What's really happening inside AI's black box? Berkeley researchers have answers", "u": "https://ls.berkeley.edu/news/what%E2%80%99s-really-happening-inside-ai%E2%80%99s-black-box-berkeley-researchers-have-answers"},
-    {"t": "LatentEvolve: Self-Evolving Test-Time Scaling in Latent Space", "u": "https://arxiv.org/abs/2509.24771"},
-    {"t": "Precise Manipulation with Efficient Online RL", "u": "https://www.pi.website/research/rlt"},
-    {"t": "From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence", "u": "https://arxiv.org/abs/2601.03220"},
-    {"t": "How To ML Paper", "u": "https://www.jakobfoerster.com/how-to-ml-paper"},
-    {"t": "What Happens If America Nationalizes AI?", "u": "https://www.theatlantic.com/technology/2026/04/ai-nationalization-trump-hegseth-anthropic-openai/686943/"},
-    {"t": "The Computer for the 21st Century", "u": "https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf"},
-    {"t": "The Era of Experience", "u": "https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf"},
-    {"t": "Woosh: A Sound Effects Foundation Model", "u": "https://sonyresearch.github.io/Woosh/"}
+    {"t": "The Design of Browsing and Berrypicking Techniques for the Online Search Interface", "u": "https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html"}
   ]
 }
