@@ -169,6 +169,7 @@ Articles and links I'm reading in 2026.
 
 ## May
 - [The Design of Browsing and Berrypicking Techniques for the Online Search Interface](https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html)
+- [Interpretable Feature-Level Control and Inference-Time Change](https://qwen.ai/blog?id=qwen-scope)
 
 ## June
 

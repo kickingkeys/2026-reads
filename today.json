@@ -1,7 +1,8 @@
 {
   "month": "May",
-  "total": 1,
+  "total": 2,
   "items": [
-    {"t": "The Design of Browsing and Berrypicking Techniques for the Online Search Interface", "u": "https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html"}
+    {"t": "The Design of Browsing and Berrypicking Techniques for the Online Search Interface", "u": "https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html"},
+    {"t": "Interpretable Feature-Level Control and Inference-Time Change", "u": "https://qwen.ai/blog?id=qwen-scope"}
   ]
 }
