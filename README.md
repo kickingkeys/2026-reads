@@ -171,6 +171,7 @@ Articles and links I'm reading in 2026.
 - [The Design of Browsing and Berrypicking Techniques for the Online Search Interface](https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html)
 - [Interpretable Feature-Level Control and Inference-Time Change](https://qwen.ai/blog?id=qwen-scope)
 - [Teach Them to Fish](https://alixw.substack.com/p/teach-them-to-fish)
+- [Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations](https://transformer-circuits.pub/2026/nla/index.html)
 
 ## June
 
