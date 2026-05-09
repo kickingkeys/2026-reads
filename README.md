@@ -172,6 +172,7 @@ Articles and links I'm reading in 2026.
 - [Interpretable Feature-Level Control and Inference-Time Change](https://qwen.ai/blog?id=qwen-scope)
 - [Teach Them to Fish](https://alixw.substack.com/p/teach-them-to-fish)
 - [Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations](https://transformer-circuits.pub/2026/nla/index.html)
+- [Measuring Intelligence through Games](https://arxiv.org/abs/1109.1314)
 
 ## June
 
