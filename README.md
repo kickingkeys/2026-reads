@@ -173,6 +173,7 @@ Articles and links I'm reading in 2026.
 - [Teach Them to Fish](https://alixw.substack.com/p/teach-them-to-fish)
 - [Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations](https://transformer-circuits.pub/2026/nla/index.html)
 - [Measuring Intelligence through Games](https://arxiv.org/abs/1109.1314)
+- [Interaction Models: A Scalable Approach to Human-AI Collaboration](https://thinkingmachines.ai/blog/interaction-models/)
 
 ## June
 

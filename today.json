@@ -1,11 +1,12 @@
 {
   "month": "May",
-  "total": 5,
+  "total": 6,
   "items": [
     {"t": "The Design of Browsing and Berrypicking Techniques for the Online Search Interface", "u": "https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html"},
     {"t": "Interpretable Feature-Level Control and Inference-Time Change", "u": "https://qwen.ai/blog?id=qwen-scope"},
     {"t": "Teach Them to Fish", "u": "https://alixw.substack.com/p/teach-them-to-fish"},
     {"t": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations", "u": "https://transformer-circuits.pub/2026/nla/index.html"},
-    {"t": "Measuring Intelligence through Games", "u": "https://arxiv.org/abs/1109.1314"}
+    {"t": "Measuring Intelligence through Games", "u": "https://arxiv.org/abs/1109.1314"},
+    {"t": "Interaction Models: A Scalable Approach to Human-AI Collaboration", "u": "https://thinkingmachines.ai/blog/interaction-models/"}
   ]
 }
