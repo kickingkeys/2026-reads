@@ -174,6 +174,8 @@ Articles and links I'm reading in 2026.
 - [Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations](https://transformer-circuits.pub/2026/nla/index.html)
 - [Measuring Intelligence through Games](https://arxiv.org/abs/1109.1314)
 - [Interaction Models: A Scalable Approach to Human-AI Collaboration](https://thinkingmachines.ai/blog/interaction-models/)
+- [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/abs/2506.08872)
+- [SFT, RL, and On-Policy Distillation Through a Distributional Lens](https://x.com/nrehiew_/status/2053482349300797526)
 
 ## June
 
