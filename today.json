@@ -1,6 +1,6 @@
 {
   "month": "May",
-  "total": 8,
+  "total": 9,
   "items": [
     {"t": "The Design of Browsing and Berrypicking Techniques for the Online Search Interface", "u": "https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html"},
     {"t": "Interpretable Feature-Level Control and Inference-Time Change", "u": "https://qwen.ai/blog?id=qwen-scope"},
@@ -9,6 +9,7 @@
     {"t": "Measuring Intelligence through Games", "u": "https://arxiv.org/abs/1109.1314"},
     {"t": "Interaction Models: A Scalable Approach to Human-AI Collaboration", "u": "https://thinkingmachines.ai/blog/interaction-models/"},
     {"t": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task", "u": "https://arxiv.org/abs/2506.08872"},
-    {"t": "SFT, RL, and On-Policy Distillation Through a Distributional Lens", "u": "https://x.com/nrehiew_/status/2053482349300797526"}
+    {"t": "SFT, RL, and On-Policy Distillation Through a Distributional Lens", "u": "https://x.com/nrehiew_/status/2053482349300797526"},
+    {"t": "The Trouble with Narrative History", "u": "https://thereader.mitpress.mit.edu/the-trouble-with-narrative-history/"}
   ]
 }
