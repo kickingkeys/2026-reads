@@ -178,6 +178,7 @@ Articles and links I'm reading in 2026.
 - [SFT, RL, and On-Policy Distillation Through a Distributional Lens](https://x.com/nrehiew_/status/2053482349300797526)
 - [The Trouble with Narrative History](https://thereader.mitpress.mit.edu/the-trouble-with-narrative-history/)
 - [2028: Two scenarios for global AI leadership](https://www.anthropic.com/research/2028-ai-leadership)
+- [TITAA #78.5: Stay in the Manifest, Bio Processors](https://arnicas.substack.com/p/titaa-785-stay-in-the-manifest-bio)
 
 ## June
 
