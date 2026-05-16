@@ -177,6 +177,7 @@ Articles and links I'm reading in 2026.
 - [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/abs/2506.08872)
 - [SFT, RL, and On-Policy Distillation Through a Distributional Lens](https://x.com/nrehiew_/status/2053482349300797526)
 - [The Trouble with Narrative History](https://thereader.mitpress.mit.edu/the-trouble-with-narrative-history/)
+- [2028: Two scenarios for global AI leadership](https://www.anthropic.com/research/2028-ai-leadership)
 
 ## June
 
