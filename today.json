@@ -1,6 +1,6 @@
 {
   "month": "May",
-  "total": 11,
+  "total": 12,
   "items": [
     {"t": "The Design of Browsing and Berrypicking Techniques for the Online Search Interface", "u": "https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html"},
     {"t": "Interpretable Feature-Level Control and Inference-Time Change", "u": "https://qwen.ai/blog?id=qwen-scope"},
@@ -12,6 +12,7 @@
     {"t": "SFT, RL, and On-Policy Distillation Through a Distributional Lens", "u": "https://x.com/nrehiew_/status/2053482349300797526"},
     {"t": "The Trouble with Narrative History", "u": "https://thereader.mitpress.mit.edu/the-trouble-with-narrative-history/"},
     {"t": "2028: Two scenarios for global AI leadership", "u": "https://www.anthropic.com/research/2028-ai-leadership"},
-    {"t": "TITAA #78.5: Stay in the Manifest, Bio Processors", "u": "https://arnicas.substack.com/p/titaa-785-stay-in-the-manifest-bio"}
+    {"t": "TITAA #78.5: Stay in the Manifest, Bio Processors", "u": "https://arnicas.substack.com/p/titaa-785-stay-in-the-manifest-bio"},
+    {"t": "how to enter side doors", "u": "https://velvetnoise.substack.com/p/how-to-enter-side-doors"}
   ]
 }
