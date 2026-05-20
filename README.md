@@ -184,6 +184,7 @@ Articles and links I'm reading in 2026.
 - [Human Bottlenecks](https://borretti.me/article/human-bottlenecks)
 - [Language Game: Talking to Non-Human Systems](https://arxiv.org/abs/2605.16321)
 - [A Complexity Theory of AI Value Accrual](https://hypersoren.xyz/posts/price-elasticity/)
+- [Memory Machines — can LLMs make flashcards that last?](https://memory-machines.com/)
 
 ## June
 
