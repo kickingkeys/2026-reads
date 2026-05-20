@@ -182,6 +182,8 @@ Articles and links I'm reading in 2026.
 - [how to enter side doors](https://velvetnoise.substack.com/p/how-to-enter-side-doors)
 - [ChatGPT, AI, College and Graduation](https://www.nytimes.com/2026/05/17/opinion/chatgpt-ai-college-school-graduation.html)
 - [Human Bottlenecks](https://borretti.me/article/human-bottlenecks)
+- [Language Game: Talking to Non-Human Systems](https://arxiv.org/abs/2605.16321)
+- [A Complexity Theory of AI Value Accrual](https://hypersoren.xyz/posts/price-elasticity/)
 
 ## June
 
