@@ -185,6 +185,7 @@ Articles and links I'm reading in 2026.
 - [Language Game: Talking to Non-Human Systems](https://arxiv.org/abs/2605.16321)
 - [A Complexity Theory of AI Value Accrual](https://hypersoren.xyz/posts/price-elasticity/)
 - [Memory Machines — can LLMs make flashcards that last?](https://memory-machines.com/)
+- [People who write extensively about note-writing rarely have a serious context of use](https://notes.andymatuschak.org/People_who_write_extensively_about_note-writing_rarely_have_a_serious_context_of_use)
 
 ## June
 

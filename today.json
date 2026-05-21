@@ -1,6 +1,6 @@
 {
   "month": "May",
-  "total": 17,
+  "total": 18,
   "items": [
     {"t": "The Design of Browsing and Berrypicking Techniques for the Online Search Interface", "u": "https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html"},
     {"t": "Interpretable Feature-Level Control and Inference-Time Change", "u": "https://qwen.ai/blog?id=qwen-scope"},
@@ -18,6 +18,7 @@
     {"t": "Human Bottlenecks", "u": "https://borretti.me/article/human-bottlenecks"},
     {"t": "Language Game: Talking to Non-Human Systems", "u": "https://arxiv.org/abs/2605.16321"},
     {"t": "A Complexity Theory of AI Value Accrual", "u": "https://hypersoren.xyz/posts/price-elasticity/"},
-    {"t": "Memory Machines — can LLMs make flashcards that last?", "u": "https://memory-machines.com/"}
+    {"t": "Memory Machines — can LLMs make flashcards that last?", "u": "https://memory-machines.com/"},
+    {"t": "People who write extensively about note-writing rarely have a serious context of use", "u": "https://notes.andymatuschak.org/People_who_write_extensively_about_note-writing_rarely_have_a_serious_context_of_use"}
   ]
 }
