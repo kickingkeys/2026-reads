@@ -187,6 +187,7 @@ Articles and links I'm reading in 2026.
 - [Memory Machines — can LLMs make flashcards that last?](https://memory-machines.com/)
 - [People who write extensively about note-writing rarely have a serious context of use](https://notes.andymatuschak.org/People_who_write_extensively_about_note-writing_rarely_have_a_serious_context_of_use)
 - [AI Fluency for Small Businesses](https://anthropic.skilljar.com/ai-fluency-for-small-businesses)
+- [Fixing LLM writing with Distribution Fine Tuning](https://rosmine.ai/2026/05/18/fixing-llm-writing-with-distribution-fine-tuning/)
 
 ## June
 
