@@ -1,6 +1,6 @@
 {
   "month": "May",
-  "total": 21,
+  "total": 22,
   "items": [
     {"t": "The Design of Browsing and Berrypicking Techniques for the Online Search Interface", "u": "https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html"},
     {"t": "Interpretable Feature-Level Control and Inference-Time Change", "u": "https://qwen.ai/blog?id=qwen-scope"},
@@ -22,6 +22,7 @@
     {"t": "People who write extensively about note-writing rarely have a serious context of use", "u": "https://notes.andymatuschak.org/People_who_write_extensively_about_note-writing_rarely_have_a_serious_context_of_use"},
     {"t": "AI Fluency for Small Businesses", "u": "https://anthropic.skilljar.com/ai-fluency-for-small-businesses"},
     {"t": "Fixing LLM writing with Distribution Fine Tuning", "u": "https://rosmine.ai/2026/05/18/fixing-llm-writing-with-distribution-fine-tuning/"},
-    {"t": "Don't Build an RL Environment Startup", "u": "https://benanderson.work/blog/dont-build-rl-env-startup/"}
+    {"t": "Don't Build an RL Environment Startup", "u": "https://benanderson.work/blog/dont-build-rl-env-startup/"},
+    {"t": "What if RL Environments Aren't Mispriced?", "u": "https://benanderson.work/blog/rl-envs-part-2/"}
   ]
 }
