@@ -190,6 +190,7 @@ Articles and links I'm reading in 2026.
 - [Fixing LLM writing with Distribution Fine Tuning](https://rosmine.ai/2026/05/18/fixing-llm-writing-with-distribution-fine-tuning/)
 - [Don't Build an RL Environment Startup](https://benanderson.work/blog/dont-build-rl-env-startup/)
 - [What if RL Environments Aren't Mispriced?](https://benanderson.work/blog/rl-envs-part-2/)
+- [Breaking Down AI's Most Dynamic Job: Strategic Projects Lead](https://joinhandshake.com/blog/our-team/breaking-down-ai-s-most-dynamic-job-strategic-projects-lead/)
 
 ## June
 
