@@ -191,6 +191,7 @@ Articles and links I'm reading in 2026.
 - [Don't Build an RL Environment Startup](https://benanderson.work/blog/dont-build-rl-env-startup/)
 - [What if RL Environments Aren't Mispriced?](https://benanderson.work/blog/rl-envs-part-2/)
 - [Breaking Down AI's Most Dynamic Job: Strategic Projects Lead](https://joinhandshake.com/blog/our-team/breaking-down-ai-s-most-dynamic-job-strategic-projects-lead/)
+- [Building Self-Improving Tax Agents with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex/)
 
 ## June
 
