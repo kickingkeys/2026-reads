@@ -193,6 +193,7 @@ Articles and links I'm reading in 2026.
 - [Breaking Down AI's Most Dynamic Job: Strategic Projects Lead](https://joinhandshake.com/blog/our-team/breaking-down-ai-s-most-dynamic-job-strategic-projects-lead/)
 - [Building Self-Improving Tax Agents with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex/)
 - [If you let AI do your writing, I will come to your house and kill you](https://samkriss.substack.com/p/if-you-let-ai-do-your-writing-i-will)
+- [Multicultural Spyfall: Assessing LLMs through Dynamic Multilingual Social Deduction Game](https://arxiv.org/abs/2601.09017)
 
 ## June
 
