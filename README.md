@@ -194,6 +194,7 @@ Articles and links I'm reading in 2026.
 - [Building Self-Improving Tax Agents with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex/)
 - [If you let AI do your writing, I will come to your house and kill you](https://samkriss.substack.com/p/if-you-let-ai-do-your-writing-i-will)
 - [Multicultural Spyfall: Assessing LLMs through Dynamic Multilingual Social Deduction Game](https://arxiv.org/abs/2601.09017)
+- [Arsenal, the Premier League, and Zohran Mamdani](https://www.nytimes.com/athletic/7315454/2026/05/29/arsenal-premier-league-zohran-mamdani/)
 
 ## June
 

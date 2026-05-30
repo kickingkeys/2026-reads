@@ -1,6 +1,6 @@
 {
   "month": "May",
-  "total": 26,
+  "total": 27,
   "items": [
     {"t": "The Design of Browsing and Berrypicking Techniques for the Online Search Interface", "u": "https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html"},
     {"t": "Interpretable Feature-Level Control and Inference-Time Change", "u": "https://qwen.ai/blog?id=qwen-scope"},
@@ -27,6 +27,7 @@
     {"t": "Breaking Down AI's Most Dynamic Job: Strategic Projects Lead", "u": "https://joinhandshake.com/blog/our-team/breaking-down-ai-s-most-dynamic-job-strategic-projects-lead/"},
     {"t": "Building Self-Improving Tax Agents with Codex", "u": "https://openai.com/index/building-self-improving-tax-agents-with-codex/"},
     {"t": "If you let AI do your writing, I will come to your house and kill you", "u": "https://samkriss.substack.com/p/if-you-let-ai-do-your-writing-i-will"},
-    {"t": "Multicultural Spyfall: Assessing LLMs through Dynamic Multilingual Social Deduction Game", "u": "https://arxiv.org/abs/2601.09017"}
+    {"t": "Multicultural Spyfall: Assessing LLMs through Dynamic Multilingual Social Deduction Game", "u": "https://arxiv.org/abs/2601.09017"},
+    {"t": "Arsenal, the Premier League, and Zohran Mamdani", "u": "https://www.nytimes.com/athletic/7315454/2026/05/29/arsenal-premier-league-zohran-mamdani/"}
   ]
 }
