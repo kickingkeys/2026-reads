@@ -2,6 +2,8 @@
 
 Articles and links I'm reading in 2026.
 
+Website: <https://kickingkeys.github.io/2026-reads/>
+
 ## January
 - [The Resonant Computing Manifesto](https://resonantcomputing.org/)
 - [You can't design software you don't work on](https://www.seangoedecke.com/you-cant-design-software-you-dont-work-on/)
@@ -197,6 +199,7 @@ Articles and links I'm reading in 2026.
 - [Arsenal, the Premier League, and Zohran Mamdani](https://www.nytimes.com/athletic/7315454/2026/05/29/arsenal-premier-league-zohran-mamdani/)
 
 ## June
+- [Be Generous](https://avc.xyz/be-generous)
 
 ## July
 

@@ -1,33 +1,7 @@
 {
-  "month": "May",
-  "total": 27,
+  "month": "June",
+  "total": 1,
   "items": [
-    {"t": "The Design of Browsing and Berrypicking Techniques for the Online Search Interface", "u": "https://pages.gseis.ucla.edu/faculty/bates/berrypicking.html"},
-    {"t": "Interpretable Feature-Level Control and Inference-Time Change", "u": "https://qwen.ai/blog?id=qwen-scope"},
-    {"t": "Teach Them to Fish", "u": "https://alixw.substack.com/p/teach-them-to-fish"},
-    {"t": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations", "u": "https://transformer-circuits.pub/2026/nla/index.html"},
-    {"t": "Measuring Intelligence through Games", "u": "https://arxiv.org/abs/1109.1314"},
-    {"t": "Interaction Models: A Scalable Approach to Human-AI Collaboration", "u": "https://thinkingmachines.ai/blog/interaction-models/"},
-    {"t": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task", "u": "https://arxiv.org/abs/2506.08872"},
-    {"t": "SFT, RL, and On-Policy Distillation Through a Distributional Lens", "u": "https://x.com/nrehiew_/status/2053482349300797526"},
-    {"t": "The Trouble with Narrative History", "u": "https://thereader.mitpress.mit.edu/the-trouble-with-narrative-history/"},
-    {"t": "2028: Two scenarios for global AI leadership", "u": "https://www.anthropic.com/research/2028-ai-leadership"},
-    {"t": "TITAA #78.5: Stay in the Manifest, Bio Processors", "u": "https://arnicas.substack.com/p/titaa-785-stay-in-the-manifest-bio"},
-    {"t": "how to enter side doors", "u": "https://velvetnoise.substack.com/p/how-to-enter-side-doors"},
-    {"t": "ChatGPT, AI, College and Graduation", "u": "https://www.nytimes.com/2026/05/17/opinion/chatgpt-ai-college-school-graduation.html"},
-    {"t": "Human Bottlenecks", "u": "https://borretti.me/article/human-bottlenecks"},
-    {"t": "Language Game: Talking to Non-Human Systems", "u": "https://arxiv.org/abs/2605.16321"},
-    {"t": "A Complexity Theory of AI Value Accrual", "u": "https://hypersoren.xyz/posts/price-elasticity/"},
-    {"t": "Memory Machines — can LLMs make flashcards that last?", "u": "https://memory-machines.com/"},
-    {"t": "People who write extensively about note-writing rarely have a serious context of use", "u": "https://notes.andymatuschak.org/People_who_write_extensively_about_note-writing_rarely_have_a_serious_context_of_use"},
-    {"t": "AI Fluency for Small Businesses", "u": "https://anthropic.skilljar.com/ai-fluency-for-small-businesses"},
-    {"t": "Fixing LLM writing with Distribution Fine Tuning", "u": "https://rosmine.ai/2026/05/18/fixing-llm-writing-with-distribution-fine-tuning/"},
-    {"t": "Don't Build an RL Environment Startup", "u": "https://benanderson.work/blog/dont-build-rl-env-startup/"},
-    {"t": "What if RL Environments Aren't Mispriced?", "u": "https://benanderson.work/blog/rl-envs-part-2/"},
-    {"t": "Breaking Down AI's Most Dynamic Job: Strategic Projects Lead", "u": "https://joinhandshake.com/blog/our-team/breaking-down-ai-s-most-dynamic-job-strategic-projects-lead/"},
-    {"t": "Building Self-Improving Tax Agents with Codex", "u": "https://openai.com/index/building-self-improving-tax-agents-with-codex/"},
-    {"t": "If you let AI do your writing, I will come to your house and kill you", "u": "https://samkriss.substack.com/p/if-you-let-ai-do-your-writing-i-will"},
-    {"t": "Multicultural Spyfall: Assessing LLMs through Dynamic Multilingual Social Deduction Game", "u": "https://arxiv.org/abs/2601.09017"},
-    {"t": "Arsenal, the Premier League, and Zohran Mamdani", "u": "https://www.nytimes.com/athletic/7315454/2026/05/29/arsenal-premier-league-zohran-mamdani/"}
+    {"t": "Be Generous", "u": "https://avc.xyz/be-generous"}
   ]
 }
