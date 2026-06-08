@@ -202,6 +202,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Be Generous](https://avc.xyz/be-generous)
 - [MAI-Thinking-1: Building a Hill-Climbing Machine](https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf)
 - [When AI builds itself](https://www.anthropic.com/institute/recursive-self-improvement)
+- [State of Data (May 2026)](https://seanzcai.substack.com/p/state-of-data-may-2026)
 
 ## July
 
