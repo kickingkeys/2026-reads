@@ -1,10 +1,11 @@
 {
   "month": "June",
-  "total": 4,
+  "total": 5,
   "items": [
     {"t": "Be Generous", "u": "https://avc.xyz/be-generous"},
     {"t": "MAI-Thinking-1: Building a Hill-Climbing Machine", "u": "https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf"},
     {"t": "When AI builds itself", "u": "https://www.anthropic.com/institute/recursive-self-improvement"},
-    {"t": "State of Data (May 2026)", "u": "https://seanzcai.substack.com/p/state-of-data-may-2026"}
+    {"t": "State of Data (May 2026)", "u": "https://seanzcai.substack.com/p/state-of-data-may-2026"},
+    {"t": "Cost-aware Bayesian Optimization", "u": "https://arxiv.org/abs/2003.10870"}
   ]
 }
