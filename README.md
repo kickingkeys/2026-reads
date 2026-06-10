@@ -204,6 +204,8 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [When AI builds itself](https://www.anthropic.com/institute/recursive-self-improvement)
 - [State of Data (May 2026)](https://seanzcai.substack.com/p/state-of-data-may-2026)
 - [Cost-aware Bayesian Optimization](https://arxiv.org/abs/2003.10870)
+- [Presentations — Benedict Evans](https://www.ben-evans.com/presentations)
+- [Policy on the AI Exponential](https://darioamodei.com/post/policy-on-the-ai-exponential)
 
 ## July
 
