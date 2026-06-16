@@ -207,6 +207,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Presentations — Benedict Evans](https://www.ben-evans.com/presentations)
 - [Policy on the AI Exponential](https://darioamodei.com/post/policy-on-the-ai-exponential)
 - [What We Learned from Letting AI PostTrain AI](https://www.thoughtfullab.com/letting-ai-posttrain-ai.html)
+- [RL Systems Mind the Gap: Matching Trainer and Generator Throughput](https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching)
 
 ## July
 
