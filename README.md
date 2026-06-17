@@ -208,6 +208,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Policy on the AI Exponential](https://darioamodei.com/post/policy-on-the-ai-exponential)
 - [What We Learned from Letting AI PostTrain AI](https://www.thoughtfullab.com/letting-ai-posttrain-ai.html)
 - [RL Systems Mind the Gap: Matching Trainer and Generator Throughput](https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching)
+- [Dear A.I. Companies: The Doom Trolling Needs to Stop](https://www.nytimes.com/2026/06/17/opinion/ai-dangerous-openai-anthropic.html)
 
 ## July
 
