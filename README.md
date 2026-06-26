@@ -210,6 +210,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [RL Systems Mind the Gap: Matching Trainer and Generator Throughput](https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching)
 - [Dear A.I. Companies: The Doom Trolling Needs to Stop](https://www.nytimes.com/2026/06/17/opinion/ai-dangerous-openai-anthropic.html)
 - [Introducing Claude Tag](https://www.anthropic.com/news/introducing-claude-tag)
+- [Silicon Valley Has an Empathy Vacuum](https://www.newyorker.com/business/currency/silicon-valley-has-an-empathy-vacuum)
 
 ## July
 
