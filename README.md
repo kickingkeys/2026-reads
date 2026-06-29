@@ -211,6 +211,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Dear A.I. Companies: The Doom Trolling Needs to Stop](https://www.nytimes.com/2026/06/17/opinion/ai-dangerous-openai-anthropic.html)
 - [Introducing Claude Tag](https://www.anthropic.com/news/introducing-claude-tag)
 - [Silicon Valley Has an Empathy Vacuum](https://www.newyorker.com/business/currency/silicon-valley-has-an-empathy-vacuum)
+- [No-One Escapes the Permanent Underclass](https://borretti.me/article/no-one-escapes-the-permanent-underclass)
 
 ## July
 

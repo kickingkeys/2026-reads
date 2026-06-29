@@ -1,6 +1,6 @@
 {
   "month": "June",
-  "total": 12,
+  "total": 13,
   "items": [
     {"t": "Be Generous", "u": "https://avc.xyz/be-generous"},
     {"t": "MAI-Thinking-1: Building a Hill-Climbing Machine", "u": "https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf"},
@@ -13,6 +13,7 @@
     {"t": "RL Systems Mind the Gap: Matching Trainer and Generator Throughput", "u": "https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching"},
     {"t": "Dear A.I. Companies: The Doom Trolling Needs to Stop", "u": "https://www.nytimes.com/2026/06/17/opinion/ai-dangerous-openai-anthropic.html"},
     {"t": "Introducing Claude Tag", "u": "https://www.anthropic.com/news/introducing-claude-tag"},
-    {"t": "Silicon Valley Has an Empathy Vacuum", "u": "https://www.newyorker.com/business/currency/silicon-valley-has-an-empathy-vacuum"}
+    {"t": "Silicon Valley Has an Empathy Vacuum", "u": "https://www.newyorker.com/business/currency/silicon-valley-has-an-empathy-vacuum"},
+    {"t": "No-One Escapes the Permanent Underclass", "u": "https://borretti.me/article/no-one-escapes-the-permanent-underclass"}
   ]
 }
