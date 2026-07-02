@@ -1,19 +1,7 @@
 {
-  "month": "June",
-  "total": 13,
+  "month": "July",
+  "total": 1,
   "items": [
-    {"t": "Be Generous", "u": "https://avc.xyz/be-generous"},
-    {"t": "MAI-Thinking-1: Building a Hill-Climbing Machine", "u": "https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf"},
-    {"t": "When AI builds itself", "u": "https://www.anthropic.com/institute/recursive-self-improvement"},
-    {"t": "State of Data (May 2026)", "u": "https://seanzcai.substack.com/p/state-of-data-may-2026"},
-    {"t": "Cost-aware Bayesian Optimization", "u": "https://arxiv.org/abs/2003.10870"},
-    {"t": "Presentations — Benedict Evans", "u": "https://www.ben-evans.com/presentations"},
-    {"t": "Policy on the AI Exponential", "u": "https://darioamodei.com/post/policy-on-the-ai-exponential"},
-    {"t": "What We Learned from Letting AI PostTrain AI", "u": "https://www.thoughtfullab.com/letting-ai-posttrain-ai.html"},
-    {"t": "RL Systems Mind the Gap: Matching Trainer and Generator Throughput", "u": "https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching"},
-    {"t": "Dear A.I. Companies: The Doom Trolling Needs to Stop", "u": "https://www.nytimes.com/2026/06/17/opinion/ai-dangerous-openai-anthropic.html"},
-    {"t": "Introducing Claude Tag", "u": "https://www.anthropic.com/news/introducing-claude-tag"},
-    {"t": "Silicon Valley Has an Empathy Vacuum", "u": "https://www.newyorker.com/business/currency/silicon-valley-has-an-empathy-vacuum"},
-    {"t": "No-One Escapes the Permanent Underclass", "u": "https://borretti.me/article/no-one-escapes-the-permanent-underclass"}
+    {"t": "Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence", "u": "https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/"}
   ]
 }

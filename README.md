@@ -214,6 +214,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [No-One Escapes the Permanent Underclass](https://borretti.me/article/no-one-escapes-the-permanent-underclass)
 
 ## July
+- [Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence](https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/)
 
 ## August
 
