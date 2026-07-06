@@ -1,7 +1,8 @@
 {
   "month": "July",
-  "total": 1,
+  "total": 2,
   "items": [
-    {"t": "Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence", "u": "https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/"}
+    {"t": "Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence", "u": "https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/"},
+    {"t": "MIRA", "u": "https://mira-wm.com/paper"}
   ]
 }
