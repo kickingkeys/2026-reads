@@ -216,6 +216,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 ## July
 - [Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence](https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/)
 - [MIRA](https://mira-wm.com/paper)
+- [A global workspace in language models](https://www.anthropic.com/research/global-workspace)
 
 ## August
 

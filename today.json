@@ -1,8 +1,9 @@
 {
   "month": "July",
-  "total": 2,
+  "total": 3,
   "items": [
     {"t": "Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence", "u": "https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/"},
-    {"t": "MIRA", "u": "https://mira-wm.com/paper"}
+    {"t": "MIRA", "u": "https://mira-wm.com/paper"},
+    {"t": "A global workspace in language models", "u": "https://www.anthropic.com/research/global-workspace"}
   ]
 }
