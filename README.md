@@ -218,6 +218,8 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [MIRA](https://mira-wm.com/paper)
 - [A global workspace in language models](https://www.anthropic.com/research/global-workspace)
 - [Intrinsic Goals for Autonomous Agents (Reece Keller)](https://sensorimotorai.github.io/2026/04/09/zebrafish3m/)
+- [Notes from inside China's AI labs](https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs)
+- [AIDE²: The First Evidence of Recursive Self-Improvement](https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement)
 
 ## August
 
