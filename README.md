@@ -220,6 +220,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Intrinsic Goals for Autonomous Agents (Reece Keller)](https://sensorimotorai.github.io/2026/04/09/zebrafish3m/)
 - [Notes from inside China's AI labs](https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs)
 - [AIDE²: The First Evidence of Recursive Self-Improvement](https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement)
+- [Kimi K3: The open-weights escalation](https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation)
 
 ## August
 
