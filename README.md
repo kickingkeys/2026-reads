@@ -221,6 +221,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Notes from inside China's AI labs](https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs)
 - [AIDE²: The First Evidence of Recursive Self-Improvement](https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement)
 - [Kimi K3: The open-weights escalation](https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation)
+- [Hugging Face model evaluation security incident](https://openai.com/index/hugging-face-model-evaluation-security-incident/)
 
 ## August
 
