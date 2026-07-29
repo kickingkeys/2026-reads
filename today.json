@@ -1,6 +1,6 @@
 {
   "month": "July",
-  "total": 9,
+  "total": 10,
   "items": [
     {"t": "Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence", "u": "https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/"},
     {"t": "MIRA", "u": "https://mira-wm.com/paper"},
@@ -10,6 +10,7 @@
     {"t": "AIDE²: The First Evidence of Recursive Self-Improvement", "u": "https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement"},
     {"t": "Kimi K3: The open-weights escalation", "u": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation"},
     {"t": "Hugging Face model evaluation security incident", "u": "https://openai.com/index/hugging-face-model-evaluation-security-incident/"},
-    {"t": "Antikythera Lexicon — Emergent AI Phenomenology", "u": "https://phenomenai.org/antikythera-lexicon/"}
+    {"t": "Antikythera Lexicon — Emergent AI Phenomenology", "u": "https://phenomenai.org/antikythera-lexicon/"},
+    {"t": "Why compute might get 10x more expensive in coming years", "u": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive"}
   ]
 }
