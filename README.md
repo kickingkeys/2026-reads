@@ -226,6 +226,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Why compute might get 10x more expensive in coming years](https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive)
 
 ## August
+- [Guardian Angels: LLM Personalization for Productivity and Security](https://gwern.net/guardian-angel)
 
 ## September
 
