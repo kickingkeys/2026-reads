@@ -227,6 +227,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 
 ## August
 - [Guardian Angels: LLM Personalization for Productivity and Security](https://gwern.net/guardian-angel)
+- [I wrote an AI textbook — how long until AI can do it better?](https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until)
 
 ## September
 
