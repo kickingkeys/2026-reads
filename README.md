@@ -228,8 +228,16 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 ## August
 - [Guardian Angels: LLM Personalization for Productivity and Security](https://gwern.net/guardian-angel)
 - [I wrote an AI textbook — how long until AI can do it better?](https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until)
+- [Patterns and problems in multiagent systems](https://www.anthropic.com/research/multiagent-systems)
 
 ## September
+- [Router Power](https://hypersoren.xyz/posts/router-power/)
+- [LLM-as-a-Verifier: A General-Purpose Verification Framework](https://arxiv.org/abs/2607.05391)
+- [Reinforcement Learning from Reflective Feedback (RLRF): Aligning and Improving LLMs via Fine-Grained Self-Reflection](https://arxiv.org/abs/2403.14238)
+- [Intrinsically Curious Agents](https://www.inductionlabs.com/news/intrinsic-discovery)
+- [Using Reward Uncertainty to Induce Diverse Behaviour in Reinforcement Learning](https://arxiv.org/abs/2606.03962)
+- [Persimmon](https://persimmon.humansand.ai/blog/persimmon.html)
+- [Multi-Agent Systems in PRIME-RL](https://www.primeintellect.ai/blog/multi-agent-systems)
 
 ## October
 

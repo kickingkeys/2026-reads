@@ -1,8 +1,13 @@
 {
-  "month": "August",
-  "total": 2,
+  "month": "September",
+  "total": 7,
   "items": [
-    {"t": "Guardian Angels: LLM Personalization for Productivity and Security", "u": "https://gwern.net/guardian-angel"},
-    {"t": "I wrote an AI textbook — how long until AI can do it better?", "u": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until"}
+    {"t": "Router Power", "u": "https://hypersoren.xyz/posts/router-power/"},
+    {"t": "LLM-as-a-Verifier: A General-Purpose Verification Framework", "u": "https://arxiv.org/abs/2607.05391"},
+    {"t": "Reinforcement Learning from Reflective Feedback (RLRF): Aligning and Improving LLMs via Fine-Grained Self-Reflection", "u": "https://arxiv.org/abs/2403.14238"},
+    {"t": "Intrinsically Curious Agents", "u": "https://www.inductionlabs.com/news/intrinsic-discovery"},
+    {"t": "Using Reward Uncertainty to Induce Diverse Behaviour in Reinforcement Learning", "u": "https://arxiv.org/abs/2606.03962"},
+    {"t": "Persimmon", "u": "https://persimmon.humansand.ai/blog/persimmon.html"},
+    {"t": "Multi-Agent Systems in PRIME-RL", "u": "https://www.primeintellect.ai/blog/multi-agent-systems"}
   ]
 }
