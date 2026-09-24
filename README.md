@@ -252,6 +252,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics](https://minarcik.com/minkowski-penalties/)
 - [Artificial Curiosity Since 1990](https://people.idsia.ch/~juergen/artificial-curiosity-since-1990.html)
 - [The Egg](https://www.galactanet.com/oneoff/theegg.html)
+- [Artificial symbiotic intelligence: Agents, AGI and the orchestration of many minds](https://institute.deepmind.com/essays/artificial-symbiotic-intelligence/)
 
 ## October
 

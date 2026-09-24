@@ -1,6 +1,6 @@
 {
   "month": "September",
-  "total": 21,
+  "total": 22,
   "items": [
     {"t": "Router Power", "u": "https://hypersoren.xyz/posts/router-power/"},
     {"t": "LLM-as-a-Verifier: A General-Purpose Verification Framework", "u": "https://arxiv.org/abs/2607.05391"},
@@ -22,6 +22,7 @@
     {"t": "Dream-Cubed: Controllable Generative Modeling in Minecraft by Training on Billions of Cubes", "u": "https://arxiv.org/pdf/2604.22847"},
     {"t": "Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics", "u": "https://minarcik.com/minkowski-penalties/"},
     {"t": "Artificial Curiosity Since 1990", "u": "https://people.idsia.ch/~juergen/artificial-curiosity-since-1990.html"},
-    {"t": "The Egg", "u": "https://www.galactanet.com/oneoff/theegg.html"}
+    {"t": "The Egg", "u": "https://www.galactanet.com/oneoff/theegg.html"},
+    {"t": "Artificial symbiotic intelligence: Agents, AGI and the orchestration of many minds", "u": "https://institute.deepmind.com/essays/artificial-symbiotic-intelligence/"}
   ]
 }
