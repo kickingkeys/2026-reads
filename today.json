@@ -1,6 +1,6 @@
 {
   "month": "September",
-  "total": 7,
+  "total": 21,
   "items": [
     {"t": "Router Power", "u": "https://hypersoren.xyz/posts/router-power/"},
     {"t": "LLM-as-a-Verifier: A General-Purpose Verification Framework", "u": "https://arxiv.org/abs/2607.05391"},
@@ -8,6 +8,20 @@
     {"t": "Intrinsically Curious Agents", "u": "https://www.inductionlabs.com/news/intrinsic-discovery"},
     {"t": "Using Reward Uncertainty to Induce Diverse Behaviour in Reinforcement Learning", "u": "https://arxiv.org/abs/2606.03962"},
     {"t": "Persimmon", "u": "https://persimmon.humansand.ai/blog/persimmon.html"},
-    {"t": "Multi-Agent Systems in PRIME-RL", "u": "https://www.primeintellect.ai/blog/multi-agent-systems"}
+    {"t": "Multi-Agent Systems in PRIME-RL", "u": "https://www.primeintellect.ai/blog/multi-agent-systems"},
+    {"t": "Data-Efficient Brushstroke Generation with Diffusion Models for Oil Painting", "u": "https://arxiv.org/html/2603.01103v1"},
+    {"t": "Visual Features Across Modalities: SVG and ASCII Art Reveal Cross-Modal Understanding", "u": "https://transformer-circuits.pub/2025/october-update/index.html"},
+    {"t": "Stay in the Game", "u": "https://www.albertbridgecapital.com/post/stay-in-the-game"},
+    {"t": "Why So Few Matt Levines?", "u": "https://gwern.net/matt-levine"},
+    {"t": "The remarkably human task of giving AI good-enough taste", "u": "https://www.fastcompany.com/91591873/the-remarkably-human-task-of-giving-ai-good-enough-taste"},
+    {"t": "GDB: A Real-World Benchmark for Graphic Design", "u": "https://lica.world/blog/gdb-real-world-benchmark-for-graphic-design"},
+    {"t": "Narrative Keyframing for Generative Creative Writing", "u": "https://arxiv.org/pdf/2608.10337"},
+    {"t": "Abe Davis's Research Group", "u": "https://www.cs.cornell.edu/abe/group/"},
+    {"t": "Leveraging Large Language Models for Scalable Vector Graphics-Driven Image Understanding", "u": "https://arxiv.org/pdf/2306.06094"},
+    {"t": "Through the looking glass of benchmark hacking", "u": "https://poolside.ai/blog/through-the-looking-glass"},
+    {"t": "Dream-Cubed: Controllable Generative Modeling in Minecraft by Training on Billions of Cubes", "u": "https://arxiv.org/pdf/2604.22847"},
+    {"t": "Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics", "u": "https://minarcik.com/minkowski-penalties/"},
+    {"t": "Artificial Curiosity Since 1990", "u": "https://people.idsia.ch/~juergen/artificial-curiosity-since-1990.html"},
+    {"t": "The Egg", "u": "https://www.galactanet.com/oneoff/theegg.html"}
   ]
 }

@@ -238,6 +238,20 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Using Reward Uncertainty to Induce Diverse Behaviour in Reinforcement Learning](https://arxiv.org/abs/2606.03962)
 - [Persimmon](https://persimmon.humansand.ai/blog/persimmon.html)
 - [Multi-Agent Systems in PRIME-RL](https://www.primeintellect.ai/blog/multi-agent-systems)
+- [Data-Efficient Brushstroke Generation with Diffusion Models for Oil Painting](https://arxiv.org/html/2603.01103v1)
+- [Visual Features Across Modalities: SVG and ASCII Art Reveal Cross-Modal Understanding](https://transformer-circuits.pub/2025/october-update/index.html)
+- [Stay in the Game](https://www.albertbridgecapital.com/post/stay-in-the-game)
+- [Why So Few Matt Levines?](https://gwern.net/matt-levine)
+- [The remarkably human task of giving AI good-enough taste](https://www.fastcompany.com/91591873/the-remarkably-human-task-of-giving-ai-good-enough-taste)
+- [GDB: A Real-World Benchmark for Graphic Design](https://lica.world/blog/gdb-real-world-benchmark-for-graphic-design)
+- [Narrative Keyframing for Generative Creative Writing](https://arxiv.org/pdf/2608.10337)
+- [Abe Davis's Research Group](https://www.cs.cornell.edu/abe/group/)
+- [Leveraging Large Language Models for Scalable Vector Graphics-Driven Image Understanding](https://arxiv.org/pdf/2306.06094)
+- [Through the looking glass of benchmark hacking](https://poolside.ai/blog/through-the-looking-glass)
+- [Dream-Cubed: Controllable Generative Modeling in Minecraft by Training on Billions of Cubes](https://arxiv.org/pdf/2604.22847)
+- [Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics](https://minarcik.com/minkowski-penalties/)
+- [Artificial Curiosity Since 1990](https://people.idsia.ch/~juergen/artificial-curiosity-since-1990.html)
+- [The Egg](https://www.galactanet.com/oneoff/theegg.html)
 
 ## October
 
