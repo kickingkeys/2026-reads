@@ -253,6 +253,21 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Artificial Curiosity Since 1990](https://people.idsia.ch/~juergen/artificial-curiosity-since-1990.html)
 - [The Egg](https://www.galactanet.com/oneoff/theegg.html)
 - [Artificial symbiotic intelligence: Agents, AGI and the orchestration of many minds](https://institute.deepmind.com/essays/artificial-symbiotic-intelligence/)
+- [Learning to Discover Interesting Mathematics](https://arxiv.org/abs/2609.28603)
+- [Vector Policy Optimization: Training for Diversity Improves Test-Time Search](https://arxiv.org/html/2605.22817v1)
+- [What You Think is What You See: Driving Exploration in VLM Agents via Visual-Linguistic Curiosity](https://arxiv.org/html/2605.03782v1)
+- [The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models](https://arxiv.org/abs/2505.22617)
+- [Entropy-Preserving Reinforcement Learning](https://arxiv.org/html/2603.11682v1)
+- [Jointly Reinforcing Diversity and Quality in Language Model Generations](https://arxiv.org/abs/2509.02534)
+- [Curiosity-Driven Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2501.11463)
+- [Tail-Likelihood Reinforcement Learning](https://arxiv.org/abs/2609.02987)
+- [Quality-Diversity through AI Feedback](https://arxiv.org/abs/2310.13032)
+- [NoveltyBench: Evaluating Language Models for Humanlike Diversity](https://arxiv.org/abs/2504.05228)
+- [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/abs/1705.05363)
+- [Exploration by Random Network Distillation](https://arxiv.org/abs/1810.12894)
+- [Active World Model Learning with Progress Curiosity](https://arxiv.org/abs/2007.07853)
+- [Illuminating search spaces by mapping elites (MAP-Elites)](https://arxiv.org/abs/1504.04909)
+- [Scaling Laws for Reward Model Overoptimization](https://arxiv.org/abs/2210.10760)
 
 ## October
 
