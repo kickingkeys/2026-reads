@@ -268,6 +268,12 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Active World Model Learning with Progress Curiosity](https://arxiv.org/abs/2007.07853)
 - [Illuminating search spaces by mapping elites (MAP-Elites)](https://arxiv.org/abs/1504.04909)
 - [Scaling Laws for Reward Model Overoptimization](https://arxiv.org/abs/2210.10760)
+- [Automating eval design and hillclimbing with Claude](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
+- [Scratch Copilot: Supporting Youth Creative Coding with AI](https://arxiv.org/html/2505.03867v1)
+- [In Search of the Ingredients of Open-Endedness: Replicating Picbreeder with Large Vision-Language Models](https://arxiv.org/html/2605.23908v2)
+- [Introducing Sakana AI's Frontier Intelligence Group (FIG)](https://sakana.ai/frontier-intelligence-group/)
+- [Parallel developmental changes in children’s production and recognition of line drawings of visual concepts](https://www.nature.com/articles/s41467-023-44529-9)
+- [Pencils to Pixels: A Systematic Study of Creative Drawings across Children, Adults and AI](https://arxiv.org/html/2502.05999)
 
 ## October
 
