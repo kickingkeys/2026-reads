@@ -1,6 +1,6 @@
 {
   "month": "September",
-  "total": 43,
+  "total": 44,
   "items": [
     {"t": "Router Power", "u": "https://hypersoren.xyz/posts/router-power/"},
     {"t": "LLM-as-a-Verifier: A General-Purpose Verification Framework", "u": "https://arxiv.org/abs/2607.05391"},
@@ -44,6 +44,7 @@
     {"t": "In Search of the Ingredients of Open-Endedness: Replicating Picbreeder with Large Vision-Language Models", "u": "https://arxiv.org/html/2605.23908v2"},
     {"t": "Introducing Sakana AI's Frontier Intelligence Group (FIG)", "u": "https://sakana.ai/frontier-intelligence-group/"},
     {"t": "Parallel developmental changes in children’s production and recognition of line drawings of visual concepts", "u": "https://www.nature.com/articles/s41467-023-44529-9"},
-    {"t": "Pencils to Pixels: A Systematic Study of Creative Drawings across Children, Adults and AI", "u": "https://arxiv.org/html/2502.05999"}
+    {"t": "Pencils to Pixels: A Systematic Study of Creative Drawings across Children, Adults and AI", "u": "https://arxiv.org/html/2502.05999"},
+    {"t": "Stroke of Surprise: Progressive Semantic Illusions in Vector Sketching", "u": "https://stroke-of-surprise.github.io/"}
   ]
 }

@@ -274,6 +274,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Introducing Sakana AI's Frontier Intelligence Group (FIG)](https://sakana.ai/frontier-intelligence-group/)
 - [Parallel developmental changes in children’s production and recognition of line drawings of visual concepts](https://www.nature.com/articles/s41467-023-44529-9)
 - [Pencils to Pixels: A Systematic Study of Creative Drawings across Children, Adults and AI](https://arxiv.org/html/2502.05999)
+- [Stroke of Surprise: Progressive Semantic Illusions in Vector Sketching](https://stroke-of-surprise.github.io/)
 
 ## October
 
