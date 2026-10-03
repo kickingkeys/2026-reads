@@ -281,6 +281,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [LLM-based Evolution as a Universal Optimizer](https://imbue.com/blog/2026-02-27-darwinian-evolver)
 - [Automating AI model research with evolution](https://imbue.com/blog/2026-07-20-imbue-catalyst-nanochat)
 - [Autonomous theory discovery](https://imbue.com/blog/2026-07-20-imbue-catalyst-theory-discovery)
+- [Finetuning with Sampling: SFT Learns Better Than You Think](https://arxiv.org/abs/2610.02140)
 
 ## November
 
