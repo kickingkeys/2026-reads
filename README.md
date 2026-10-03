@@ -277,6 +277,10 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Stroke of Surprise: Progressive Semantic Illusions in Vector Sketching](https://stroke-of-surprise.github.io/)
 
 ## October
+- [Beating ARC-AGI-2 with Code Evolution](https://imbue.com/blog/2026-02-27-arc-agi-2-evolution)
+- [LLM-based Evolution as a Universal Optimizer](https://imbue.com/blog/2026-02-27-darwinian-evolver)
+- [Automating AI model research with evolution](https://imbue.com/blog/2026-07-20-imbue-catalyst-nanochat)
+- [Autonomous theory discovery](https://imbue.com/blog/2026-07-20-imbue-catalyst-theory-discovery)
 
 ## November
 
