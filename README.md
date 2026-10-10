@@ -283,6 +283,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Autonomous theory discovery](https://imbue.com/blog/2026-07-20-imbue-catalyst-theory-discovery)
 - [Finetuning with Sampling: SFT Learns Better Than You Think](https://arxiv.org/abs/2610.02140)
 - [RLTL;DR: Self-improvement by Internalizing Self-generated Feedback](https://arxiv.org/pdf/2609.37633)
+- [Illustrated Letters (Smithsonian)](https://www.si.edu/spotlight/illustrated-letters?page=0)
 
 ## November
 
