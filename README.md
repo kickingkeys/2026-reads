@@ -284,6 +284,8 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Finetuning with Sampling: SFT Learns Better Than You Think](https://arxiv.org/abs/2610.02140)
 - [RLTL;DR: Self-improvement by Internalizing Self-generated Feedback](https://arxiv.org/pdf/2609.37633)
 - [Illustrated Letters (Smithsonian)](https://www.si.edu/spotlight/illustrated-letters?page=0)
+- [Squad Wealth](https://otherinter.net/research/squad-wealth/)
+- [The high-return activity of raising others' aspirations](https://marginalrevolution.com/marginalrevolution/2018/10/high-return-activity-raising-others-aspirations.html)
 
 ## November
 
