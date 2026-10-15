@@ -287,6 +287,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Squad Wealth](https://otherinter.net/research/squad-wealth/)
 - [The high-return activity of raising others' aspirations](https://marginalrevolution.com/marginalrevolution/2018/10/high-return-activity-raising-others-aspirations.html)
 - [Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity](https://arxiv.org/html/2510.01171v4)
+- [Neural Networks Are Already Clean](https://already-clean.goodfire.com/)
 
 ## November
 

@@ -1,6 +1,6 @@
 {
   "month": "October",
-  "total": 10,
+  "total": 11,
   "items": [
     {"t": "Beating ARC-AGI-2 with Code Evolution", "u": "https://imbue.com/blog/2026-02-27-arc-agi-2-evolution"},
     {"t": "LLM-based Evolution as a Universal Optimizer", "u": "https://imbue.com/blog/2026-02-27-darwinian-evolver"},
@@ -11,6 +11,7 @@
     {"t": "Illustrated Letters (Smithsonian)", "u": "https://www.si.edu/spotlight/illustrated-letters?page=0"},
     {"t": "Squad Wealth", "u": "https://otherinter.net/research/squad-wealth/"},
     {"t": "The high-return activity of raising others' aspirations", "u": "https://marginalrevolution.com/marginalrevolution/2018/10/high-return-activity-raising-others-aspirations.html"},
-    {"t": "Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity", "u": "https://arxiv.org/html/2510.01171v4"}
+    {"t": "Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity", "u": "https://arxiv.org/html/2510.01171v4"},
+    {"t": "Neural Networks Are Already Clean", "u": "https://already-clean.goodfire.com/"}
   ]
 }
