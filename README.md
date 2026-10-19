@@ -288,6 +288,8 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [The high-return activity of raising others' aspirations](https://marginalrevolution.com/marginalrevolution/2018/10/high-return-activity-raising-others-aspirations.html)
 - [Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity](https://arxiv.org/html/2510.01171v4)
 - [Neural Networks Are Already Clean](https://already-clean.goodfire.com/)
+- [How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic)
+- [A Darkness unto Itself: A Response to "The Superdark Factory"](https://tripleampersand.org/a-darkness-unto-itself/)
 
 ## November
 
