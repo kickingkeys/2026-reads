@@ -290,6 +290,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Neural Networks Are Already Clean](https://already-clean.goodfire.com/)
 - [How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic)
 - [A Darkness unto Itself: A Response to "The Superdark Factory"](https://tripleampersand.org/a-darkness-unto-itself/)
+- [Re-evaluating Open-ended Evaluation of Large Language Models](https://arxiv.org/pdf/2502.20170)
 
 ## November
 
