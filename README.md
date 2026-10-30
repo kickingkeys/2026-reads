@@ -292,6 +292,8 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [A Darkness unto Itself: A Response to "The Superdark Factory"](https://tripleampersand.org/a-darkness-unto-itself/)
 - [Re-evaluating Open-ended Evaluation of Large Language Models](https://arxiv.org/pdf/2502.20170)
 - [Training Reve 2.0 at scale](https://app.reve.com/training-infra)
+- [Scaling Transformer Energy-Based Models for High Quality Image Synthesis](https://int-lee.github.io/scalable-ebm/)
+- [How We're Training a Figma-Fluent Editing Model](https://www.figma.com/blog/training-a-figma-fluent-editing-model/)
 
 ## November
 
