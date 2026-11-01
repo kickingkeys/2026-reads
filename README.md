@@ -296,5 +296,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [How We're Training a Figma-Fluent Editing Model](https://www.figma.com/blog/training-a-figma-fluent-editing-model/)
 
 ## November
+- [The Commanding Heights](https://commanding-heights.com/)
 
 ## December
