@@ -297,5 +297,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 
 ## November
 - [The Commanding Heights](https://commanding-heights.com/)
+- [Surya — For the love of the game (Creative Conviction)](https://creativeconviction.ai/interviews/surya/)
+- [Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights](https://rikiyat.github.io/blog/weight-space-programming/)
 
 ## December
