@@ -1,9 +1,14 @@
 {
   "month": "November",
-  "total": 3,
+  "total": 8,
   "items": [
     {"t": "The Commanding Heights", "u": "https://commanding-heights.com/"},
     {"t": "Surya — For the love of the game (Creative Conviction)", "u": "https://creativeconviction.ai/interviews/surya/"},
-    {"t": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights", "u": "https://rikiyat.github.io/blog/weight-space-programming/"}
+    {"t": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights", "u": "https://rikiyat.github.io/blog/weight-space-programming/"},
+    {"t": "Improving Text-to-Music Generation with Human Preference Rewards", "u": "https://arxiv.org/html/2606.21670v1"},
+    {"t": "What You Hear Is What You See: Audio Quality Metrics From Image Quality Metrics", "u": "https://arxiv.org/html/2305.11582v2"},
+    {"t": "MusicRL: Aligning Music Generation to Human Preferences", "u": "https://arxiv.org/pdf/2402.04229"},
+    {"t": "AST: Audio Spectrogram Transformer", "u": "https://arxiv.org/pdf/2104.01778"},
+    {"t": "Adapting Frechet Audio Distance for Generative Music Evaluation", "u": "https://arxiv.org/pdf/2311.01616"}
   ]
 }

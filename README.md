@@ -299,5 +299,10 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [The Commanding Heights](https://commanding-heights.com/)
 - [Surya — For the love of the game (Creative Conviction)](https://creativeconviction.ai/interviews/surya/)
 - [Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights](https://rikiyat.github.io/blog/weight-space-programming/)
+- [Improving Text-to-Music Generation with Human Preference Rewards](https://arxiv.org/html/2606.21670v1)
+- [What You Hear Is What You See: Audio Quality Metrics From Image Quality Metrics](https://arxiv.org/html/2305.11582v2)
+- [MusicRL: Aligning Music Generation to Human Preferences](https://arxiv.org/pdf/2402.04229)
+- [AST: Audio Spectrogram Transformer](https://arxiv.org/pdf/2104.01778)
+- [Adapting Frechet Audio Distance for Generative Music Evaluation](https://arxiv.org/pdf/2311.01616)
 
 ## December
