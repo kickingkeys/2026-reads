@@ -1,6 +1,6 @@
 {
   "month": "November",
-  "total": 8,
+  "total": 9,
   "items": [
     {"t": "The Commanding Heights", "u": "https://commanding-heights.com/"},
     {"t": "Surya — For the love of the game (Creative Conviction)", "u": "https://creativeconviction.ai/interviews/surya/"},
@@ -9,6 +9,7 @@
     {"t": "What You Hear Is What You See: Audio Quality Metrics From Image Quality Metrics", "u": "https://arxiv.org/html/2305.11582v2"},
     {"t": "MusicRL: Aligning Music Generation to Human Preferences", "u": "https://arxiv.org/pdf/2402.04229"},
     {"t": "AST: Audio Spectrogram Transformer", "u": "https://arxiv.org/pdf/2104.01778"},
-    {"t": "Adapting Frechet Audio Distance for Generative Music Evaluation", "u": "https://arxiv.org/pdf/2311.01616"}
+    {"t": "Adapting Frechet Audio Distance for Generative Music Evaluation", "u": "https://arxiv.org/pdf/2311.01616"},
+    {"t": "An AI Bubble is a human data problem", "u": "https://seanzcai.substack.com/p/an-ai-bubble-is-a-human-data-problem"}
   ]
 }
