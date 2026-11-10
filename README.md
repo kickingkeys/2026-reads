@@ -306,5 +306,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Adapting Frechet Audio Distance for Generative Music Evaluation](https://arxiv.org/pdf/2311.01616)
 - [An AI Bubble is a human data problem](https://seanzcai.substack.com/p/an-ai-bubble-is-a-human-data-problem)
 - [The components of agent memory (Anthropic)](https://www.anthropic.com/research/components-of-agent-memory)
+- [Pax Machina — Institutions in a World with Powerful AI](https://paxmachina.ai/)
 
 ## December
