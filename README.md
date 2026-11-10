@@ -308,5 +308,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [The components of agent memory (Anthropic)](https://www.anthropic.com/research/components-of-agent-memory)
 - [Pax Machina — Institutions in a World with Powerful AI](https://paxmachina.ai/)
 - [A new synthesis for the field of open-endedness (Lila Sciences)](https://www.lila.ai/news/a-new-synthesis-for-the-field-of-open-endedness)
+- [Neurons as an Interpretable Basis (Goodfire)](https://www.goodfire.com/research/neurons-as-an-interpretable-basis)
 
 ## December
