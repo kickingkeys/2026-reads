@@ -1,6 +1,6 @@
 {
   "month": "November",
-  "total": 13,
+  "total": 14,
   "items": [
     {"t": "The Commanding Heights", "u": "https://commanding-heights.com/"},
     {"t": "Surya — For the love of the game (Creative Conviction)", "u": "https://creativeconviction.ai/interviews/surya/"},
@@ -14,6 +14,7 @@
     {"t": "The components of agent memory (Anthropic)", "u": "https://www.anthropic.com/research/components-of-agent-memory"},
     {"t": "Pax Machina — Institutions in a World with Powerful AI", "u": "https://paxmachina.ai/"},
     {"t": "A new synthesis for the field of open-endedness (Lila Sciences)", "u": "https://www.lila.ai/news/a-new-synthesis-for-the-field-of-open-endedness"},
-    {"t": "Neurons as an Interpretable Basis (Goodfire)", "u": "https://www.goodfire.com/research/neurons-as-an-interpretable-basis"}
+    {"t": "Neurons as an Interpretable Basis (Goodfire)", "u": "https://www.goodfire.com/research/neurons-as-an-interpretable-basis"},
+    {"t": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training", "u": "https://arxiv.org/html/2611.10866v1"}
   ]
 }

@@ -309,5 +309,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Pax Machina — Institutions in a World with Powerful AI](https://paxmachina.ai/)
 - [A new synthesis for the field of open-endedness (Lila Sciences)](https://www.lila.ai/news/a-new-synthesis-for-the-field-of-open-endedness)
 - [Neurons as an Interpretable Basis (Goodfire)](https://www.goodfire.com/research/neurons-as-an-interpretable-basis)
+- [The Surprising Effectiveness of Deleting Weights in LLM Post-Training](https://arxiv.org/html/2611.10866v1)
 
 ## December
