@@ -315,5 +315,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Weight-edit minimization: Inkling 2 Small traces & experiment log (alphaXiv OpenResearch)](https://openresearch.sh/p/EdsyLoFUfY40)
 - [Just sort it! A note on the LP behind rank-one anti-loop edits](https://arxiv.org/abs/2611.21432)
 - [Same Fix, Different Weights: Replicating Weight-Space Programming with Claude](https://arxiv.org/abs/2611.20953)
+- [Weight-edit minimization: replication notebook (alphaXiv, marimo)](https://github.com/alphaXiv/weight-edit-minimization)
 
 ## December
