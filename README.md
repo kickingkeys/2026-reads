@@ -310,5 +310,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [A new synthesis for the field of open-endedness (Lila Sciences)](https://www.lila.ai/news/a-new-synthesis-for-the-field-of-open-endedness)
 - [Neurons as an Interpretable Basis (Goodfire)](https://www.goodfire.com/research/neurons-as-an-interpretable-basis)
 - [The Surprising Effectiveness of Deleting Weights in LLM Post-Training](https://arxiv.org/html/2611.10866v1)
+- [Creative Priming: Decoupling Process from Product to Escape the Creative Paradox](https://arxiv.org/html/2611.11740v1)
+- [The Value of Not Knowing: How Fresh Eyes through Naive LLMs Fuel Creativity](https://arxiv.org/html/2611.11725v1)
 
 ## December
