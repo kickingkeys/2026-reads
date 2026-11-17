@@ -316,5 +316,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Just sort it! A note on the LP behind rank-one anti-loop edits](https://arxiv.org/abs/2611.21432)
 - [Same Fix, Different Weights: Replicating Weight-Space Programming with Claude](https://arxiv.org/abs/2611.20953)
 - [Weight-edit minimization: replication notebook (alphaXiv, marimo)](https://github.com/alphaXiv/weight-edit-minimization)
+- [Discovering Neuron Communities in Language Models (Goodfire)](https://www.goodfire.com/research/neuron-communities)
 
 ## December
