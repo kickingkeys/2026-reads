@@ -312,5 +312,8 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [The Surprising Effectiveness of Deleting Weights in LLM Post-Training](https://arxiv.org/html/2611.10866v1)
 - [Creative Priming: Decoupling Process from Product to Escape the Creative Paradox](https://arxiv.org/html/2611.11740v1)
 - [The Value of Not Knowing: How Fresh Eyes through Naive LLMs Fuel Creativity](https://arxiv.org/html/2611.11725v1)
+- [Weight-edit minimization: Inkling 2 Small traces & experiment log (alphaXiv OpenResearch)](https://openresearch.sh/p/EdsyLoFUfY40)
+- [Just sort it! A note on the LP behind rank-one anti-loop edits](https://arxiv.org/abs/2611.21432)
+- [Same Fix, Different Weights: Replicating Weight-Space Programming with Claude](https://arxiv.org/abs/2611.20953)
 
 ## December
