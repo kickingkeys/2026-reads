@@ -317,5 +317,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Same Fix, Different Weights: Replicating Weight-Space Programming with Claude](https://arxiv.org/abs/2611.20953)
 - [Weight-edit minimization: replication notebook (alphaXiv, marimo)](https://github.com/alphaXiv/weight-edit-minimization)
 - [Discovering Neuron Communities in Language Models (Goodfire)](https://www.goodfire.com/research/neuron-communities)
+- [Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game](https://arxiv.org/abs/2611.14487)
 
 ## December
