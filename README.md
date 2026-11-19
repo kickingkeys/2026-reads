@@ -320,5 +320,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game](https://arxiv.org/abs/2611.14487)
 - [The short age of dragon riders (Antoine Tilloy)](https://atilloy.com/2026/11/16/the-short-age-of-dragon-riders/)
 - [Hierarchical Diffusion Transformer for End-to-End Image Generation](https://arxiv.org/abs/2611.22962)
+- [Anthropic and OpenAI (NYT Opinion, 18 Nov 2026)](https://www.nytimes.com/2026/11/18/opinion/anthropic-ai-openai.html?unlocked_article_code=1.RVE.AUKz.AkiqfoAGG5ph)
 
 ## December
