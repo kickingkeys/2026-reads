@@ -319,5 +319,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Discovering Neuron Communities in Language Models (Goodfire)](https://www.goodfire.com/research/neuron-communities)
 - [Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game](https://arxiv.org/abs/2611.14487)
 - [The short age of dragon riders (Antoine Tilloy)](https://atilloy.com/2026/11/16/the-short-age-of-dragon-riders/)
+- [Hierarchical Diffusion Transformer for End-to-End Image Generation](https://arxiv.org/abs/2611.22962)
 
 ## December
