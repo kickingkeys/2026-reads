@@ -322,5 +322,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Hierarchical Diffusion Transformer for End-to-End Image Generation](https://arxiv.org/abs/2611.22962)
 - [I Spent a Year Talking to Anthropic Employees. Here’s What They Believe. (Jasmine Sun, NYT Opinion)](https://www.nytimes.com/2026/11/18/opinion/anthropic-ai-openai.html?unlocked_article_code=1.RVE.AUKz.AkiqfoAGG5ph)
 - [Transformers converge to invariant algorithmic cores](https://arxiv.org/html/2602.22600v3)
+- [A Society of AI Scientists (alphaXiv)](https://www.alphaxiv.org/abs/2611.society-ai-scientists)
 
 ## December
