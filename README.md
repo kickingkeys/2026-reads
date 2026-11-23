@@ -325,5 +325,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [A Society of AI Scientists (alphaXiv)](https://www.alphaxiv.org/abs/2611.society-ai-scientists)
 - [AI Deactivation Reduces Loneliness and Increases Social Interaction](https://arxiv.org/pdf/2611.25263)
 - [Research Intuition as a Retrieval Task (ScholarCatalyst, Stanford SAIL)](https://ai.stanford.edu/blog/scholarcatalyst/)
+- [WSP-Gym: an open model trained to repair networks (emeraldant)](https://emeraldant.github.io/WSP-Gym/)
 
 ## December

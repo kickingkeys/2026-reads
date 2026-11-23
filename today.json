@@ -1,6 +1,6 @@
 {
   "month": "November",
-  "total": 29,
+  "total": 30,
   "items": [
     {"t": "The Commanding Heights", "u": "https://commanding-heights.com/"},
     {"t": "Surya — For the love of the game (Creative Conviction)", "u": "https://creativeconviction.ai/interviews/surya/"},
@@ -30,6 +30,7 @@
     {"t": "Transformers converge to invariant algorithmic cores", "u": "https://arxiv.org/html/2602.22600v3"},
     {"t": "A Society of AI Scientists (alphaXiv)", "u": "https://www.alphaxiv.org/abs/2611.society-ai-scientists"},
     {"t": "AI Deactivation Reduces Loneliness and Increases Social Interaction", "u": "https://arxiv.org/pdf/2611.25263"},
-    {"t": "Research Intuition as a Retrieval Task (ScholarCatalyst, Stanford SAIL)", "u": "https://ai.stanford.edu/blog/scholarcatalyst/"}
+    {"t": "Research Intuition as a Retrieval Task (ScholarCatalyst, Stanford SAIL)", "u": "https://ai.stanford.edu/blog/scholarcatalyst/"},
+    {"t": "WSP-Gym: an open model trained to repair networks (emeraldant)", "u": "https://emeraldant.github.io/WSP-Gym/"}
   ]
 }
