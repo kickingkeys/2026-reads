@@ -324,5 +324,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [Transformers converge to invariant algorithmic cores](https://arxiv.org/html/2602.22600v3)
 - [A Society of AI Scientists (alphaXiv)](https://www.alphaxiv.org/abs/2611.society-ai-scientists)
 - [AI Deactivation Reduces Loneliness and Increases Social Interaction](https://arxiv.org/pdf/2611.25263)
+- [Research Intuition as a Retrieval Task (ScholarCatalyst, Stanford SAIL)](https://ai.stanford.edu/blog/scholarcatalyst/)
 
 ## December

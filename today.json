@@ -1,6 +1,6 @@
 {
   "month": "November",
-  "total": 28,
+  "total": 29,
   "items": [
     {"t": "The Commanding Heights", "u": "https://commanding-heights.com/"},
     {"t": "Surya — For the love of the game (Creative Conviction)", "u": "https://creativeconviction.ai/interviews/surya/"},
@@ -29,6 +29,7 @@
     {"t": "I Spent a Year Talking to Anthropic Employees. Here’s What They Believe. (Jasmine Sun, NYT Opinion)", "u": "https://www.nytimes.com/2026/11/18/opinion/anthropic-ai-openai.html?unlocked_article_code=1.RVE.AUKz.AkiqfoAGG5ph"},
     {"t": "Transformers converge to invariant algorithmic cores", "u": "https://arxiv.org/html/2602.22600v3"},
     {"t": "A Society of AI Scientists (alphaXiv)", "u": "https://www.alphaxiv.org/abs/2611.society-ai-scientists"},
-    {"t": "AI Deactivation Reduces Loneliness and Increases Social Interaction", "u": "https://arxiv.org/pdf/2611.25263"}
+    {"t": "AI Deactivation Reduces Loneliness and Increases Social Interaction", "u": "https://arxiv.org/pdf/2611.25263"},
+    {"t": "Research Intuition as a Retrieval Task (ScholarCatalyst, Stanford SAIL)", "u": "https://ai.stanford.edu/blog/scholarcatalyst/"}
   ]
 }
