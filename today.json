@@ -1,6 +1,6 @@
 {
   "month": "November",
-  "total": 30,
+  "total": 32,
   "items": [
     {"t": "The Commanding Heights", "u": "https://commanding-heights.com/"},
     {"t": "Surya — For the love of the game (Creative Conviction)", "u": "https://creativeconviction.ai/interviews/surya/"},
@@ -31,6 +31,8 @@
     {"t": "A Society of AI Scientists (alphaXiv)", "u": "https://www.alphaxiv.org/abs/2611.society-ai-scientists"},
     {"t": "AI Deactivation Reduces Loneliness and Increases Social Interaction", "u": "https://arxiv.org/pdf/2611.25263"},
     {"t": "Research Intuition as a Retrieval Task (ScholarCatalyst, Stanford SAIL)", "u": "https://ai.stanford.edu/blog/scholarcatalyst/"},
-    {"t": "WSP-Gym: an open model trained to repair networks (emeraldant)", "u": "https://emeraldant.github.io/WSP-Gym/"}
+    {"t": "WSP-Gym: an open model trained to repair networks (emeraldant)", "u": "https://emeraldant.github.io/WSP-Gym/"},
+    {"t": "Returning to the Neuron Basis for Interpretability, Part 1: Answering Three Objections (Anthropic)", "u": "https://alignment.anthropic.com/2026/neuron-basis-theory/"},
+    {"t": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications (Anthropic)", "u": "https://alignment.anthropic.com/2026/neuron-basis-applications/"}
   ]
 }

@@ -326,5 +326,7 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [AI Deactivation Reduces Loneliness and Increases Social Interaction](https://arxiv.org/pdf/2611.25263)
 - [Research Intuition as a Retrieval Task (ScholarCatalyst, Stanford SAIL)](https://ai.stanford.edu/blog/scholarcatalyst/)
 - [WSP-Gym: an open model trained to repair networks (emeraldant)](https://emeraldant.github.io/WSP-Gym/)
+- [Returning to the Neuron Basis for Interpretability, Part 1: Answering Three Objections (Anthropic)](https://alignment.anthropic.com/2026/neuron-basis-theory/)
+- [Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications (Anthropic)](https://alignment.anthropic.com/2026/neuron-basis-applications/)
 
 ## December
