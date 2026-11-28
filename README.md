@@ -328,5 +328,6 @@ Website: <https://kickingkeys.github.io/2026-reads/>
 - [WSP-Gym: an open model trained to repair networks (emeraldant)](https://emeraldant.github.io/WSP-Gym/)
 - [Returning to the Neuron Basis for Interpretability, Part 1: Answering Three Objections (Anthropic)](https://alignment.anthropic.com/2026/neuron-basis-theory/)
 - [Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications (Anthropic)](https://alignment.anthropic.com/2026/neuron-basis-applications/)
+- [What failure looks like (Paul Christiano, LessWrong)](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
 
 ## December

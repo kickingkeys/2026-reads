@@ -1,6 +1,6 @@
 {
   "month": "November",
-  "total": 32,
+  "total": 33,
   "items": [
     {"t": "The Commanding Heights", "u": "https://commanding-heights.com/"},
     {"t": "Surya — For the love of the game (Creative Conviction)", "u": "https://creativeconviction.ai/interviews/surya/"},
@@ -33,6 +33,7 @@
     {"t": "Research Intuition as a Retrieval Task (ScholarCatalyst, Stanford SAIL)", "u": "https://ai.stanford.edu/blog/scholarcatalyst/"},
     {"t": "WSP-Gym: an open model trained to repair networks (emeraldant)", "u": "https://emeraldant.github.io/WSP-Gym/"},
     {"t": "Returning to the Neuron Basis for Interpretability, Part 1: Answering Three Objections (Anthropic)", "u": "https://alignment.anthropic.com/2026/neuron-basis-theory/"},
-    {"t": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications (Anthropic)", "u": "https://alignment.anthropic.com/2026/neuron-basis-applications/"}
+    {"t": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications (Anthropic)", "u": "https://alignment.anthropic.com/2026/neuron-basis-applications/"},
+    {"t": "What failure looks like (Paul Christiano, LessWrong)", "u": "https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like"}
   ]
 }
